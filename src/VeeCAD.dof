@@ -1,0 +1,122 @@
+[Compiler]
+A=1
+B=0
+C=1
+D=1
+E=0
+F=0
+G=1
+H=1
+I=1
+J=0
+K=0
+L=1
+M=0
+N=1
+O=1
+P=1
+Q=0
+R=0
+S=0
+T=1
+U=0
+V=1
+W=0
+X=1
+Y=0
+Z=1
+ShowHints=1
+ShowWarnings=1
+UnitAliases=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[Linker]
+MapFile=0
+OutputObjs=0
+ConsoleApp=1
+DebugInfo=0
+RemoteSymbols=0
+MinStackSize=16384
+MaxStackSize=1048576
+ImageBase=4194304
+ExeDescription=
+[Directories]
+OutputDir=
+UnitOutputDir=
+PackageDLLOutputDir=
+PackageDCPOutputDir=
+SearchPath=TPRSA;Hash
+Packages=VCLX30;VCL30;VCLDB30;VCLDBX30;VCLSMP30;QRPT30;IBEVNT30;Icsdel30;TEEUI43;TEEDB43;TEE43;TEEPRO43;TEEQR43;TEEGL43;RXCTL;RXDB;RXTOOLS;DelphiX_for3
+Conditionals=FULL
+DebugSourceDirs=
+UsePackages=0
+[Parameters]
+RunParams=
+HostApplication=
+[Language]
+ActiveLang=
+ProjectLang=$00000C09
+RootDir=
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=2
+MinorVer=11
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3081
+CodePage=1252
+[Version Info Keys]
+CompanyName=RKL
+FileDescription=VCad Layout Editor
+FileVersion=2.11.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=VCad.exe
+ProductName=VCad
+ProductVersion=1.0.0.0
+Comments=
+[Excluded Packages]
+$(DELPHI)\Bin\dclqrt50.bpl=QuickReport Components
+C:\Windows\system32\\ibevnt50.bpl=Borland Interbase Event Alerter Component
+$(DELPHI)\Bin\dclbde50.bpl=Borland BDE DB Components
+$(DELPHI)\Bin\dcldb50.bpl=Borland Database Components
+$(DELPHI)\Bin\dcltee50.bpl=TeeChart 5.0 Components
+$(DELPHI)\Bin\applet50.bpl=Borland Control Panel Applet Package
+$(DELPHI)\Bin\dcltqr50.bpl=TeeChart 5.0 for QuickReport Components Design Package
+$(DELPHI)\Bin\dclsmpedit50.bpl=Borland Editor Script Enhancements
+$(DELPHI)\Bin\dclib50.bpl=InterBase Data Access Components
+$(DELPHI)\Bin\dclnet50.bpl=Borland Internet Components
+$(DELPHI)\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+$(DELPHI)\Bin\DCLNMF50.bpl=NetMasters Fastnet Tools
+$(DELPHI)\Bin\dclie50.bpl=Internet Explorer Components
+$(DELPHI)\Bin\dclocx50.bpl=Borland Sample Imported ActiveX Controls
+$(DELPHI)\Bin\dclaxserver50.bpl=Borland Sample Automation Server Components
+C:\Program Files\EllipticCurveDemo\delphi5\d5_elip.bpl=TSM EllipticCurve package
+[HistoryLists\hlConditionals]
+Count=10
+Item0=FULL
+Item1=FULL; LICENCED; ACRACK1; ACRACK2
+Item2=FULL; LICENCED; ACRACK1; ACRACK2; TEST_ACRACK2 
+Item3=FULL; LICENCED;  ACRACK2; TEST_ACRACK2 
+Item4=FULL;LICENCED;ACRACK2
+Item5=FULL;LICENCED;ACRACK1;ACRACK2
+Item6=FULL;LICENCED
+Item7=FULL;ACRACK
+Item8=FULL;ANTICRACK
+Item9=FULL; LINUX
+[HistoryLists\hlUnitAliases]
+Count=1
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[HistoryLists\hlSearchPath]
+Count=3
+Item0=TPRSA;Hash
+Item1=$(DELPHI)\Lib\Debug;TPRSA;Hash
+Item2=TPRSA
+[HistoryLists\hlDCPOutput]
+Count=1
+Item0=b

@@ -1,0 +1,59 @@
+# EESchema Netlist Version 1.1 created  18/7/2010-03:49:47
+(
+ ( 4C4275B8 AX1_1N  C1 47nF {Lib=C}
+  (    1 N-000003 )
+  (    2 N-000004 )
+ )
+ ( 4C4275A9 SIP2  P2 CONN_2 {Lib=CONN_2}
+  (    1 N-000002 )
+  (    2 N-000004 )
+ )
+ ( 4C4275A5 SIP2  P1 CONN_2 {Lib=CONN_2}
+  (    1 N-000001 )
+  (    2 N-000004 )
+ )
+ ( 4C427592 AX2_1  R2 100K {Lib=R}
+  (    1 N-000002 )
+  (    2 N-000003 )
+ )
+ ( 4C427589 AX2_1  R1 22K {Lib=R}
+  (    1 N-000003 )
+  (    2 N-000001 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 ""
+ R1 2
+ P1 1
+Net 2 ""
+ P2 1
+ R2 1
+Net 3 ""
+ C1 1
+ R2 2
+ R1 1
+Net 4 ""
+ P2 2
+ C1 2
+ P1 2
+}
+#End

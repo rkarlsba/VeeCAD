@@ -1,0 +1,82 @@
+object BoardPatternForm: TBoardPatternForm
+  Left = 0
+  Top = 0
+  HelpContext = 620
+  Caption = 'Select Strip Pattern'
+  ClientHeight = 455
+  ClientWidth = 652
+  Color = clBtnFace
+  Constraints.MinHeight = 350
+  Constraints.MinWidth = 620
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnResize = FormResize
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object FileNamesTListBox: TListBox
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 278
+    Height = 402
+    Align = alLeft
+    BevelKind = bkFlat
+    Ctl3D = True
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ItemHeight = 16
+    ParentCtl3D = False
+    ParentFont = False
+    TabOrder = 0
+    OnClick = FileNamesTListBoxClick
+  end
+  object Panel1: TPanel
+    AlignWithMargins = True
+    Left = 3
+    Top = 411
+    Width = 646
+    Height = 41
+    Align = alBottom
+    TabOrder = 1
+    object CancelTButton: TButton
+      Left = 216
+      Top = 8
+      Width = 75
+      Height = 25
+      Cancel = True
+      Caption = 'Cancel'
+      ModalResult = 2
+      TabOrder = 0
+    end
+    object OKTButton: TButton
+      Left = 376
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'OK'
+      Default = True
+      ModalResult = 1
+      TabOrder = 1
+    end
+  end
+  object ScrollBox1: TScrollBox
+    AlignWithMargins = True
+    Left = 287
+    Top = 3
+    Width = 362
+    Height = 402
+    Align = alClient
+    TabOrder = 2
+  end
+end

@@ -1,0 +1,1 @@
+TinyCad_Kicad ..\..\TinyCAD\*.tclib ..\..\Kicad

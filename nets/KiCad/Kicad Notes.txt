@@ -1,0 +1,27 @@
+Kicad netlist component & netlist definition section:
+
+ ( 22761043 $noname R32 470 {Lib=R}
+  (    1 N-000093 )
+  (    2 GND )
+ )
+
+This format is not suitable for VeecAD because it does not
+have a footprint name.
+
+The similar ORCAD PCB2 definition section:
+
+ ( 00000071 1206 R8 22K0
+  ( 1 NetR8_1 )
+  ( 2 VCC )
+ )
+
+This format has a footprint name.
+
+
+Conclusion : we cannot use the Kicad netlist format.
+
+
+Kicad emits Orcad PCB 2 that assigns a net named '?' to unconnected 
+pins, which causes VeeCAD to (correctly) treat these pins as belonging
+to the same net. That wreaks havoc! Added code to VeeCAD to ignore pins with
+'?' net name. 

@@ -1,0 +1,61 @@
+ORIGINAL PADS PCB FIRST LINE
+============================
+*PADS-PCB*
+
+
+PADS 2000 FIRST LINE
+====================
+*PADS2000*
+
+
+PADS POWERPCB FIRST LINE SAMPLES
+================================
+!PADS-POWERPCB-V2.0-BASIC! DESIGN DATABASE ASCII FILE 1.0
+!PADS-POWERPCB-V3.5-MILS! NETLIST FILE FROM POWERLOGIC V3.5
+!PADS-POWERPCB-V9.0-MILS-CP950! NETLIST FILE FROM PADS LOGIC V9.3
+!PADS-POWERPCB-V9.4-MILS!
+
+All of the above file formats are backwardly compatible - i.e. the original 
+PADS=PCB program can read a POWER-PCB file. Compatibility is due to the same 
+format for *PART* and *NET* sections.
+
+BUGGY SAMPLE FILE
+=================
+
+The sample file "NETLIST MINI TESTER OC BOARD.asc" contains duplcate pin to 
+net assignements. The end of line assignment is duplicated on the next line. 
+Looks like a bug in POWERPCB V9.4.
+
+
+COMPONENT VALUES
+================
+
+The PADS-PCB and PADS2000 files do not contain component values. The POWERPCB 
+files do provide this information, embedded in the *MISC* section. For esample,
+ D1 and R1 values are defined in the following example:
+
+
+*MISC*      MISCELLANEOUS PARAMETERS
+
+ATTRIBUTE VALUES
+{
+PART D1
+{
+"Description"
+"Cost" 
+"Part Number" 1N3064
+"Manufacturer #1"
+}
+ PART R1
+{
+"Description"
+"Cost" 
+"Part Number" 1.8kOhm_5%
+"Manufacturer #1"
+}
+}
+
+
+
+
+   

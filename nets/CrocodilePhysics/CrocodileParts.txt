@@ -1,0 +1,44 @@
+Electrolytic Capacitor,RA1_3
+Capacitor (polyester),AX2_1
+Capacitor,RA2_4
+Capacitor (Large),RA3_7
+Capacitor Axial,AX5_2
+Capacitor Axial (Large),AX10_4
+!N4001 Diode,AX2_1
+1N4148 Diode,AX2_1
+TIC106D Thyristor,TO220
+ZVN3306A FET,TO92
+IRF520 FET,TO220
+ZVP2106A FET,TO92
+GROUND,SIP1
+INDUCTOR,RA2_4
+Battery,SIP2
+BC548B NPN Transistor,TO92
+BC108 NPN Transistor,TO18
+BC558B PNP Transistor,TO128
+ZTX559 PNP Transistor,TO92
+Resistor,AX3_1
+Zener Diode,AX2_1
+Buzzer (leads),BOX1_2
+Buzzer (PCB),BOX_2
+LM324 Quad Op Amp,DIP14
+741 Op Amp,DIP8
+555 Timer,DIP8
+74HC4511,DIP14
+74HC74,DIP14
+Lamp,BOX1_2
+LED (Red 5mm),LED
+LED (Yellow 5mm),LED
+LED (Green 5mm),LED
+7 Seg LED(CC),DIP10W
+Connector,SIP1
+SPDT Relay(Kamling),DIL_REED14
+DPDTRelay(Kamling),DIL_REED14
+SPST Switch(leads),BOX1_2
+Buzzer (leads), BOX1_2
+LDR (NORP 12),RA3_7
+Loudspeaker (8ohm), BOX1_2
+Thermister (20K),RA1_3
+Variable Resistor (Preset),TRIM8
+Preset (PCB),TRIM8
+Preset (leads),BOX1_2

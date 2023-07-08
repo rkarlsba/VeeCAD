@@ -1,0 +1,110 @@
+Gerber RX274X Parser for VeeCAD
+
+The parser assumes the gerber file contains strips - straight lines in the horizontal or vertical direction, with a width of 0.045 of a cell or more : ie. 0.045 inches. The parser ignores circles that are flashed in place.
+
+The parser raises an error if:
+
+  Image polarity is not positive.
+  Layer polarity is not positive.
+  Coords format is not absolute.
+  Macro is executed
+
+
+The parser ignores:
+  Quadrant mode for circles.
+  Macro definitions
+  Macro execution
+  Move to X,Y then Flash commands.
+
+
+The parser correctly interprets:
+  Inch versus millimeter units
+  Coords number format
+  Aperture definitions
+  Aperture selection
+  Move to X,Y with exposure off
+  Move to x,y with exposure on.
+  End of program (file) command
+
+Parser variables.
+  Current Location X,y
+  Units
+  All aperture definitions
+			
+  
+
+The parser builds a list of tracks :
+  Each track has width, start, finish coords (inches)
+  
+
+To make board from track list:
+
+  Tracks wider than 0.045" but narrower than 0.09" are made into strips.
+  Tracks that are angled or narrower than 0.045" are made into segments
+  Track Y coords are inverted.
+  The smallest track x and y coord values are found.
+  The samllest x and y coord values are subtracted from all x and y coords.
+  Tracks with coords falling within 0.005" of exact 0.1" steps, are converted to strips.
+  Strip coords are in inches multiplied by 10
+  
+  
+
+
+Board manipulation functions:
+
+  * rotate tracks and holes 90 degrees
+  * move tracks and holes by x,y cells
+  * create tracks from Gerber RX274X file.
+
+
+Gerber file structure
+=====================
+
+CRLF is ignored - lines are for human consumption only.
+
+The basic entity is the data block: these end with '*'
+
+
+parameter sections : these lie between start & finish '%' characters and contain one or more data blocks.
+
+normal sections : these consist of a single data block containing coordinate information and function codes. A data block can contain function codes only, coords only, or both. When coords and codes appear together, they are taken as a single action to be applied. For example, an "exposure on" code in conjunction with X,Y coords means "turn on exposure", then move to location X,Y.
+
+Parser Construction:
+-------------------
+ParseParameterSection (lies between a pair of '%' characters.
+ParseParameterBlock (one part of a section)
+ParseBlock (everything outside of a Parameter section up to next '*' character.
+
+Parser Error Handling
+---------------------
+Since the parser chews up a string of text with no regard to lines, errors line numbers must be found with a function like that in the JSON parser: function TJsonParser.ScanLine : integer; The function works through the text, counting lines, until the correct offset is found.
+
+
+
+
+SAMPLE GERBER FILE FROM WIKIPEDIA
+---------------------------------
+G04 Film Name:    paste_top*
+G04 Origin Date:  Thu Sep 20 15:54:22 2007*
+G04 Layer:  PIN/PASTEMASK_TOP*
+%FSLAX55Y55*MOIN*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD28R,.11X.043*%
+%ADD39O,.07X.022*%
+...
+%AMMACRO19*
+21,1,.0512,.0512,0.0,0.0,45.*%
+%ADD19MACRO19*%
+%LPD*%
+G75*
+G54D10*
+X176250Y117500D03*
+Y130000D03*
+Y163750D03*
+...
+G54D39*
+X496250Y142500D03*
+Y137500D03*
+Y132500D03*
+Y127500D03*
+M02*

@@ -1,0 +1,42 @@
+[Header]
+G17  (set xy plane)
+G90  (absolute mode)
+G40  (cancel cutter radius comp)
+G49  (cancel tool len offset)
+G80  (cancel canned cycle)
+G50  (reset scale 1:1)
+G91.1 (IJ relative arcs)
+G21  (metric mode)
+
+(set reference pcb point - bottom left hole)
+M05  (stop spindle)
+M06 T1 (tool change)
+M03 S1000 (spindle on)
+G00 Z20.0000
+G00 X0.0 Y0.0
+
+[StartCut]
+G00 X%X Y%Y			  
+G00 Z2.0000			
+G01 Z-.0300 F6.4           
+
+[CutTo]
+G01 X%X Y%Y F12.7	
+
+[EndCut]
+G00 Z20.0000		
+
+[Footer]
+M05  (stop spindle)
+M09  (all coolant off)
+G00 X0.0 Y0.0
+
+M30  (end with rewind)
+
+[Config]
+HoleGrid=2.54
+CutDistance=1.8
+JoinCuts=False
+ToolZeroX=1.27
+ToolZeroY=0.0
+Rotate90=True

@@ -1,0 +1,24 @@
+Net $6
+P1.1        R1.1        VR2.3
+
+Net $8
+R4.2        R7.2        VR1.2
+
+Net $9
+P2.1        R2.1        VR1.3
+
+Net $11
+R3.2        R8.2        VR2.2
+
+Net Gas
+R4.1        R6.2        R7.1
+
+Net Gnd
+R5.1        R6.1        VR1.1       VR2.1
+
+Net Lamp Drive
+P1.2        P2.2        R1.2        R2.2
+
+Net Ref
+R3.1        R5.2        R8.1
+

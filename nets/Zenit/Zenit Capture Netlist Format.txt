@@ -1,0 +1,76 @@
+Zenit Capture Netlist Format
+============================
+
+Investigation performed on Zenit Capture V1.6.1 .
+
+First line identifies product and netlist file format version:
+ZENITPCB V1.0 NETLIST
+
+There follows 3 keywords:
+
+*Parts*
+    // component definitions here
+*Nets*
+    // net definitions here
+*end*
+
+PART DEFINITIONS
+----------------
+
+Designator;Package;Value;??;???;Datasheet filename. 
+
+example:
+R1;RES-CR 1/4W S[10.16MM 400MIL];220K;;0.000;C:\PROGRAM FILES\ZENITSUITE\DATASHEET\RESISTOR.PDF
+
+We can ignore all fields after the first 3. The datasheet filename is not
+always present. We should not count it an error if fields after the first 3
+are missing.
+
+
+NET DEFINITIONS
+---------------
+
+Signal:Name;class:XXX;maxcurr:0.000;
+Designator.pin Designator.pin // multiple lines of this are allowed, until
+                              // Signal: or *end* encountered.
+example:
+
+Signal:VCC;class:DEFAULT;maxcurr:0.000;
+C2.2 CN1.1 R1.2 IC2.3 IC1.4
+C7.2 DL5.1 DL8.1 DL1.1 DL2.1
+DL3.1 DL4.1 DL6.1 DL7.1 DL9.1
+
+Restrictions: Pin names are only numbers. Every component is forced to have
+consecutive pin numbers starting from pin 1. This means you can't omit an
+unused pin number.
+
+
+ARTICLE AT
+http://www.electroniccircuitsdesign.com/software/zenitpcb-cad-software
+
+
+Letter to Mirko Stortini:
+
+Hello Mirko
+
+I have added the Zenit Capture netlist format to my VeeCAD stripboard program.
+(http://veecad.com) This allows Zenit Capture users to create stripboard layouts.
+
+Can I make some comments about Zenit Capture?
+
+1. The program is stable and usable.
+
+2. The 1-year licence key spoils your program. Users will not work at learning and using Zenit, if the program might stop working next year. Remove the licence key from the free version. Do not be afraid of losing control of your program.
+
+3. Your website needs a Forum - not a guestbook. People read forums to judge if users are happy with the program. A forum opens communication with your users. Your program will become more popular. You will learn what users need from the program.
+
+4. The program is good enough to sell to users. You could have a free 800 pin version, and sell an unlimited pins version. Use a perpetual licence key, not an annual key. However, if you sell, you will have extra work, and get a lot of email to answer.
+
+5. I will add a review of Zenit on my website at http://veecad.com/resource/cad_reviews.html and mention it on my forums at http://veecad.com/yabb/YaBB.pl .
+
+Finally, congratulations on producing a usable CAD program!
+
+best wishes
+Roger Lascelles
+
+ 

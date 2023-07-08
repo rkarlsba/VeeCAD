@@ -1,0 +1,76 @@
+.PARTS
+C1     CAP.1uf,.1uF             CAP02NE                 30,480   48,260    0.00
+C2     CAP.1uf,.1uF             CAP02NE                 45,720   48,260    0.00
+C3     CAP.1uf,.1uF             CAP02NE                 64,770   48,260    0.00
+C4     CAP.1uf,.1uF             CAP02NE                 45,720   20,320    0.00
+C5     CAPR5E,10uF/250V         CAPR5E                  22,860   10,160    270.00
+C6     CAP.1uf,.1uF             CAP02NE                 30,480   17,780    0.00
+C7     CAPR3.5E,100uF/25V       CAPR3.5E                68,580   13,970    90.00
+C8     CAP.01uf,.01uF Cer       CAP1.0NE                62,230    5,080    0.00
+C9     CAP.01uf,.01uF Cer       CAP1.0NE                68,580    5,080    0.00
+CON1   SL3.5-12                 SL3.5-12   FN617-520    62,230  152,400    0.00
+CON2   SL3.5-12                 SL3.5-12   FN617-520    92,710  124,809    270.00
+CON3   SL3.5-12                 SL3.5-12   FN617-520    92,710   79,310    270.00
+CON4   SL3.5-12                 SL3.5-12   FN617-520    92,710   33,810    270.00
+D1     1N4148,1N4148            DO4148     -            12,700  134,620    180.00
+D2     1N4148,1N4148            DO4148     -            12,700  119,380    180.00
+D3     1N4148,1N4148            DO4148     -            76,790  111,760    180.00
+D4     1N4148,1N4148            DO4148     -            12,700  104,140    180.00
+D5     1N4148,1N4148            DO4148     -            30,480  107,950    180.00
+D6     1N4148,1N4148            DO4148     -            45,720  107,950    180.00
+D7     1N4148,1N4148            DO4148     -            60,960  107,950    180.00
+D8     1N4148,1N4148            DO4148     -            30,480   80,010    180.00
+D9     1N4148,1N4148            DO4148     -            45,720   80,010    180.00
+D10    1N4148,1N4148            DO4148     -            60,960   80,010    180.00
+H1     MTGHOLE,4.2              MTGHOLE                  6,000  154,000    0.00
+H2     MTGHOLE,4.2              MTGHOLE                 94,000  154,000    0.00
+H3     MTGHOLE,4.2              MTGHOLE                  6,000    6,000    0.00
+H4     MTGHOLE,4.2              MTGHOLE                 94,000    6,000    0.00
+IC1    ULN2803,ULN2803          DIL18                   30,480   63,500    90.00
+IC2    ULN2803,ULN2803          DIL18                   45,720   63,500    90.00
+IC3    ULN2803,ULN2803          DIL18                   64,770   63,500    90.00
+IC4    ULN2803,ULN2803          DIL18                   30,480   33,020    90.00
+IC5    74HCT08,74HCT08          DIL14                   45,720   33,020    90.00
+IC6    LM317T,LM317T            TO220V     -            35,560    6,350    180.00
+LED1   LEDRGN,GN                LEDRECT    RA56-0935    41,230  137,400    90.00
+LED2   LEDRGN,GN                LEDRECT    RA56-0935    44,730  137,400    90.00
+LED3   LEDRGN,GN                LEDRECT    RA56-0935    58,730  137,160    90.00
+LED4   LEDRGN,GN                LEDRECT    RA56-0935    66,040  137,160    90.00
+LED5   LEDRGN,GN                LEDRECT    RA56-0935    76,200  134,620    0.00
+LED6   LEDRGN,GN                LEDRECT    RA56-0935    76,790  100,330    0.00
+LED7   LEDRGN,GN                LEDRECT    RA56-0935    76,790   88,900    0.00
+LED8   LEDRGN,GN                LEDRECT    RA56-0935    76,710   47,810    0.00
+LED9   LEDRGN,GN                LEDRECT    RA56-0935    76,710   51,309    0.00
+LED10  LEDRGN,GN                LEDRECT    RA56-0935    76,710   54,810    0.00
+LED11  LEDRGN,GN                LEDRECT    RA56-0935    76,710   37,310    0.00
+LED12  LEDRGN,GN                LEDRECT    RA56-0935    76,710   40,809    0.00
+LED13  LEDRGN,GN                LEDRECT    RA56-0935    76,710   44,310    0.00
+LED14  LEDRGN,GN                LEDRECT    RA56-0935    76,710   32,059    0.00
+LED15  LEDRGN,GN                LEDRECT    RA56-0935    76,710   25,060    0.00
+LED16  LEDGN,GN                 LEDR1_EMT  FN178-310    45,720   10,160    0.00
+LED17  LEDRGN,GN                LEDRECT    RA56-0935    76,710   18,060    0.00
+LK1    JPR2PIN,                 JPR2PIN                  0,000    0,000    0.00
+PL1    Pcon_2.1                 CON_2.1                 27,940  152,400    90.00
+PN1    CON_26PIN,               CON_26PIN               10,160   81,280    270.00
+PN2    CON_26PIN,               CON_26PIN               10,160   33,020    270.00
+R1     R1K.25W,1k               RES04      -            35,560   10,160    0.00
+R2     R330.25W,330R            RES04      -            55,880   10,160    0.00
+R3     R470.25W,470R            RES04      -            55,880   15,240    0.00
+RL1    RELHRA,SPCO              HRA                     12,700  142,240    180.00
+RL2    RELHRA,SPCO              HRA                     12,700  127,000    180.00
+RL3    RELAY,DPCO               RL104012                30,480  121,920    180.00
+RL4    RELAY,DPCO               RL104012                45,720  121,920    180.00
+RL5    RELAY,DPCO               RL104012                60,960  121,920    180.00
+RL6    RELHRA,SPCO              HRA                     76,790  121,920    180.00
+RL7    RELHRA,SPCO              HRA                     12,700  111,760    180.00
+RL8    RELAY,DPCO               RL104012                30,480   93,980    180.00
+RL9    RELAY,DPCO               RL104012                45,720   93,980    180.00
+RL10   RELAY,DPCO               RL104012                60,960   93,980    180.00
+RN1    RN_DIL470R,470R          DIL16                   76,790   71,120    90.00
+RN2    RN_SIL9_10K_Special,10K  SIL9                    20,955   60,960    90.00
+RN3    RN_SIL9_1OK_LO,10K       SIL9                    54,610   33,020    90.00
+RN4    RN_DIL470R,470R          DIL16                   64,770   33,020    90.00
+TP1    TESTHOOK                 TESTHOOK   FN240-369    45,720    5,080    270.00
+TP2    TESTHOOK                 TESTHOOK   FN240-369    55,880    5,080    270.00
+TP3    TESTHOOK                 TESTHOOK   FN240-369    76,200    5,080    270.00
+.ENDPARTS

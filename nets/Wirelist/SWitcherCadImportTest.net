@@ -1,0 +1,105 @@
+Wire List
+
+                                              Revised: Thursday, March 11, 2004
+                                              Revision: A
+LINEAR TECHNOLOGY
+
+
+
+
+
+
+<<< Component List >>>
+?                             U1        mega8
+220n                          C1        cap
+
+<<< Wire List >>>
+
+  NODE  REFERENCE    PIN #   PIN NAME           PIN TYPE       PART VALUE
+
+[00001] NC_00
+        U1              1       1               Passive        ?
+
+[00002] NC_01
+        U1              2       2               Passive        ?
+
+[00003] NC_02
+        U1              3       3               Passive        ?
+
+[00004] NC_03
+        U1              4       4               Passive        ?
+
+[00005] NC_04
+        U1              5       5               Passive        ?
+
+[00006] NC_05
+        U1              6       6               Passive        ?
+
+[00007] NC_06
+        U1              7       7               Passive        ?
+
+[00008] NC_07
+        U1              8       8               Passive        ?
+
+[00009] NC_08
+        U1              9       9               Passive        ?
+
+[00010] NC_09
+        U1              10      10              Passive        ?
+
+[00011] NC_10
+        U1              11      11              Passive        ?
+
+[00012] NC_11
+        U1              12      12              Passive        ?
+
+[00013] NC_12
+        U1              13      13              Passive        ?
+
+[00014] NC_13
+        U1              14      14              Passive        ?
+
+[00015] NC_14
+        U1              15      15              Passive        ?
+
+[00016] NC_15
+        U1              16      16              Passive        ?
+
+[00017] NC_16
+        U1              17      17              Passive        ?
+
+[00018] NC_17
+        U1              18      18              Passive        ?
+
+[00019] NC_18
+        U1              19      19              Passive        ?
+
+[00020] NC_19
+        U1              20      20              Passive        ?
+
+[00021] NC_20
+        U1              21      21              Passive        ?
+
+[00022] NC_21
+        U1              22      22              Passive        ?
+
+[00023] NC_22
+        U1              23      23              Passive        ?
+
+[00024] NC_23
+        U1              24      24              Passive        ?
+
+[00025] NC_24
+        U1              25      25              Passive        ?
+
+[00026] MY_NET
+        U1              26      26              Passive        ?
+        C1              2       B               Passive        100n
+
+[00027] NC_25
+        U1              27      27              Passive        ?
+
+[00028] N001
+        U1              28      28              Passive        ?
+        C1              1       A               Passive        100n
+

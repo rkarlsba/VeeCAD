@@ -1,0 +1,54 @@
+.HEA
+.TIM 2012 2 22 10 29 24
+.APP "Pulsonix"
+.TYP FULL
+
+.ADD_COM VR1 "4290W 1K" "4290W 1K"
+.ADD_COM VR2 "4290W 1K" "4290W 1K"
+.ADD_COM R1 "R 1M PTH" "R 1M PTH"
+.ADD_COM R2 "R 1M PTH" "R 1M PTH"
+.ADD_COM R3 "R 1M PTH" "R 1M PTH"
+.ADD_COM R4 "R 1M PTH" "R 1M PTH"
+.ADD_COM R5 "R 120k PTH" "R 120k PTH"
+.ADD_COM R6 "R 120k PTH" "R 120k PTH"
+.ADD_COM R7 "R 1M PTH" "R 1M PTH"
+.ADD_COM R8 "R 1M PTH" "R 1M PTH"
+.ADD_COM P1 "PCB connector pitch 2.54mm 2-way 1-row" "PCB connector pitch 2.54mm 2-way 1-row"
+.ADD_COM P2 "PCB connector pitch 2.54mm 2-way 1-row" "PCB connector pitch 2.54mm 2-way 1-row"
+
+.ADD_TER R1 1 "$6"
+.TER     VR2 3
+         P1 1
+
+.ADD_TER R4 2 "$8"
+.TER     VR1 2
+         R7 2
+
+.ADD_TER VR1 3 "$9"
+.TER     R2 1
+         P2 1
+
+.ADD_TER VR2 2 "$11"
+.TER     R3 2
+         R8 2
+
+.ADD_TER R4 1 "Gas"
+.TER     R6 2
+         R7 1
+
+.ADD_TER VR1 1 "Gnd"
+.TER     VR2 1
+         R5 1
+         R6 1
+
+.ADD_TER R1 2 "Lamp Drive"
+.TER     R2 2
+         P1 2
+         P2 2
+
+.ADD_TER R3 1 "Ref"
+.TER     R5 2
+         R8 1
+
+
+.END

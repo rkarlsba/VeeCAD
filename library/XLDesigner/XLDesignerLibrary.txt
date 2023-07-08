@@ -1,0 +1,92 @@
+XL DESIGNER OUTLINE NOTES
+
+XL Designer has "outlines", just like VeeCAD.
+
+
+ICs
+===
+DIL14, DIL16, DIL24
+
+DILS14
+
+
+SIL
+===
+1MOLX3, 1MOLX4, etc - molex.
+SIL1, SIL3 etc - sequence is inclomplete, but include all.
+
+Capacitors
+==========
+CAPA01, CAPA04 etc.
+
+Electrolytics
+=============
+have pin 1 as positive + terminal, same as VeeCAD.
+Typical axial: CAPA20E, CAPA10E, CAPR4D6, CAPR4D6E, CAPR6 - figure out the code.
+Radials CAPR2D4E, 
+Rectangular CAPR10, 
+
+Resistors
+=========
+RESA20, RESA24, RES05, RES025
+
+Relays
+======
+A number of relays under RELAYxxx, eg. RELAY01, RELAYG6A
+Many relays from REL1, REL10 thru REL64
+
+Transistors
+=========== 
+TO-18, TO-202, TO-220 (various)
+also a few (often duplicates) without the dash - TO18, TO220 
+TO-237A, TO-39, TO-52, TO-92 (various),
+Pins are named "B,C,E" - not numbered, so have variants TO-92A, TO-92B, etc. 
+
+PENTAWATT and PENTAWATT-H
+
+
+OPTO
+====
+TH7864, MAN74 = 7 segment display.
+
+Trimpots
+========
+POT1, POT10 etc.
+
+Crystals
+========
+OSC1 might be HC-18U ?
+
+Diodes
+======
+BRIDGE01 etc.
+
+
+
+***** OMITTED ****
+05055, 149.VRES, all molex, 2.7FIX, 20FUSE, 2WAY MATENLOK, 3.5FIX,
+85xxx-xx, 9WAYMATENLOCK, ALCATEL6, AZ-14, B65511, BATTERY, BOXxx-xx, 
+BUZZER (wrong pin spacing), CANON-9P, CB040803 THRU CB364015 (BOX SHAPES),
+CENTRE, CKRO6V, CYLINDER, DIL32, DIL48, DIL64, DIL64(1.78), DIL68, DILS48, 
+DILS64, DILS28E (ZIP SOCKET?), DILTS40, DIP-SW, DO-13, DR24D15-100G (RELAY),
+EDGE-40, EJECT01, EURO/x, F5X20, F6,3.5MM, FASTON, FUSE, GPSLINK, HANDLE01,
+IDCxx-xx, KAxxxxxx, KL-xxx, L-SCxx, LEDxxx, M2261xxxl, M41672-6, M6410-XX, MBD,
+MCMxx-x, MHO24EAD, NME05055, O1, OPC1, OPI1264a, OSC(DIL14), OSCxx, P3000S-501D,
+PCBLED3MM, PENTAWATT, PENTAWATT-H, POLYSW, POT0.75, 
+AND POT10, POT3296W, POT3329, R110 THRU R221, RA0804UR, REL1, REL11, REL12,
+REL17, REL18, REL22, REL23, REL24, REL26, REL29, REL31, REL34, REL38, REL40,
+REL43, REL46, REL47, REL48, REL49, REL50, REL51, REL52, REL53, REL54, REL56,
+REL57, REL59, REL6, REL60, REL61, REL62, REL63, REL64, REL7, RELAY(TO-5),
+RELAY2, RELAYG5LE, RELAYSP2-2CO, RELAYSP4-4CO, RXE020, s-A60, S1, S102C, 
+S8, SIL32, SIL34, SLIDSW, SMA, SMBRT, SOT9, SPECTRA34, , SRXX-XX, SRXXXX,
+SW02, SW03, SW04, SW1, SW42, SW98, SWDPDT, T-3890, T13, T38, TER5MM-X, THXXXX,
+TIL311, TO-3, TO-72A, TO-72B, TO-78, TO100, TO100-23, TO100DIL, TO22, TO3XX,
+TO43, TO46, TO57, TO66, TO72, TO8, TO9, TO99, TO99-10WAY, TON99-200, TO9-230,
+TO99-DIL8, TOKO15514, TRIMMERCAP, VIXXX, WAGOX, WIREPAD, WPXX, XTAL(DIL4PIN),
+
+ 
+    
+  check if TO-92 or TO92 ??
+  
+
+  

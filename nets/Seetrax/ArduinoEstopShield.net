@@ -1,0 +1,11 @@
+.POWERNAMES
+.ENDNAMES
+
+.NETS
+. IC1.14  RL1.2                                                   
+. SH1.25  IC1.9                                                   
+. CON1.2  RL1.3                                                   
+. CON1.1  RL1.6                                                   
+. SH1.3   IC1.5                                                   
+. SH1.26  IC1.10  RL1.5                                           
+.ENDNETS

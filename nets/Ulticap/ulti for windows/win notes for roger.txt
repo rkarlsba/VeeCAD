@@ -1,0 +1,10 @@
+
+Roger,
+
+These files were produced with Ulticap for Windows Version 5.71 ( schematic capture )
+and Uliboard for Windows Version 5.72
+
+The netlist has the extension .nt0
+
+I have also exported the Component placement file as I think you will need this as well
+It contains the Refdes, Package info, number of pins etc.

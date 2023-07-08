@@ -1,0 +1,1 @@
+TinyCadKicad\TinyCAD_Kicad.exe "C:\Users\Roger\Desktop\ARoger\TEST\trunk\library\TinyCAD\*.TCLib" "C:\Program Files\KiCad\share\library"

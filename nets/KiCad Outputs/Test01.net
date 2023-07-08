@@ -1,0 +1,42 @@
+( { EESchema Netlist Version 1.1 created  21/01/2015 15:24:47 }
+ ( /54BFA150 $noname  U1 LM555N
+  (    1 GND )
+  (    2 Net-(C2-Pad2) )
+  (    3 Net-(D1-Pad1) )
+  (    4 VCC )
+  (    5 Net-(C1-Pad1) )
+  (    6 Net-(C2-Pad2) )
+  (    7 Net-(R1-Pad2) )
+  (    8 VCC )
+ )
+ ( /54BFA1AF $noname  R3 330
+  (    1 Net-(D1-Pad2) )
+  (    2 GND )
+ )
+ ( /54BFA1CC $noname  R1 4.7K
+  (    1 VCC )
+  (    2 Net-(R1-Pad2) )
+ )
+ ( /54BFA225 $noname  R2 1K
+  (    1 Net-(R2-Pad1) )
+  (    2 Net-(C2-Pad2) )
+ )
+ ( /54BFA27E $noname  RV1 100K
+  (    1 Net-(R1-Pad2) )
+  (    2 Net-(R2-Pad1) )
+  (    3 Net-(R2-Pad1) )
+ )
+ ( /54BFA68A $noname  D1 LED
+  (    1 Net-(D1-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /54BFA79D $noname  C1 0.01uF
+  (    1 Net-(C1-Pad1) )
+  (    2 GND )
+ )
+ ( /54BFAA1C $noname  C2 10uF
+  (    1 GND )
+  (    2 Net-(C2-Pad2) )
+ )
+)
+*

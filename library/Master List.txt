@@ -1,0 +1,405 @@
+REGULATOR
+=========
+LM78xx
+LM79xx
+LM78Lxx
+LM79Lxx
+
+LM136
+LM185-FIXED
+LM185-ADJ
+LM317
+LM337
+LP2950CZ-X.X
+TL431
+
+TRANSISTOR
+==========
+
+BC182/BC183/BC184
+BC212/BC213/BC214
+
+BC549/BC548/BC547
+BC559/BC558/BC557
+
+2N2222
+
+TIP???
+BD139
+BD140
+
+MPF106
+MPF107
+2N5485
+
+2N7000
+
+MTP3055
+MTP2955
+IFR014
+
+
+
+RESISTOR
+========
+
+RESISTOR 0.25W
+RESISTOR 0.5W
+RESISTOR 1.0W
+RESISTOR 2.0W
+RESISTOR 3.0W
+RESISTOR 5.0W
+RESISTOR 10.0W
+
+CAPACITOR
+=========
+
+CAPACITOR ELECTRO
+
+
+AMPLIFIER + COMPARATOR
+======================
+
+LM324
+TL074
+TL072
+TL071
+
+LM339
+
+
+DIODE + SCR
+===========
+
+1N400x
+1N914
+1N4148
+1N5404
+
+ZENER 400mW
+ZENER 1W
+
+C103
+C105
+
+small round bridge 1A etc
+
+
+MICROPROCESSOR
+==============
+
+ATINY_2313
+ATMEGA_48
+ATMEGA_8
+ATMEGA_16
+AT90S2313
+SPI connector
+
+
+OPTO
+====
+
+6N137
+6N138
+4N35
+
+
+MEMORY
+======
+
+HM6264
+93C06 etc
+
+
+SENSOR
+======
+
+LM35
+LM335
+
+INTERFACE
+=========
+
+MAX232
+
+
+4000 CMOS
+=========
+
+4011
+4040
+4051
+4053
+4066
+4069
+40106
+4511
+
+
+HC/LS LOGIC
+===========
+
+HC04
+HC14
+HC132
+HC4053
+
+PASSIVES
+========
+
+XTAL_HC49
+
+
+
+OPTO
+====
+
+4N23 couplers etc 
+6N138
+
+
+TO92 PIN NUMBERS
+================
+
+As defined in Dick Smith Catalogue data section.  Same as NS transistor data book "TO-92".
+
+
+
+********* FOOOTPRINTS **********
+
+http://archives.seul.org/geda/dev/Oct-2002/msg00067.html
+
+DIP6 DIP8 DIP14 DIP16 DIP18 DIP20 DIP24N DIP28N
+ -- Dual in-line package, narrow
+    300mil
+
+DIP24 DIP32 DIP36 DIP40 DIP42 DIP48 DIP64
+ -- Dual in-line package, wide
+    600/900 mil
+
+SIP1 SIP2 SIP3 SIP4 SIP5 SIP6 SIP7 SIP8 SIP9 SIP10
+SIP11 SIP12 SIP13
+ -- Single in line package
+
+ZIP20 ZIP24 ZIP28 ZIP40
+ -- Zig-zag in-line package
+
+AXN300 AXN400 AXN500 AXN600 AXN800 AXN1000
+ -- Axial non-polar component (typically resistor or capacitor),
+    Number is pin spacing in mils
+
+AXD300 AXD400 AXD500 AXD600 AXD800 AXD1000
+ -- Axial diode (pin 1 is cathode)
+    Number is pin spacing in mils
+
+RAN100 RAN200 RAN300 RAN400 RAN500 RAN600 RAN800 RAN1000
+ -- Radial non-polar circular component (typically capacitor)
+    Number is pin spacing in mils
+
+REN100 REN200 REN300 REN400 REN500 REN600 REN700 REN800 REN900
+REN1000 REN1100 REN1200
+ -- Rectangular non-polar component (typically capacitor)
+    Number is pin spacing in mils
+
+HC49
+ -- Crystal
+
+OSC14
+ -- Crystal oscillator
+    4 pins, 14 pin outline
+
+LED3 LED5
+ -- LED, size in mm (pin 1 is +, 2 is -)
+    Pin numbering consistent with other diodes
+
+TO3_90 TO3_45 TO5 TO92 TO126 TO126S TO126W TO126SW
+TO220 TO220S TO220W TO220SW MULTIWATT15
+ -- Transistor
+    Non-SMT
+
+JUMPER1 JUMPER2 JUMPER3 JUMPER4 JUMPER5 JUMPER6 JUMPER7 JUMPER8
+JUMPER9 JUMPER10 JUMPER11 JUMPER12 JUMPER14 JUMPER16 JUMPER18 JUMPER20
+ -- Jumper, i.e. single row headers
+
+HEADER2_1 HEADER4_1 HEADER6_1 HEADER8_1 HEADER10_1 HEADER12_1
+HEADER14_1 HEADER16_1 HEADER18_1 HEADER20_1 HEADER22_1 HEADER26_1
+HEADER30_1 HEADER34_1 HEADER40_1 HEADER50_1 HEADER64_1
+ -- Header connector, DIP pin numbering
+
+HEADER2_2 HEADER4_2 HEADER6_2 HEADER8_2 HEADER10_2 HEADER12_2
+HEADER14_2 HEADER16_2 HEADER18_2 HEADER20_2 HEADER22_2 HEADER26_2
+HEADER30_2 HEADER34_2 HEADER40_2 HEADER50_2 HEADER60_2 HEADER64_2
+ -- Header connector, ribbon cable numbering
+
+
+I agree that Jedec might be good for "inspiration". Based on that, we
+should for instance use:
+
+ACY for generic cylindrical components with axial leads.
+BCY for cylindrical components with bottom leads.
+
+
+
+
+************ FOOTPRINTS *********************
+
+http://archives.seul.org/geda/user/Feb-2003/msg00008.html
+
+	Unless otherwise noted, numerical pin names will be used,
+ 	starting from 1.
+
+	<n> is for the pin count.
+
+	<m> is for the pin spacing in mils.
+
+	SMT means surface mount, other components are through-hole.
+
+
+Dual in line packages with up to 22 100 mil spaced pins and 300 mil row
+spacing are called DIP<n>. 
+
+Dual in line packages with 24 or more 100 mil spaced pins and 300 mil
+row spacing are called DIP<n>N.
+
+Dual in line packages with 100 mil spaced pins and 400 mil row spacing
+are called DIP<n>H. 
+
+Dual in line packages with 24 or more 100 mil spaced pins and 600 mil
+row spacing are called DIP<n>.
+
+Shrink dual in line packages with up to 24 70 mil spaced pins and 300
+mil row spacing are called SDIP<n>.
+
+Shrink dual in line packages with more than 24 70 mil spaced pins and
+400 mil row spacing are called SDIP<n>.
+
+Single in line packages with 100 mil spaced pins are called SIP<n>N. See
+also JUMPER, below.
+
+Small outline SMT packages with up to 16 50 mil spaced pins and 150 mil
+total width are called SO<n>.
+ 
+Small outline SMT packages with more than 16 50 mil spaced pins and 150
+mil total width are called SO<n>N.
+
+Small outline SMT packages with 50 mil spaced pins and 200 mil total
+width are called SO<n>M.
+
+Small outline SMT packages with up to 20 50 mil spaced pins and 300 mil
+total width are called SO<n>W.
+ 
+Small outline SMT packages with more than 20 50 mil spaced pins and 300
+mil total width are called SO<n>.
+
+Small outline SMT packages with 44 or more 50 mil spaced pins and 525
+mil total width are called SO<n>.
+
+Metric shrink small outline SMT packages with 0.65 mm spaced pins and
+323 mil total width are called MSSOP<n>. (?)
+
+Metric shrink small outline SMT packages with up to 44 0.65 mm spaced
+pins and 420 mil total width are called MSSOP<n>W.
+
+Metric shrink small outline SMT packages with over 44 0.65 mm spaced
+pins and 545 mil total width are called MSSOP<n>W.
+
+Shrink small outline SMT packages with 0.25 mil spaced pins and 420 mil
+total width are called SSOP<n>W.
+
+Quarter size small outline SMT packages with 0.25 mil spaced pins and
+244 mil total width are called SSOP<n>.
+
+Thin small outline SMT packages with 0.2165 mil spaced pins and 535 mil
+total width are called TSOP<n>.
+
+Thin small outline SMT packages with 0.20 mil spaced pins and 795 mil
+total width are called TSOP<n>A.
+
+Thin small outline SMT packages with 0.20 mil spaced pins and 559 mil
+total width are called TSOP<n>B.
+
+Thin shrink small outline SMT packages with up to 28 0.26 mil spaced
+pins and 260 mil total width are called TSSOP<n>.
+
+Thin shrink small outline SMT packages with over 28 0.20 mil spaced pins
+and 319 mil total width are called TSSOP<n>.
+
+Plastic leadless chip carrier SMT are called PLCC<n>.
+
+Plastic leadless chip carrier with pin socket are called PLCC<n>X.
+
+Quad-side flat pack SMT are called QFP<n>.
+
+Zig-zag in-line package are called ZIP<n>.
+
+Axial non-polar components (typically resistor, capacitor) are called
+ACY<m>.  
+
+Axial diodes are called ALF<m>. Pin 1 is the cathode.
+
+Bottom lead (radial) non-polar circular component (typically capacitor)
+is RCY<m>.
+
+Bottom lead non-polar rectangular component (typically capacitor) is
+BRE<m>.
+
+Crystal is HC49, or other HC designations as required.
+
+Dual in line style crystal oscillator is OSC8 or OSC14.
+
+Conventional through hole LED is LED3 and LED5 for 3 and 5 mm
+respectively. Pin 1 is plus. (NOTE: Should probably be changed to be in
+line with diode convention!)
+
+TO transistors are TO5, TO92, TO126, TO220 etc. Suffixes may apply, e.g.
+TO126W is for wide, TO126 is for standing, TO126SW is for standing,
+wide. 
+
+Single row 100 mil pin spacing jumpers are JUMPER<n>. The main
+difference compared to single in line pachage is the hole size.
+
+Dual row 100 mil spacing headers with DIP pin numbering are HEADER<n>_1.
+Note that <n> is an even number. 
+
+Dual row 100 mil spacing headers with ribbon cable numbering are
+HEADER<n>_2. Note that <n> is an even number. 
+
+Angled full header connectors with latches are DIN41651_<n>.
+
+Standing full header connectors with latches are DIN41651_<n>S.
+
+DSUB connectors female are DB<n>F.
+
+DSUB connectors male are DB<n>M.
+
+Female DIN card-to-card connectors are DIN41612C<n>F. Add S suffix for
+standing.
+
+Male DIN card-to-card connectors are DIN41612C<n>M. Add S suffix for
+standing.
+
+RJ AMP modular connector with screen are RJ11, RJ12 and RJ45.
+
+Standard SMT resistors, inductors, capacitors etc are 0201, 0402, 0603,
+0805, 1206, 1210, 1806, 1812, 1825, 2020, 2706.
+
+Tantalum SMT capacitors (pin 1 is plus) are EIA3216, EIA3528, EIA6032,
+EIA7343.
+
+SMT electrolytics are designated by can diameter in 1/10 mm: SME33,
+SME43, SME53, SME66, SME84, SME104.
+
+SOD diode SMT packages use their standard package name, e.g. SOD80,
+SOD87, SOD106A, SOD110. There are also SOD123, SOD323 with narrow pads.
+
+SOT transistor SMT packages use their standard package name, e.g. SOT23,
+SOT323. There is also an SC90.
+
+SOT transistor SMT packages with numbering as for diodes (pin 1 is
+cathode, pin 2 anode) are SOT23D, SOT323D.
+
+4 pin SOT SMT packages are SOT89, SOT143, SOT223.
+
+5 pin SOT SMT packages are SOT25 and SOT325.
+
+6 pin SOT SMT packages are SOT26 and SOT326. 

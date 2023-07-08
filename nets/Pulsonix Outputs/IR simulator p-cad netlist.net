@@ -1,0 +1,82 @@
+{COMPONENT C:\james\VeeCAD_Free_2_26_0_0\P-CAD netlist\IR simulator p-cad netlist.pcb
+  {ENVIRONMENT
+    {DETAIL
+      {SUBCOMP
+        {I 4290W 1K.prt VR1
+          {CN
+            1 Gnd
+            2 $8
+            3 $9
+          }
+        }
+        {I 4290W 1K.prt VR2
+          {CN
+            1 Gnd
+            2 $11
+            3 $6
+          }
+        }
+        {I R 1M PTH.prt R1
+          {CN
+            1 $6
+            2 Lamp Drive
+          }
+        }
+        {I R 1M PTH.prt R2
+          {CN
+            1 $9
+            2 Lamp Drive
+          }
+        }
+        {I R 1M PTH.prt R3
+          {CN
+            1 Ref
+            2 $11
+          }
+        }
+        {I R 1M PTH.prt R4
+          {CN
+            1 Gas
+            2 $8
+          }
+        }
+        {I R 120k P.prt R5
+          {CN
+            1 Gnd
+            2 Ref
+          }
+        }
+        {I R 120k P.prt R6
+          {CN
+            1 Gnd
+            2 Gas
+          }
+        }
+        {I R 1M PTH.prt R7
+          {CN
+            1 Gas
+            2 $8
+          }
+        }
+        {I R 1M PTH.prt R8
+          {CN
+            1 Ref
+            2 $11
+          }
+        }
+        {I PCB conn.prt P1
+          {CN
+            1 $6
+            2 Lamp Drive
+          }
+        }
+        {I PCB conn.prt P2
+          {CN
+            1 $9
+            2 Lamp Drive
+          }
+        }
+      }
+    }
+  }
+}

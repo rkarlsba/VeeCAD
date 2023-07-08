@@ -1,0 +1,26 @@
+.HEA
+.TIM 18/7/2010-03:47:22
+.APP "EESchema (2007-07-09)"
+
+.ADD_COM     C1     "47nF"
+.ADD_COM     P2     "CONN_2"
+.ADD_COM     P1     "CONN_2"
+.ADD_COM     R2     "100K"
+.ADD_COM     R1     "22K"
+
+
+.ADD_TER   R1   2     "$1"
+.TER       P1   1
+
+.ADD_TER   P2   1     "$2"
+.TER       R2   1
+
+.ADD_TER   C1   1     "$3"
+.TER       R2   2
+            R1   1
+
+.ADD_TER   P2   2     "$4"
+.TER       C1   2
+            P1   2
+
+.END

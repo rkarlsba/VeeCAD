@@ -1,0 +1,313 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{0973ED83-B896-45F5-82F8-439365050847}</ProjectGuid>
+			<MainSource>VeeCAD.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<ProjectVersion>12.0</ProjectVersion>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_DebugDCUs>true</DCC_DebugDCUs>
+			<DCC_StringChecks>off</DCC_StringChecks>
+			<DCC_Platform>x86</DCC_Platform>
+			<DCC_UnitSearchPath>TPRSA;Hash;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_DependencyCheckOutputName>VeeCAD.exe</DCC_DependencyCheckOutputName>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_TypedAtParameter>true</DCC_TypedAtParameter>
+			<DCC_SYMBOL_PLATFORM>false</DCC_SYMBOL_PLATFORM>
+			<DCC_Alignment>1</DCC_Alignment>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_K>false</DCC_K>
+			<DCC_N>true</DCC_N>
+			<DCC_S>false</DCC_S>
+			<DCC_F>false</DCC_F>
+			<DCC_UsePackage>VCLX30;VCL30;VCLDB30;VCLDBX30;VCLSMP30;QRPT30;IBEVNT30;Icsdel30;TEEUI43;TEEDB43;TEE43;TEEPRO43;TEEQR43;TEEGL43;RXCTL;RXDB;RXTOOLS;DelphiX_for3</DCC_UsePackage>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_E>false</DCC_E>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''"/>
+		<ItemGroup>
+			<DelphiCompile Include="VeeCAD.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="main.pas">
+				<Form>MainForm</Form>
+			</DCCReference>
+			<DCCReference Include="Project.pas"/>
+			<DCCReference Include="ProjectInput.pas"/>
+			<DCCReference Include="ProjectOutput.pas"/>
+			<DCCReference Include="BoardSettings.pas">
+				<Form>BoardSettingsForm</Form>
+			</DCCReference>
+			<DCCReference Include="NewItem.pas">
+				<Form>NewItemForm</Form>
+			</DCCReference>
+			<DCCReference Include="SelectItem.pas">
+				<Form>SelectItemForm</Form>
+			</DCCReference>
+			<DCCReference Include="Netlist.pas"/>
+			<DCCReference Include="Import.pas"/>
+			<DCCReference Include="Globals.pas"/>
+			<DCCReference Include="BoardItemSettings.pas">
+				<Form>BoardItemSettingsForm</Form>
+			</DCCReference>
+			<DCCReference Include="GraphicCopy.pas"/>
+			<DCCReference Include="About.pas">
+				<Form>AboutForm</Form>
+			</DCCReference>
+			<DCCReference Include="NetlistSettings1.pas">
+				<Form>NetlistForm1</Form>
+			</DCCReference>
+			<DCCReference Include="ProjectCheck.pas"/>
+			<DCCReference Include="BoardSize.pas"/>
+			<DCCReference Include="Materials.pas">
+				<Form>MaterialsForm</Form>
+			</DCCReference>
+			<DCCReference Include="Cursors.pas"/>
+			<DCCReference Include="ImportNetFrm.pas">
+				<Form>ImportNetForm</Form>
+			</DCCReference>
+			<DCCReference Include="NetImporter.pas"/>
+			<DCCReference Include="SortCompare.pas"/>
+			<DCCReference Include="Adjuster.pas"/>
+			<DCCReference Include="Editor.pas"/>
+			<DCCReference Include="Painter.pas"/>
+			<DCCReference Include="ColorPreviewer.pas"/>
+			<DCCReference Include="Styles.pas"/>
+			<DCCReference Include="ClipbrdGraphic.pas"/>
+			<DCCReference Include="WebUpdate.pas"/>
+			<DCCReference Include="PrintSetup.pas">
+				<Form>PrintSetupForm</Form>
+			</DCCReference>
+			<DCCReference Include="PrintPainter.pas"/>
+			<DCCReference Include="PrintPreviewBoard.pas"/>
+			<DCCReference Include="PrintBoard.pas"/>
+			<DCCReference Include="Placement.pas"/>
+			<DCCReference Include="Breaks.pas"/>
+			<DCCReference Include="Selector.pas"/>
+			<DCCReference Include="PinNoEntry.pas">
+				<Form>PinNoEntryForm</Form>
+			</DCCReference>
+			<DCCReference Include="LibraryTools.pas"/>
+			<DCCReference Include="Utils\Rectangles.pas"/>
+			<DCCReference Include="BlockRotate.pas"/>
+			<DCCReference Include="ClipbrdComponents.pas"/>
+			<DCCReference Include="ColorPicker\HSVColorPicker.pas"/>
+			<DCCReference Include="ColorPicker\HTMLColors.pas"/>
+			<DCCReference Include="ColorPicker\mbColorPickerControl.pas"/>
+			<DCCReference Include="ColorPicker\mbTrackBarPicker.pas"/>
+			<DCCReference Include="ColorPicker\PalUtils.pas"/>
+			<DCCReference Include="ColorPicker\RGBCIEUtils.pas"/>
+			<DCCReference Include="ColorPicker\RGBCMYKUtils.pas"/>
+			<DCCReference Include="ColorPicker\RGBHSLUtils.pas"/>
+			<DCCReference Include="ColorPicker\RGBHSVUtils.pas"/>
+			<DCCReference Include="ColorPicker\Scanlines.pas"/>
+			<DCCReference Include="ColorPicker\SelPropUtils.pas"/>
+			<DCCReference Include="ColorPicker\VColorPicker.pas"/>
+			<DCCReference Include="PrintReport.pas">
+				<Form>PrintReportForm</Form>
+			</DCCReference>
+			<DCCReference Include="Utils\WineHelper.pas"/>
+			<DCCReference Include="ProjectInputCSV.pas"/>
+			<DCCReference Include="Utils\jsonparse.pas"/>
+			<DCCReference Include="Board.pas"/>
+			<DCCReference Include="BoardPainter.pas"/>
+			<DCCReference Include="Utils\ManagedItem.pas"/>
+			<DCCReference Include="BoardPattern.pas">
+				<Form>BoardPatternForm</Form>
+			</DCCReference>
+			<DCCReference Include="PatternDisplayer.pas"/>
+			<DCCReference Include="Utils\Intersect.pas"/>
+			<DCCReference Include="ColorScheme.pas"/>
+			<DCCReference Include="Connective.pas"/>
+			<DCCReference Include="TrackEdit\Tracks.pas"/>
+			<DCCReference Include="TrackEdit\TrackEditFm.pas">
+				<Form>TrackEditForm</Form>
+			</DCCReference>
+			<DCCReference Include="TrackEdit\TrackPainter.pas"/>
+			<DCCReference Include="TrackEdit\TrackEditor.pas"/>
+			<DCCReference Include="TrackEdit\TrackItems.pas"/>
+			<DCCReference Include="TrackEdit\SegmentProperties.pas">
+				<Form>SegmentPropertiesForm</Form>
+			</DCCReference>
+			<DCCReference Include="BoardPainterConnective.pas"/>
+			<DCCReference Include="ColorNetLinkFm.pas">
+				<Form>ColorNetLinkForm</Form>
+			</DCCReference>
+			<DCCReference Include="TrackEdit\ClipbrdTracks.pas"/>
+			<DCCReference Include="Utils\textutils.pas"/>
+			<DCCReference Include="G-code\GcodeFm.pas">
+				<Form>GcodeForm</Form>
+			</DCCReference>
+			<DCCReference Include="G-code\Gcode.pas"/>
+			<DCCReference Include="Utils\UndoEngine.pas"/>
+			<DCCReference Include="NotesFm.pas">
+				<Form>NotesForm</Form>
+			</DCCReference>
+			<DCCReference Include="G-code\GcodeTop.pas"/>
+			<DCCReference Include="Utils\ArcLine.pas"/>
+			<DCCReference Include="NetRead\NetReader.pas"/>
+			<DCCReference Include="NetRead\NetReaderCrododilePhysics.pas"/>
+			<DCCReference Include="NetRead\NetReaderEasyPC.pas"/>
+			<DCCReference Include="NetRead\NetReaderOrcadPCB2.pas"/>
+			<DCCReference Include="NetRead\NetReaderProtelTango.pas"/>
+			<DCCReference Include="NetRead\NetReaderSeetrax.pas"/>
+			<DCCReference Include="NetRead\NetReaderUltiCap.pas"/>
+			<DCCReference Include="NetRead\NetReaderZenit.pas"/>
+			<DCCReference Include="Utils\ParseCsv.pas"/>
+			<DCCReference Include="Utils\Rotations.pas"/>
+			<DCCReference Include="Utils\GdiHandles.pas"/>
+			<DCCReference Include="Utils\FullPathName.pas"/>
+			<DCCReference Include="Utils\version.pas"/>
+			<DCCReference Include="Utils\MessageDialogFrm.pas">
+				<Form>MessageDialogForm</Form>
+			</DCCReference>
+			<DCCReference Include="CopperTrace.pas"/>
+			<DCCReference Include="NetRead\NetReaderWirelist.pas"/>
+			<DCCReference Include="Utils\PrintStrings.pas"/>
+			<DCCReference Include="Utils\ExceptSafe.pas"/>
+			<DCCReference Include="Utils\ClipbrdUtils.pas"/>
+			<DCCReference Include="Outlines\CelledOutlines.pas"/>
+			<DCCReference Include="Outlines\CellOutlineEditor.pas"/>
+			<DCCReference Include="Outlines\ClipbrdOutlines.pas"/>
+			<DCCReference Include="Outlines\CustomOutlineBasicEditor.pas">
+				<Form>veCustomOutlineBasicEditor</Form>
+			</DCCReference>
+			<DCCReference Include="Outlines\CustomOutlineEditor.pas"/>
+			<DCCReference Include="Outlines\CustomOutlineEditorForm.pas">
+				<Form>veCustomOutlineEditorForm</Form>
+			</DCCReference>
+			<DCCReference Include="Outlines\CustomOutlines.pas"/>
+			<DCCReference Include="Outlines\OtherOutlines.pas"/>
+			<DCCReference Include="Outlines\OutlineDisplayer.pas"/>
+			<DCCReference Include="Outlines\Outlines.pas"/>
+			<DCCReference Include="Outlines\OutlineSettings.pas">
+				<Form>OutlineSettingsForm</Form>
+			</DCCReference>
+			<DCCReference Include="Outlines\RadialOutlineEditor.pas">
+				<Form>veRadialOutlineEditor</Form>
+			</DCCReference>
+			<DCCReference Include="Outlines\RadialOutlines.pas"/>
+			<DCCReference Include="Outlines\SizeableOutlines.pas"/>
+			<DCCReference Include="Outlines\SmdOutlines.pas"/>
+			<DCCReference Include="Utils\DebugFrm.pas">
+				<Form>DebugForm</Form>
+			</DCCReference>
+			<DCCReference Include="Utils\FileMenuHandler.pas"/>
+			<DCCReference Include="Utils\FormMinder.pas"/>
+			<DCCReference Include="Utils\InputBoxFrm.pas">
+				<Form>InputBoxForm</Form>
+			</DCCReference>
+			<DCCReference Include="Utils\PaperSize.pas"/>
+			<DCCReference Include="Utils\PrintPageSizer.pas"/>
+			<DCCReference Include="Outlines\LeadEditorForm.pas">
+				<Form>veLeadOutlineEditor</Form>
+			</DCCReference>
+			<DCCReference Include="Settings\SettingsFmLines.pas">
+				<Form>Form2</Form>
+			</DCCReference>
+			<DCCReference Include="Settings\SettingsFrm.pas">
+				<Form>SettingsForm</Form>
+			</DCCReference>
+			<DCCReference Include="Settings\SettingsFrmColors.pas">
+				<Form>SetColorsForm</Form>
+			</DCCReference>
+			<DCCReference Include="Settings\SettingsFrmCursors.pas">
+				<Form>SetCursorsForm</Form>
+			</DCCReference>
+			<DCCReference Include="Settings\SettingsFrmGraphic.pas">
+				<Form>SetGraphicCopyForm</Form>
+			</DCCReference>
+			<DCCReference Include="Settings\SettingsFrmKeys.pas">
+				<Form>SetKeysForm</Form>
+			</DCCReference>
+			<DCCReference Include="Route\Route.pas"/>
+			<DCCReference Include="Route\RouteLeaded.pas"/>
+			<DCCReference Include="Route\RouteLinks.pas"/>
+			<DCCReference Include="Tracer.pas"/>
+			<DCCReference Include="Netlist\NetlistGenerate.pas"/>
+			<DCCReference Include="Netlist\NetlistUser.pas"/>
+			<DCCReference Include="Netlist\NetlistExport.pas"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>VCLApplication</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">VeeCAD.dpr</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">2</VersionInfo>
+						<VersionInfo Name="MinorVer">45</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">3081</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">RKL</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">VeeCAD Layout Editor</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">2.45.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright">Roger Lascelles</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename">VeeCAD.exe</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">VeeCAD</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+						<VersionInfoKeys Name="SpecialBuild"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dcloffice2k120.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dclofficexp120.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+				<ModelSupport>False</ModelSupport>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

@@ -1,0 +1,50 @@
+Wire List
+
+                                              Revised: Sunday, April 03, 2005
+                                              Revision: A
+LINEAR TECHNOLOGY
+
+
+
+
+
+
+<<< Component List >>>
+2K7                           R1        res
+3K3                           R2        res
+22nF                          C1        cap
+10nF                          C2        cap
+LM555                         U2        555
+
+<<< Wire List >>>
+
+  NODE  REFERENCE    PIN #   PIN NAME           PIN TYPE       PART VALUE
+
+[00001] +5V
+        R1              1       A               Passive        2K7
+        U2              4       RESET           Passive        LM555
+        U2              8       VCC             Passive        LM555
+
+[00002] N004
+        R1              2       B               Passive        2K7
+        R2              1       A               Passive        3K3
+        U2              7       DISCHARGE       Passive        LM555
+
+[00003] N001
+        R2              2       B               Passive        3K3
+        C1              1       A               Passive        22nF
+        U2              2       TRIGGER         Passive        LM555
+        U2              6       THRESHOLD       Passive        LM555
+
+[00004] 0
+        C1              2       B               Passive        22nF
+        C2              2       B               Passive        10nF
+        U2              1       GND             Passive        LM555
+
+[00005] N003
+        C2              1       A               Passive        10nF
+        U2              5       V CONTROL       Passive        LM555
+
+[00006] N002
+        U2              3       OUTPUT          Passive        LM555
+

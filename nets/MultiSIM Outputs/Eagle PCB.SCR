@@ -1,0 +1,38 @@
+USE ACTIVE
+ADD DO-35 'D1' R0 (0 0);VALUE D1 1N3064 
+
+
+ADD TO-39 'Q1' R0 (100 0);VALUE Q1 2N1711 
+
+USE PASSIVE
+ADD RES0.25 'R1' R0 (200 0);VALUE R1 1.8kOhm_5% 
+
+USE CONNECT
+ADD HDR1X2 'J1' R0 (300 0);VALUE J1 HDR1X2 
+
+
+ADD HDR1X2 'J2' R0 (400 0);VALUE J2 HDR1X2 
+
+
+
+
+SIGNAL '5'	'D1'	'2'\
+		'Q1'	'2'\
+	;
+
+SIGNAL '2'	'D1'	'1'\
+		'R1'	'2'\
+	;
+
+SIGNAL '4'	'Q1'	'3'\
+		'J2'	'1'\
+	;
+
+SIGNAL '1'	'R1'	'1'\
+		'J1'	'1'\
+	;
+
+SIGNAL '3'	'J1'	'2'\
+		'J2'	'2'\
+	;
+

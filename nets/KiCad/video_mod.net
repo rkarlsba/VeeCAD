@@ -1,0 +1,6199 @@
+# EESchema Netlist Version 1.0 generee le  16/11/2004-13:56:57
+(
+ ( 84DFBB8F $noname J4 DB9FEM {Lib=DB9}
+  (    1 RED_8 )
+  (    2 GREEN_OUT_1 )
+  (    3 ROUGE_3 )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 GND )
+  (    8 C_OUT_1 )
+  (    9 Y_OUT_1 )
+ )
+ ( 30705D02 $noname P8 BNC {Lib=BNC}
+  (    1 CVBSOUT_3 )
+  (    2 GND )
+ )
+ ( 32F9F1AD $noname P3 BNC {Lib=BNC}
+  (    1 BLUE_IN_1 )
+  (    2 GND )
+ )
+ ( 32F9F1A3 $noname P2 BNC {Lib=BNC}
+  (    1 GREEN_IN_1 )
+  (    2 GND )
+ )
+ ( 32F9F198 $noname P1 BNC {Lib=BNC}
+  (    1 RED_IN_1 )
+  (    2 GND )
+ )
+ ( 33A7E303 $noname U6 74LS245 {Lib=74LS245}
+  (    1 WRITE_RAM_1 )
+  (    2 DQ24_7 )
+  (    3 DPC25_2 )
+  (    4 DQ26_7 )
+  (    5 DQ27_7 )
+  (    6 DPC28_2 )
+  (    7 DPC29_2 )
+  (    8 DQ30_7 )
+  (    9 DQ31_7 )
+  (   10 GND )
+  (   11 TVRAM31_6 )
+  (   12 VRAM30_2 )
+  (   13 TVRAM29_6 )
+  (   14 VRAM28_2 )
+  (   15 TVRAM27_6 )
+  (   16 TVRAM26_6 )
+  (   17 TVRAM25_6 )
+  (   18 VRAM24_2 )
+  (   19 ACCES_RAM-_2 )
+  (   20 +5V )
+ )
+ ( 33A7E303 $noname U5 74LS245 {Lib=74LS245}
+  (    1 WRITE_RAM_1 )
+  (    2 DPC16_2 )
+  (    3 DQ17_7 )
+  (    4 DQ18_7 )
+  (    5 DQ19_7 )
+  (    6 DPC20_2 )
+  (    7 DQ21_7 )
+  (    8 DQ22_7 )
+  (    9 DPC23_2 )
+  (   10 GND )
+  (   11 TVRAM23_6 )
+  (   12 TVRAM22_6 )
+  (   13 TVRAM21_6 )
+  (   14 TVRAM20_6 )
+  (   15 TVRAM19_6 )
+  (   16 TVRAM18_6 )
+  (   17 TVRAM17_6 )
+  (   18 TVRAM16_6 )
+  (   19 ACCES_RAM-_2 )
+  (   20 +5V )
+ )
+ ( 33A7E303 $noname U4 74LS245 {Lib=74LS245}
+  (    1 WRITE_RAM_1 )
+  (    2 DQ8_7 )
+  (    3 DQ9_7 )
+  (    4 DQ10_5 )
+  (    5 DQ11_7 )
+  (    6 DQ12_5 )
+  (    7 DPC13_2 )
+  (    8 DQ14_5 )
+  (    9 DQ15_5 )
+  (   10 GND )
+  (   11 TVRAM15_6 )
+  (   12 TVRAM14_6 )
+  (   13 VRAM13_2 )
+  (   14 TVRAM12_6 )
+  (   15 TVRAM11_6 )
+  (   16 TVRAM10_6 )
+  (   17 VRAM9_2 )
+  (   18 TVRAM8_6 )
+  (   19 ACCES_RAM-_2 )
+  (   20 +5V )
+ )
+ ( 33A7E303 $noname U3 74LS245 {Lib=74LS245}
+  (    1 WRITE_RAM_1 )
+  (    2 DPC0_2 )
+  (    3 DPC1_8 )
+  (    4 DQ2_5 )
+  (    5 DPC3_8 )
+  (    6 DQ4_7 )
+  (    7 DQ5_7 )
+  (    8 DPC6_8 )
+  (    9 DPC7_8 )
+  (   10 GND )
+  (   11 TVRAM7_6 )
+  (   12 TVRAM6_6 )
+  (   13 VRAM5_2 )
+  (   14 TVRAM4_6 )
+  (   15 TVRAM3_6 )
+  (   16 VRAM2_2 )
+  (   17 TVRAM1_6 )
+  (   18 TVRAM0_6 )
+  (   19 ACCES_RAM-_2 )
+  (   20 +5V )
+ )
+ ( 33A567B8 $noname U22 XC4003-VQ100 {Lib=XC4003-VQ100}
+  (    1 GND )
+  (    2 CLKCAD_1 )
+  (    3  ? )
+  (    4  ? )
+  (    5  ? )
+  (    6  ? )
+  (    7 CLAMP_1 )
+  (    8 BLANK-_1 )
+  (    9 CSYNC-OUT_3 )
+  (   10  ? )
+  (   11 GND )
+  (   12 +5V )
+  (   13 ACQ_ON_2 )
+  (   14  ? )
+  (   15  ? )
+  (   16  ? )
+  (   17 TVRAM0_6 )
+  (   18 TVRAM3_6 )
+  (   19 TVRAM1_6 )
+  (   20 VRAM2_2 )
+  (   21 ACCES_RAM-_2 )
+  (   22 +5V )
+  (   23 GND )
+  (   24 +5V )
+  (   25 +5V )
+  (   26 +5V )
+  (   27  ? )
+  (   28 TVRAM4_6 )
+  (   29 VRAM5_2 )
+  (   30  ? )
+  (   31 TVRAM6_6 )
+  (   32 TVRAM7_6 )
+  (   33 TVRAM8_6 )
+  (   34 VRAM9_2 )
+  (   35 TVRAM10_6 )
+  (   36 TVRAM11_6 )
+  (   37 +5V )
+  (   38 GND )
+  (   39 TVRAM12_6 )
+  (   40 VRAM13_2 )
+  (   41 TVRAM14_6 )
+  (   42 TVRAM15_6 )
+  (   43 TVRAM16_6 )
+  (   44 TVRAM17_6 )
+  (   45 TVRAM18_6 )
+  (   46 TVRAM19_6 )
+  (   47 TVRAM20_6 )
+  (   48 TVRAM21_6 )
+  (   49 GND )
+  (   50 X_DONE_2 )
+  (   51 +5V )
+  (   52 X_PROG-_5 )
+  (   53 TVRAM22_6 )
+  (   54 TVRAM23_6 )
+  (   55 VRAM24_2 )
+  (   56 TVRAM25_6 )
+  (   57 TVRAM26_6 )
+  (   58 TVRAM27_6 )
+  (   59 VRAM28_2 )
+  (   60 TVRAM29_6 )
+  (   61 VRAM30_2 )
+  (   62 TVRAM31_6 )
+  (   63 +5V )
+  (   64 GND )
+  (   65  ? )
+  (   66  ? )
+  (   67 TVG0_8 )
+  (   68 TVG1_8 )
+  (   69 TVG2_8 )
+  (   70 TVG3_4 )
+  (   71 TVG4_2 )
+  (   72 X_DOUT_5 )
+  (   73  ? )
+  (   74 X_CLK_2 )
+  (   75 +5V )
+  (   76  ? )
+  (   77 GND )
+  (   78 TVG5_4 )
+  (   79 CDACLK_5 )
+  (   80 TVG6_8 )
+  (   81 TVG7_8 )
+  (   82 TVR0_4 )
+  (   83 TVR1_8 )
+  (   84 TVR2_2 )
+  (   85 TVR3_8 )
+  (   86 TVR4_4 )
+  (   87 TVR5_2 )
+  (   88 GND )
+  (   89 +5V )
+  (   90 TVR6_4 )
+  (   91 TVR7_8 )
+  (   92 TVB0_8 )
+  (   93 TVB1_4 )
+  (   94 TVB2_2 )
+  (   95 TVB3_8 )
+  (   96 TVB4_2 )
+  (   97 TVB5_4 )
+  (   98 TVB6_4 )
+  (   99 TVB7_8 )
+  (  100 +5V )
+ )
+ ( 349FB562 $noname L6 470nS {Lib=LIGNE_A_RETARD}
+  (    1 N-000113 )
+  (    2 N-000114 )
+  (    3 GND )
+ )
+ ( 33A51A4E $noname R4 10K {Lib=R}
+  (    1 N-000112 )
+  (    2 +5V )
+ )
+ ( 2276109D $noname POT1 100K {Lib=POT}
+  (    1 N-000102 )
+  (    2 GND )
+  (    3 GND )
+ )
+ ( 22761039 $noname Q1 BC848 {Lib=NPN}
+  (    1 N-000093 )
+  (    2 N-000090 )
+  (    3 +5F )
+ )
+ ( 22761066 $noname Q2 BC848 {Lib=NPN}
+  (    1 N-000098 )
+  (    2 N-000097 )
+  (    3 +5F )
+ )
+ ( 2276107F $noname Q3 BC848 {Lib=NPN}
+  (    1 N-000100 )
+  (    2 N-000099 )
+  (    3 +5F )
+ )
+ ( 22760F76 $noname C54 4,7uF {Lib=CP}
+  (    1 N-000088 )
+  (    2 GND )
+ )
+ ( 22761048 $noname R39 68 {Lib=R}
+  (    1 C_OUT_1 )
+  (    2 N-000093 )
+ )
+ ( 2276103E $noname R16 220 {Lib=R}
+  (    1 N-000090 )
+  (    2 CHROM_3 )
+ )
+ ( 2276107A $noname R17 220 {Lib=R}
+  (    1 N-000097 )
+  (    2 LUM_3 )
+ )
+ ( 22761075 $noname R40 68 {Lib=R}
+  (    1 N-000098 )
+  (    2 Y_OUT_1 )
+ )
+ ( 22761093 $noname R18 220 {Lib=R}
+  (    1 N-000099 )
+  (    2 CVBS_3 )
+ )
+ ( 2276108E $noname R41 68 {Lib=R}
+  (    1 CVBSOUT_3 )
+  (    2 N-000100 )
+ )
+ ( 22760FE4 $noname R30 3,3K {Lib=R}
+  (    1 N-000086 )
+  (    2 CSYNC-OUT_3 )
+ )
+ ( 22760FDF $noname R31 470 {Lib=R}
+  (    1 GND )
+  (    2 N-000086 )
+ )
+ ( 22760F80 $noname R10 1K {Lib=R}
+  (    1 N-000113 )
+  (    2 N-000089 )
+ )
+ ( 22760FBC $noname R11 1K {Lib=R}
+  (    1 N-000114 )
+  (    2 N-000087 )
+ )
+ ( 22761098 $noname R9 150K {Lib=R}
+  (    1 N-000102 )
+  (    2 N-000092 )
+ )
+ ( 22760F8A $noname C61 47nF {Lib=C}
+  (    1 N-000086 )
+  (    2 N-000103 )
+ )
+ ( 22760F67 $noname C60 47nF {Lib=C}
+  (    1 N-000104 )
+  (    2 ROUGE_3 )
+ )
+ ( 22760F8F $noname C43 220nF {Lib=C}
+  (    1 N-000081 )
+  (    2 GND )
+ )
+ ( 22760FA8 $noname CV1 5/30pF {Lib=CTRIM}
+  (    1 N-000111 )
+  (    2 GND )
+ )
+ ( 22760FD5 $noname C45 220nF {Lib=C}
+  (    1 N-000095 )
+  (    2 GND )
+ )
+ ( 22760FCB $noname C48 22nF {Lib=C}
+  (    1 GND )
+  (    2 N-000087 )
+ )
+ ( 22760FC1 $noname C64 6,8uF {Lib=CP}
+  (    1 N-000087 )
+  (    2 GND )
+ )
+ ( 22760F99 $noname C44 220nF {Lib=C}
+  (    1 N-000091 )
+  (    2 GND )
+ )
+ ( 22760FF8 $noname C53 330pF {Lib=C}
+  (    1 N-000101 )
+  (    2 GND )
+ )
+ ( 22760FF3 $noname L1 2,2uH {Lib=INDUCTOR}
+  (    1 N-000094 )
+  (    2 N-000101 )
+ )
+ ( 22761052 $noname L3 22uH {Lib=INDUCTOR}
+  (    1 +5V )
+  (    2 +5F )
+ )
+ ( 22760F71 $noname L2 22uH {Lib=INDUCTOR}
+  (    1 +5V )
+  (    2 N-000088 )
+ )
+ ( 22760F4E $noname U20 TDA8501 {Lib=TDA8501}
+  (    1  ? )
+  (    2 N-000112 )
+  (    3  ? )
+  (    4  ? )
+  (    5  ? )
+  (    6 N-000091 )
+  (    7 N-000104 )
+  (    8 N-000088 )
+  (    9 N-000109 )
+  (   10 GND )
+  (   11 N-000110 )
+  (   12 N-000081 )
+  (   13 N-000087 )
+  (   14 CHROM_3 )
+  (   15 N-000095 )
+  (   16 CVBS_3 )
+  (   17 GND )
+  (   18 N-000094 )
+  (   19 LUM_3 )
+  (   20 N-000114 )
+  (   21 N-000092 )
+  (   22 N-000089 )
+  (   23 N-000096 )
+  (   24 N-000103 )
+ )
+ ( 22760FFD $noname C46 220pF {Lib=C}
+  (    1 N-000101 )
+  (    2 GND )
+ )
+ ( 22761089 $noname R34 470 {Lib=R}
+  (    1 N-000100 )
+  (    2 GND )
+ )
+ ( 22761070 $noname R33 470 {Lib=R}
+  (    1 N-000098 )
+  (    2 GND )
+ )
+ ( 22761043 $noname R32 470 {Lib=R}
+  (    1 N-000093 )
+  (    2 GND )
+ )
+ ( 22761057 $noname C55 4,7uF {Lib=CP}
+  (    1 +5F )
+  (    2 GND )
+ )
+ ( 22760F62 $noname C59 47nF {Lib=C}
+  (    1 N-000109 )
+  (    2 GREEN_OUT_1 )
+ )
+ ( 22760F53 $noname C58 47nF {Lib=C}
+  (    1 N-000110 )
+  (    2 RED_8 )
+ )
+ ( 22760FA3 $noname X3 4,433618MH {Lib=CRYSTAL}
+  (    1 N-000111 )
+  (    2 N-000096 )
+ )
+ ( 811D9080 $noname L4 22uF {Lib=INDUCTOR}
+  (    1 +5V )
+  (    2 VAF_4 )
+ )
+ ( 821CDAB8 $noname R35 470 {Lib=R}
+  (    1 N-000152 )
+  (    2 Y_SYNC_4 )
+ )
+ ( 821CDAC2 $noname C1 100nF {Lib=C}
+  (    1 N-000152 )
+  (    2 N-000153 )
+ )
+ ( A9CA7F6B $noname C2 100nF {Lib=C}
+  (    1 VAF_4 )
+  (    2 GND )
+ )
+ ( A9CA7F75 $noname C3 100nF {Lib=C}
+  (    1 N-000134 )
+  (    2 GREEN_IN_1 )
+ )
+ ( A9CA7F7A $noname C4 100nF {Lib=C}
+  (    1 N-000135 )
+  (    2 RED_IN_1 )
+ )
+ ( 821CDA9A $noname R14 1M {Lib=R}
+  (    1 N-000153 )
+  (    2 GND )
+ )
+ ( 8116F4AA $noname R3 100 {Lib=R}
+  (    1 Y-VIDEO_4 )
+  (    2 N-000134 )
+ )
+ ( 8116F4A5 $noname R2 100 {Lib=R}
+  (    1 C-VIDEO_4 )
+  (    2 N-000135 )
+ )
+ ( A9CA7F7F $noname D1 BAT46 {Lib=DIODESCH}
+  (    1 GND )
+  (    2 Y-VIDEO_4 )
+ )
+ ( A9CA7F84 $noname D2 BAT46 {Lib=DIODESCH}
+  (    1 Y-VIDEO_4 )
+  (    2 +5V )
+ )
+ ( A9CA7F8E $noname D3 BAT46 {Lib=DIODESCH}
+  (    1 GND )
+  (    2 C-VIDEO_4 )
+ )
+ ( A9CA7F93 $noname D4 BAT46 {Lib=DIODESCH}
+  (    1 C-VIDEO_4 )
+  (    2 +5V )
+ )
+ ( A9CA7FC5 $noname R27 27K {Lib=R}
+  (    1 N-000141 )
+  (    2 N-000151 )
+ )
+ ( A9CA7FCA $noname R12 1K {Lib=R}
+  (    1 N-000137 )
+  (    2 VAF_4 )
+ )
+ ( B15DA8C5 $noname C65 22pF {Lib=C}
+  (    1 GND )
+  (    2 N-000142 )
+ )
+ ( B15DA8CA $noname C66 22pF {Lib=C}
+  (    1 GND )
+  (    2 N-000143 )
+ )
+ ( B15DA8C0 $noname X2 30MHz {Lib=CRYSTAL}
+  (    1 N-000142 )
+  (    2 N-000143 )
+ )
+ ( A9CA7FA7 $noname R19 220 {Lib=R}
+  (    1 N-000138 )
+  (    2 N-000147 )
+ )
+ ( A9CA7FAC $noname C5 100nF {Lib=C}
+  (    1 N-000145 )
+  (    2 N-000138 )
+ )
+ ( B176B9C3 $noname R20 220 {Lib=R}
+  (    1 N-000139 )
+  (    2 Y_SYNC_4 )
+ )
+ ( B176B9C8 $noname C8 100nF {Lib=C}
+  (    1 N-000146 )
+  (    2 N-000139 )
+ )
+ ( A9CA7FB1 $noname C6 100nF {Lib=C}
+  (    1 N-000137 )
+  (    2 GND )
+ )
+ ( A9CA7FB6 $noname C7 100nF {Lib=C}
+  (    1 N-000151 )
+  (    2 GND )
+ )
+ ( 821CDABD $noname C47 220pF {Lib=C}
+  (    1 N-000152 )
+  (    2 GND )
+ )
+ ( BECCB834 $noname U10 BT812 {Lib=BT812}
+  (    1 VAF_4 )
+  (    2 VAF_4 )
+  (    3 GND )
+  (    4 N-000146 )
+  (    5 GND )
+  (    6 Y_SYNC_4 )
+  (    7 GND )
+  (   16 GND )
+  (   25  ? )
+  (   26  ? )
+  (   27  ? )
+  (   28  ? )
+  (   29  ? )
+  (   30 GND )
+  (   31 +5V )
+  (   32  ? )
+  (   33  ? )
+  (   34 VD_PAL-_5 )
+  (   35  ? )
+  (   36 HD_PAL-_1 )
+  (   37  ? )
+  (   38  ? )
+  (   39 VAF_4 )
+  (   40 VAF_4 )
+  (   41 VAF_4 )
+  (   42 VAF_4 )
+  (   43 VAF_4 )
+  (   44 GND )
+  (   45 +5V )
+  (   46 OE_PAL-_4 )
+  (   47 OE_PAL-_4 )
+  (   48 TVB7_8 )
+  (   49 TVB6_4 )
+  (   50 TVB5_4 )
+  (   51 TVB4_2 )
+  (   52 TVB3_8 )
+  (   53 TVB2_2 )
+  (   54 TVB1_4 )
+  (   55 TVB0_8 )
+  (   56 GND )
+  (   57 +5V )
+  (   58 TVR7_8 )
+  (   59 TVR6_4 )
+  (   60 TVR5_2 )
+  (   61 TVR4_4 )
+  (   62 TVR3_8 )
+  (   63 TVR2_2 )
+  (   64 TVR1_8 )
+  (   65 TVR0_4 )
+  (   66 GND )
+  (   67 TVG7_8 )
+  (   68 TVG6_8 )
+  (   69 TVG5_4 )
+  (   70 TVG4_2 )
+  (   71 TVG3_4 )
+  (   72 TVG2_8 )
+  (   73 TVG1_8 )
+  (   74 TVG0_8 )
+  (   75 GND )
+  (   76 +5V )
+  (   78 VAF_4 )
+  (   79 VAF_4 )
+  (   80 VAF_4 )
+  (   81 VAF_4 )
+  (   82 VAF_4 )
+  (   83 BT812_WR-_1 )
+  (   84 PC_A0_4 )
+  (   85 PCA1_8 )
+  (   86 BT812_RD-_4 )
+  (   87 RESET-_4 )
+  (   88 GND )
+  (   89 GND )
+  (   90 GND )
+  (   91 +5V )
+  (   92 DPC0_2 )
+  (   93 DPC1_8 )
+  (   94 DQ2_5 )
+  (   95 DPC3_8 )
+  (   96 DQ4_7 )
+  (   97 DQ5_7 )
+  (   98 GND )
+  (   99 DPC6_8 )
+  (  100 DPC7_8 )
+  (  101  ? )
+  (  102 +5V )
+  (  103 GND )
+  (  104 F_PALIN_5 )
+  (  105  ? )
+  (  106  ? )
+  (  107  ? )
+  (  108 N-000143 )
+  (  109 N-000142 )
+  (  110 N-000140 )
+  (  111 GND )
+  (  112 +5V )
+  (  113 N-000137 )
+  (  114 N-000151 )
+  (  115 N-000147 )
+  (  116 GND )
+  (  117 N-000145 )
+  (  118 GND )
+  (  119 VAF_4 )
+  (  120 VAF_4 )
+  (  121 VAF_4 )
+  (  122 VAF_4 )
+  (  123 VAF_4 )
+  (  124 GND )
+  (  125 C-VIDEO_4 )
+  (  126 GND )
+  (  127  ? )
+  (  128 GND )
+  (  129  ? )
+  (  130 GND )
+  (  131  ? )
+  (  132 VAF_4 )
+  (  134 GND )
+  (  135 N-000141 )
+  (  136 GND )
+  (  137 N-000137 )
+  (  138 GND )
+  (  139 GND )
+  (  140 N-000153 )
+  (  141 VAF_4 )
+  (  142 VAF_4 )
+  (  143 GND )
+  (  144 N-000137 )
+  (  145 GND )
+  (  147 GND )
+  (  149 VAF_4 )
+  (  150  ? )
+  (  151 GND )
+  (  152  ? )
+  (  153 GND )
+  (  154  ? )
+  (  155 GND )
+  (  156 Y-VIDEO_4 )
+  (  157 GND )
+  (  158 VAF_4 )
+  (  159 VAF_4 )
+  (  160 VAF_4 )
+ )
+ ( 811D9071 $noname C62 47uF {Lib=CP}
+  (    1 VAF_4 )
+  (    2 GND )
+ )
+ ( BF69A15D $noname C9 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( BF69A162 $noname C10 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( BF69A167 $noname C11 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( BF69A17B $noname C14 100nF {Lib=C}
+  (    1 VAF_4 )
+  (    2 GND )
+ )
+ ( BF69A176 $noname C13 100nF {Lib=C}
+  (    1 VAF_4 )
+  (    2 GND )
+ )
+ ( BF69A171 $noname C12 100nF {Lib=C}
+  (    1 VAF_4 )
+  (    2 GND )
+ )
+ ( 0F47DCB8 $noname C16 100nF {Lib=C}
+  (    1 N-000140 )
+  (    2 GND )
+ )
+ ( B1754313 $noname R25 220K {Lib=R}
+  (    1 N-000143 )
+  (    2 N-000142 )
+ )
+ ( 0939A342 $noname C15 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 34E1751D $noname P12 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( 34E1718B $noname P9 CONN_1 {Lib=CONN_1}
+  (    1 N-000208 )
+ )
+ ( 34E1718B $noname P11 CONN_1 {Lib=CONN_1}
+  (    1 N-000207 )
+ )
+ ( 34E1718B $noname P10 CONN_1 {Lib=CONN_1}
+  (    1 N-000206 )
+ )
+ ( 33BA5628 $noname U23 XC4003/PQ100 {Lib=XC4005-PQ100}
+  (    1 RESET-_4 )
+  (    2  ? )
+  (    3 +5V )
+  (    4 GND )
+  (    5 DPC7_8 )
+  (    6 DPC6_8 )
+  (    7 DPC3_8 )
+  (    8 DQ5_7 )
+  (    9 DQ4_7 )
+  (   11 DQ2_5 )
+  (   12 DPC1_8 )
+  (   13 DPC0_2 )
+  (   14 GND )
+  (   15 +5V )
+  (   16 PTWR_5 )
+  (   17 PTBURST-_5 )
+  (   18 PTATN-_1 )
+  (   19 PTRDY-_7 )
+  (   20 PTBE-0_5 )
+  (   21 PTBE-1_5 )
+  (   22 PTBE-2_7 )
+  (   23 PTBE-3_7 )
+  (   24 PTADR-_5 )
+  (   25 N-000188 )
+  (   26 GND )
+  (   27 N-000188 )
+  (   28 +5V )
+  (   29 N-000188 )
+  (   30 BPCLK_1 )
+  (   31  ? )
+  (   32 PTNUM1_7 )
+  (   33  ? )
+  (   34 PTNUM0_5 )
+  (   35 BE-3_5 )
+  (   36 BE-2_7 )
+  (   37 BE-1_5 )
+  (   38 BE-0_5 )
+  (   39 ADR6_5 )
+  (   40 +5V )
+  (   41 GND )
+  (   42 ADR5_5 )
+  (   43 ADR4_5 )
+  (   44 ADR3_5 )
+  (   45 SELECT-_5 )
+  (   46 /PCRD_1 )
+  (   47 /PCWR_1 )
+  (   48 ADR2_5 )
+  (   49  ? )
+  (   50  ? )
+  (   51 N-000208 )
+  (   52 GND )
+  (   53 N-000189 )
+  (   54 +5V )
+  (   55 N-000193 )
+  (   56 XTAL_I_5 )
+  (   57 CLK10MHz_5 )
+  (   58  ? )
+  (   59 RESERV1_5 )
+  (   60  ? )
+  (   61 CSIO-_5 )
+  (   62  ? )
+  (   63 PCA2_5 )
+  (   64 PCA1_8 )
+  (   65 PC_A0_4 )
+  (   66 +5V )
+  (   67 GND )
+  (   68  ? )
+  (   69 WRCAD-_8 )
+  (   70 BT812_WR-_1 )
+  (   71 BT812_RD-_4 )
+  (   72 RDCDA-_8 )
+  (   73 WRCDA-_1 )
+  (   74 RDCAD-_8 )
+  (   75 N-000191 )
+  (   76  ? )
+  (   77 N-000192 )
+  (   78 +5V )
+  (   79  ? )
+  (   80 GND )
+  (   81 LED_5 )
+  (   82 N-000207 )
+  (   83 X_DONE_2 )
+  (   84 X_PROG-_5 )
+  (   85 X_DIN_5 )
+  (   86 X_CLK_2 )
+  (   87 N-000206 )
+  (   88 DQ14_5 )
+  (   89 DQ15_5 )
+  (   90 DPC13_2 )
+  (   91 GND )
+  (   92 +5V )
+  (   93 DQ12_5 )
+  (   94 DQ11_7 )
+  (   95 DQ10_5 )
+  (   96 DQ9_7 )
+  (   97 DQ8_7 )
+  (   98  ? )
+  (   99  ? )
+  (  100  ? )
+ )
+ ( 33AFD8EF $noname C73 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 33AFD8ED $noname C72 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 33AFD8E9 $noname C71 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 33AFD8AF $noname C70 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 33A805F8 $noname U2 4C4001 {Lib=4C4001}
+  (    1 ID0_5 )
+  (    2 ID1_5 )
+  (    3 IWR-_5 )
+  (    4 IRAS-_5 )
+  (    5 IA9_5 )
+  (    6 IA0_5 )
+  (    7 IA1_5 )
+  (    8 IA2_5 )
+  (    9 IA3_5 )
+  (   10 +5V )
+  (   11 IA4_5 )
+  (   12 IA5_5 )
+  (   13 IA6_5 )
+  (   14 IA7_5 )
+  (   15 IA8_5 )
+  (   16 IOE-_5 )
+  (   17 ICAS-_5 )
+  (   18 ID2_5 )
+  (   19 ID3_5 )
+  (   20 GND )
+ )
+ ( 33A7E0C8 $noname P4 CONN_2 {Lib=CONN_2}
+  (    1 N-000188 )
+  (    2 GND )
+ )
+ ( 33A7E0B2 $noname R48 10K {Lib=R}
+  (    1 +5V )
+  (    2 N-000188 )
+ )
+ ( 33A7DFAB $noname P5 CONN_5 {Lib=CONN_5}
+  (    1 GND )
+  (    2 N-000192 )
+  (    3 N-000191 )
+  (    4 N-000189 )
+  (    5 N-000193 )
+ )
+ ( 33A7DDDD $noname U21 XC1736APD8 {Lib=XC1736APD8}
+  (    1 N-000191 )
+  (    2 N-000192 )
+  (    3 N-000193 )
+  (    4 N-000193 )
+  (    5 GND )
+  (    6  ? )
+  (    7 +5V )
+  (    8 +5V )
+ )
+ ( 33A7DCE3 $noname R1 10 {Lib=R}
+  (    1 VOSC_5 )
+  (    2 +5V )
+ )
+ ( 33A7DC91 $noname C23 100nF {Lib=C}
+  (    1 VOSC_5 )
+  (    2 GND )
+ )
+ ( 3366016A $noname U24 XC4005-PQ160 {Lib=XC4005-PQ160}
+  (    1 GND )
+  (    2 CLK10MHz_5 )
+  (    3 PTRDY-_7 )
+  (    4 PTATN-_1 )
+  (    5 PTBURST-_5 )
+  (    6 HDREFOUT_5 )
+  (    7 HDOUT_5 )
+  (   10 GND )
+  (   11 X_IRQ_1 )
+  (   12 PTWR_5 )
+  (   13 CSYNC-OUT_3 )
+  (   14 PTADR-_5 )
+  (   15 RDEMPTY_1 )
+  (   16 RDFIFO-_1 )
+  (   17 WRFULL_5 )
+  (   18 WRFIFO-_7 )
+  (   19 GND )
+  (   20 +5V )
+  (   21 DPC0_2 )
+  (   22 DPC1_8 )
+  (   23 DQ2_5 )
+  (   24 DPC3_8 )
+  (   25 DQ4_7 )
+  (   26 DQ5_7 )
+  (   27 DPC6_8 )
+  (   28 DPC7_8 )
+  (   29 GND )
+  (   32 DQ8_7 )
+  (   33 DQ9_7 )
+  (   34 DQ10_5 )
+  (   35 DQ11_7 )
+  (   36 DQ12_5 )
+  (   37 VD_PAL-_5 )
+  (   38 +5V )
+  (   39 GND )
+  (   40 +5V )
+  (   41 +5V )
+  (   42 +5V )
+  (   43 F_PALIN_5 )
+  (   44 RESERV1_5 )
+  (   45 DPC13_2 )
+  (   46 DQ14_5 )
+  (   47 DQ15_5 )
+  (   48 ACQ_ON_2 )
+  (   51 GND )
+  (   52 HD_PAL-_1 )
+  (   53 BLANK-_1 )
+  (   54 CSYNCIN-_8 )
+  (   55 WRITE_RAM_1 )
+  (   56 ACCES_RAM-_2 )
+  (   57 CAS0-_6 )
+  (   58 CAS1-_1 )
+  (   59 CAS2-_1 )
+  (   60 +5V )
+  (   61 GND )
+  (   62 CAS3-_6 )
+  (   63 WRAM-_6 )
+  (   64 RAS7-_6 )
+  (   65 RAS6-_6 )
+  (   66 RAS5-_6 )
+  (   67 RAS4-_6 )
+  (   68 RAS3-_5 )
+  (   69 RAS2-_1 )
+  (   70 GND )
+  (   73 RAS1-_1 )
+  (   74 RAS0-_1 )
+  (   75 CLAMP_1 )
+  (   76 CDACLK_5 )
+  (   77 CLKCAD_1 )
+  (   78 IA7_5 )
+  (   79 GND )
+  (   80 X_DONE_2 )
+  (   81 +5V )
+  (   82 X_PROG-_5 )
+  (   83 IA6_5 )
+  (   84  ? )
+  (   85 IA5_5 )
+  (   86 IA4_5 )
+  (   87 IA3_5 )
+  (   88 IA2_5 )
+  (   91 GND )
+  (   92 IA1_5 )
+  (   93 IA8_5 )
+  (   94 IA0_5 )
+  (   95 14MHZOUT_5 )
+  (   96 IA9_5 )
+  (   97 IRAS-_5 )
+  (   98 IWR-_5 )
+  (   99 ID1_5 )
+  (  100 +5V )
+  (  101 GND )
+  (  102 ID0_5 )
+  (  103 IOE-_5 )
+  (  104 ICAS-_5 )
+  (  105 ID2_5 )
+  (  106 ID3_5 )
+  (  107 TVI1_8 )
+  (  108 TVI0_8 )
+  (  109 MXA10_6 )
+  (  110 GND )
+  (  113 MXA9_6 )
+  (  114 MXA8_5 )
+  (  115 MXA7_6 )
+  (  116 MXA6_6 )
+  (  117 X_DIN_5 )
+  (  118 X_DOUT_5 )
+  (  119 X_CLK_2 )
+  (  120 +5V )
+  (  121  ? )
+  (  122 GND )
+  (  123 MXA5_6 )
+  (  124 MXA4_6 )
+  (  125 MXA3_6 )
+  (  126 MXA2_6 )
+  (  127 MXA1_6 )
+  (  128 MXA0_6 )
+  (  131 GND )
+  (  132 /PCWR_1 )
+  (  133 /PCRD_1 )
+  (  134 IRQ_SRL_7 )
+  (  135 SELECT-_5 )
+  (  137 ADR2_5 )
+  (  138 ADR3_5 )
+  (  139 ADR4_5 )
+  (  140 ADR5_5 )
+  (  141 GND )
+  (  142 +5V )
+  (  143 ADR6_5 )
+  (  144 BE-0_5 )
+  (  145 BE-1_5 )
+  (  146 BE-2_7 )
+  (  147 BE-3_5 )
+  (  148 RESET-_4 )
+  (  149 IRQ-_7 )
+  (  150 PTNUM0_5 )
+  (  151 GND )
+  (  154 PTNUM1_7 )
+  (  155 PTBE-3_7 )
+  (  156 PTBE-2_7 )
+  (  157 PTBE-1_5 )
+  (  158 PTBE-0_5 )
+  (  159 CSIO-_5 )
+  (  160 +5V )
+ )
+ ( 2D5AA03C $noname R13 1K {Lib=R}
+  (    1 +5V )
+  (    2 N-000197 )
+ )
+ ( 2D5AA041 $noname D6 LED {Lib=LED}
+  (    1 N-000197 )
+  (    2 LED_5 )
+ )
+ ( B3BF4EDE $noname C49 22pF {Lib=C}
+  (    1 N-000199 )
+  (    2 GND )
+ )
+ ( B3BF4EE8 $noname C50 22pF {Lib=C}
+  (    1 XTAL_I_5 )
+  (    2 GND )
+ )
+ ( B3BF4ED4 $noname X1 10MHz {Lib=CRYSTAL}
+  (    1 N-000199 )
+  (    2 XTAL_I_5 )
+ )
+ ( B3BF4ED9 $noname R26 220K {Lib=R}
+  (    1 XTAL_I_5 )
+  (    2 N-000199 )
+ )
+ ( BF805547 $noname C17 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( BF80554C $noname C18 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( BF805551 $noname C19 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( BF805556 $noname C20 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( B9ED7AB0 $noname C56 4,7uF {Lib=CP}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( B9ED7AB5 $noname C57 4,7uF {Lib=CP}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 228C4700 $noname C63 47uF {Lib=CP}
+  (    1 VOSC_5 )
+  (    2 GND )
+ )
+ ( 2295D392 $noname U7 AV9173 {Lib=AV9173}
+  (    1 HDOUT_5 )
+  (    2 HDREFOUT_5 )
+  (    3 GND )
+  (    4 VOSC_5 )
+  (    5 VOSC_5 )
+  (    6 14MHZOUT_5 )
+  (    7 VOSC_5 )
+  (    8  ? )
+ )
+ ( 268A4E88 $noname C22 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 268A4E83 $noname C21 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 525FE207 $noname R21 220 {Lib=R}
+  (    1 N-000199 )
+  (    2 CLK10MHz_5 )
+ )
+ ( 32FA1E5B $noname U13 SIM4X32 {Lib=SIM4X32}
+  (    1 GND )
+  (    2 TVRAM0_6 )
+  (    3 TVRAM16_6 )
+  (    4 TVRAM1_6 )
+  (    5 TVRAM17_6 )
+  (    6 VRAM2_2 )
+  (    7 TVRAM18_6 )
+  (    8 TVRAM3_6 )
+  (    9 TVRAM19_6 )
+  (   10 +5V )
+  (   12 MXA0_6 )
+  (   13 MXA1_6 )
+  (   14 MXA2_6 )
+  (   15 MXA3_6 )
+  (   16 MXA4_6 )
+  (   17 MXA5_6 )
+  (   18 MXA6_6 )
+  (   19 MXA10_6 )
+  (   20 TVRAM4_6 )
+  (   21 TVRAM20_6 )
+  (   22 VRAM5_2 )
+  (   23 TVRAM21_6 )
+  (   24 TVRAM6_6 )
+  (   25 TVRAM22_6 )
+  (   26 TVRAM7_6 )
+  (   27 TVRAM23_6 )
+  (   28 MXA7_6 )
+  (   30 +5V )
+  (   31 MXA8_5 )
+  (   32 MXA9_6 )
+  (   34 RAS7-_6 )
+  (   39 GND )
+  (   40 CAS0-_6 )
+  (   41 CAS1-_1 )
+  (   42 CAS2-_1 )
+  (   43 CAS3-_6 )
+  (   44 RAS7-_6 )
+  (   47 WRAM-_6 )
+  (   49 TVRAM8_6 )
+  (   50 VRAM24_2 )
+  (   51 VRAM9_2 )
+  (   52 TVRAM25_6 )
+  (   53 TVRAM10_6 )
+  (   54 TVRAM26_6 )
+  (   55 TVRAM11_6 )
+  (   56 TVRAM27_6 )
+  (   57 TVRAM12_6 )
+  (   58 VRAM28_2 )
+  (   59 +5V )
+  (   60 TVRAM29_6 )
+  (   61 VRAM13_2 )
+  (   62 VRAM30_2 )
+  (   63 TVRAM14_6 )
+  (   64 TVRAM31_6 )
+  (   65 TVRAM15_6 )
+  (   67  ? )
+  (   68  ? )
+  (   69  ? )
+  (   70  ? )
+  (   72 GND )
+ )
+ ( 32FA1E5B $noname U14 SIM4X32 {Lib=SIM4X32}
+  (    1 GND )
+  (    2 TVRAM0_6 )
+  (    3 TVRAM16_6 )
+  (    4 TVRAM1_6 )
+  (    5 TVRAM17_6 )
+  (    6 VRAM2_2 )
+  (    7 TVRAM18_6 )
+  (    8 TVRAM3_6 )
+  (    9 TVRAM19_6 )
+  (   10 +5V )
+  (   12 MXA0_6 )
+  (   13 MXA1_6 )
+  (   14 MXA2_6 )
+  (   15 MXA3_6 )
+  (   16 MXA4_6 )
+  (   17 MXA5_6 )
+  (   18 MXA6_6 )
+  (   19 MXA10_6 )
+  (   20 TVRAM4_6 )
+  (   21 TVRAM20_6 )
+  (   22 VRAM5_2 )
+  (   23 TVRAM21_6 )
+  (   24 TVRAM6_6 )
+  (   25 TVRAM22_6 )
+  (   26 TVRAM7_6 )
+  (   27 TVRAM23_6 )
+  (   28 MXA7_6 )
+  (   30 +5V )
+  (   31 MXA8_5 )
+  (   32 MXA9_6 )
+  (   34 RAS6-_6 )
+  (   39 GND )
+  (   40 CAS0-_6 )
+  (   41 CAS1-_1 )
+  (   42 CAS2-_1 )
+  (   43 CAS3-_6 )
+  (   44 RAS6-_6 )
+  (   47 WRAM-_6 )
+  (   49 TVRAM8_6 )
+  (   50 VRAM24_2 )
+  (   51 VRAM9_2 )
+  (   52 TVRAM25_6 )
+  (   53 TVRAM10_6 )
+  (   54 TVRAM26_6 )
+  (   55 TVRAM11_6 )
+  (   56 TVRAM27_6 )
+  (   57 TVRAM12_6 )
+  (   58 VRAM28_2 )
+  (   59 +5V )
+  (   60 TVRAM29_6 )
+  (   61 VRAM13_2 )
+  (   62 VRAM30_2 )
+  (   63 TVRAM14_6 )
+  (   64 TVRAM31_6 )
+  (   65 TVRAM15_6 )
+  (   67  ? )
+  (   68  ? )
+  (   69  ? )
+  (   70  ? )
+  (   72 GND )
+ )
+ ( 32FA1E5B $noname U12 SIM4X32 {Lib=SIM4X32}
+  (    1 GND )
+  (    2 TVRAM0_6 )
+  (    3 TVRAM16_6 )
+  (    4 TVRAM1_6 )
+  (    5 TVRAM17_6 )
+  (    6 VRAM2_2 )
+  (    7 TVRAM18_6 )
+  (    8 TVRAM3_6 )
+  (    9 TVRAM19_6 )
+  (   10 +5V )
+  (   12 MXA0_6 )
+  (   13 MXA1_6 )
+  (   14 MXA2_6 )
+  (   15 MXA3_6 )
+  (   16 MXA4_6 )
+  (   17 MXA5_6 )
+  (   18 MXA6_6 )
+  (   19 MXA10_6 )
+  (   20 TVRAM4_6 )
+  (   21 TVRAM20_6 )
+  (   22 VRAM5_2 )
+  (   23 TVRAM21_6 )
+  (   24 TVRAM6_6 )
+  (   25 TVRAM22_6 )
+  (   26 TVRAM7_6 )
+  (   27 TVRAM23_6 )
+  (   28 MXA7_6 )
+  (   30 +5V )
+  (   31 MXA8_5 )
+  (   32 MXA9_6 )
+  (   34 RAS5-_6 )
+  (   39 GND )
+  (   40 CAS0-_6 )
+  (   41 CAS1-_1 )
+  (   42 CAS2-_1 )
+  (   43 CAS3-_6 )
+  (   44 RAS5-_6 )
+  (   47 WRAM-_6 )
+  (   49 TVRAM8_6 )
+  (   50 VRAM24_2 )
+  (   51 VRAM9_2 )
+  (   52 TVRAM25_6 )
+  (   53 TVRAM10_6 )
+  (   54 TVRAM26_6 )
+  (   55 TVRAM11_6 )
+  (   56 TVRAM27_6 )
+  (   57 TVRAM12_6 )
+  (   58 VRAM28_2 )
+  (   59 +5V )
+  (   60 TVRAM29_6 )
+  (   61 VRAM13_2 )
+  (   62 VRAM30_2 )
+  (   63 TVRAM14_6 )
+  (   64 TVRAM31_6 )
+  (   65 TVRAM15_6 )
+  (   67  ? )
+  (   68  ? )
+  (   69  ? )
+  (   70  ? )
+  (   72 GND )
+ )
+ ( 32FA1E5B $noname U16 SIM4X32 {Lib=SIM4X32}
+  (    1 GND )
+  (    2 TVRAM0_6 )
+  (    3 TVRAM16_6 )
+  (    4 TVRAM1_6 )
+  (    5 TVRAM17_6 )
+  (    6 VRAM2_2 )
+  (    7 TVRAM18_6 )
+  (    8 TVRAM3_6 )
+  (    9 TVRAM19_6 )
+  (   10 +5V )
+  (   12 MXA0_6 )
+  (   13 MXA1_6 )
+  (   14 MXA2_6 )
+  (   15 MXA3_6 )
+  (   16 MXA4_6 )
+  (   17 MXA5_6 )
+  (   18 MXA6_6 )
+  (   19 MXA10_6 )
+  (   20 TVRAM4_6 )
+  (   21 TVRAM20_6 )
+  (   22 VRAM5_2 )
+  (   23 TVRAM21_6 )
+  (   24 TVRAM6_6 )
+  (   25 TVRAM22_6 )
+  (   26 TVRAM7_6 )
+  (   27 TVRAM23_6 )
+  (   28 MXA7_6 )
+  (   30 +5V )
+  (   31 MXA8_5 )
+  (   32 MXA9_6 )
+  (   34 RAS4-_6 )
+  (   39 GND )
+  (   40 CAS0-_6 )
+  (   41 CAS1-_1 )
+  (   42 CAS2-_1 )
+  (   43 CAS3-_6 )
+  (   44 RAS4-_6 )
+  (   47 WRAM-_6 )
+  (   49 TVRAM8_6 )
+  (   50 VRAM24_2 )
+  (   51 VRAM9_2 )
+  (   52 TVRAM25_6 )
+  (   53 TVRAM10_6 )
+  (   54 TVRAM26_6 )
+  (   55 TVRAM11_6 )
+  (   56 TVRAM27_6 )
+  (   57 TVRAM12_6 )
+  (   58 VRAM28_2 )
+  (   59 +5V )
+  (   60 TVRAM29_6 )
+  (   61 VRAM13_2 )
+  (   62 VRAM30_2 )
+  (   63 TVRAM14_6 )
+  (   64 TVRAM31_6 )
+  (   65 TVRAM15_6 )
+  (   67  ? )
+  (   68  ? )
+  (   69  ? )
+  (   70  ? )
+  (   72 GND )
+ )
+ ( 32FA1E5B $noname U15 SIM4X32 {Lib=SIM4X32}
+  (    1 GND )
+  (    2 TVRAM0_6 )
+  (    3 TVRAM16_6 )
+  (    4 TVRAM1_6 )
+  (    5 TVRAM17_6 )
+  (    6 VRAM2_2 )
+  (    7 TVRAM18_6 )
+  (    8 TVRAM3_6 )
+  (    9 TVRAM19_6 )
+  (   10 +5V )
+  (   12 MXA0_6 )
+  (   13 MXA1_6 )
+  (   14 MXA2_6 )
+  (   15 MXA3_6 )
+  (   16 MXA4_6 )
+  (   17 MXA5_6 )
+  (   18 MXA6_6 )
+  (   19 MXA10_6 )
+  (   20 TVRAM4_6 )
+  (   21 TVRAM20_6 )
+  (   22 VRAM5_2 )
+  (   23 TVRAM21_6 )
+  (   24 TVRAM6_6 )
+  (   25 TVRAM22_6 )
+  (   26 TVRAM7_6 )
+  (   27 TVRAM23_6 )
+  (   28 MXA7_6 )
+  (   30 +5V )
+  (   31 MXA8_5 )
+  (   32 MXA9_6 )
+  (   34 RAS3-_5 )
+  (   39 GND )
+  (   40 CAS0-_6 )
+  (   41 CAS1-_1 )
+  (   42 CAS2-_1 )
+  (   43 CAS3-_6 )
+  (   44 RAS3-_5 )
+  (   47 WRAM-_6 )
+  (   49 TVRAM8_6 )
+  (   50 VRAM24_2 )
+  (   51 VRAM9_2 )
+  (   52 TVRAM25_6 )
+  (   53 TVRAM10_6 )
+  (   54 TVRAM26_6 )
+  (   55 TVRAM11_6 )
+  (   56 TVRAM27_6 )
+  (   57 TVRAM12_6 )
+  (   58 VRAM28_2 )
+  (   59 +5V )
+  (   60 TVRAM29_6 )
+  (   61 VRAM13_2 )
+  (   62 VRAM30_2 )
+  (   63 TVRAM14_6 )
+  (   64 TVRAM31_6 )
+  (   65 TVRAM15_6 )
+  (   67  ? )
+  (   68  ? )
+  (   69  ? )
+  (   70  ? )
+  (   72 GND )
+ )
+ ( 32FA1E5B $noname U17 SIM4X32 {Lib=SIM4X32}
+  (    1 GND )
+  (    2 TVRAM0_6 )
+  (    3 TVRAM16_6 )
+  (    4 TVRAM1_6 )
+  (    5 TVRAM17_6 )
+  (    6 VRAM2_2 )
+  (    7 TVRAM18_6 )
+  (    8 TVRAM3_6 )
+  (    9 TVRAM19_6 )
+  (   10 +5V )
+  (   12 MXA0_6 )
+  (   13 MXA1_6 )
+  (   14 MXA2_6 )
+  (   15 MXA3_6 )
+  (   16 MXA4_6 )
+  (   17 MXA5_6 )
+  (   18 MXA6_6 )
+  (   19 MXA10_6 )
+  (   20 TVRAM4_6 )
+  (   21 TVRAM20_6 )
+  (   22 VRAM5_2 )
+  (   23 TVRAM21_6 )
+  (   24 TVRAM6_6 )
+  (   25 TVRAM22_6 )
+  (   26 TVRAM7_6 )
+  (   27 TVRAM23_6 )
+  (   28 MXA7_6 )
+  (   30 +5V )
+  (   31 MXA8_5 )
+  (   32 MXA9_6 )
+  (   34 RAS2-_1 )
+  (   39 GND )
+  (   40 CAS0-_6 )
+  (   41 CAS1-_1 )
+  (   42 CAS2-_1 )
+  (   43 CAS3-_6 )
+  (   44 RAS2-_1 )
+  (   47 WRAM-_6 )
+  (   49 TVRAM8_6 )
+  (   50 VRAM24_2 )
+  (   51 VRAM9_2 )
+  (   52 TVRAM25_6 )
+  (   53 TVRAM10_6 )
+  (   54 TVRAM26_6 )
+  (   55 TVRAM11_6 )
+  (   56 TVRAM27_6 )
+  (   57 TVRAM12_6 )
+  (   58 VRAM28_2 )
+  (   59 +5V )
+  (   60 TVRAM29_6 )
+  (   61 VRAM13_2 )
+  (   62 VRAM30_2 )
+  (   63 TVRAM14_6 )
+  (   64 TVRAM31_6 )
+  (   65 TVRAM15_6 )
+  (   67  ? )
+  (   68  ? )
+  (   69  ? )
+  (   70  ? )
+  (   72 GND )
+ )
+ ( 32FA1E5B $noname U18 SIM4X32 {Lib=SIM4X32}
+  (    1 GND )
+  (    2 TVRAM0_6 )
+  (    3 TVRAM16_6 )
+  (    4 TVRAM1_6 )
+  (    5 TVRAM17_6 )
+  (    6 VRAM2_2 )
+  (    7 TVRAM18_6 )
+  (    8 TVRAM3_6 )
+  (    9 TVRAM19_6 )
+  (   10 +5V )
+  (   12 MXA0_6 )
+  (   13 MXA1_6 )
+  (   14 MXA2_6 )
+  (   15 MXA3_6 )
+  (   16 MXA4_6 )
+  (   17 MXA5_6 )
+  (   18 MXA6_6 )
+  (   19 MXA10_6 )
+  (   20 TVRAM4_6 )
+  (   21 TVRAM20_6 )
+  (   22 VRAM5_2 )
+  (   23 TVRAM21_6 )
+  (   24 TVRAM6_6 )
+  (   25 TVRAM22_6 )
+  (   26 TVRAM7_6 )
+  (   27 TVRAM23_6 )
+  (   28 MXA7_6 )
+  (   30 +5V )
+  (   31 MXA8_5 )
+  (   32 MXA9_6 )
+  (   34 RAS1-_1 )
+  (   39 GND )
+  (   40 CAS0-_6 )
+  (   41 CAS1-_1 )
+  (   42 CAS2-_1 )
+  (   43 CAS3-_6 )
+  (   44 RAS1-_1 )
+  (   47 WRAM-_6 )
+  (   49 TVRAM8_6 )
+  (   50 VRAM24_2 )
+  (   51 VRAM9_2 )
+  (   52 TVRAM25_6 )
+  (   53 TVRAM10_6 )
+  (   54 TVRAM26_6 )
+  (   55 TVRAM11_6 )
+  (   56 TVRAM27_6 )
+  (   57 TVRAM12_6 )
+  (   58 VRAM28_2 )
+  (   59 +5V )
+  (   60 TVRAM29_6 )
+  (   61 VRAM13_2 )
+  (   62 VRAM30_2 )
+  (   63 TVRAM14_6 )
+  (   64 TVRAM31_6 )
+  (   65 TVRAM15_6 )
+  (   67  ? )
+  (   68  ? )
+  (   69  ? )
+  (   70  ? )
+  (   72 GND )
+ )
+ ( 32FA1E5B $noname U19 SIM4X32 {Lib=SIM4X32}
+  (    1 GND )
+  (    2 TVRAM0_6 )
+  (    3 TVRAM16_6 )
+  (    4 TVRAM1_6 )
+  (    5 TVRAM17_6 )
+  (    6 VRAM2_2 )
+  (    7 TVRAM18_6 )
+  (    8 TVRAM3_6 )
+  (    9 TVRAM19_6 )
+  (   10 +5V )
+  (   12 MXA0_6 )
+  (   13 MXA1_6 )
+  (   14 MXA2_6 )
+  (   15 MXA3_6 )
+  (   16 MXA4_6 )
+  (   17 MXA5_6 )
+  (   18 MXA6_6 )
+  (   19 MXA10_6 )
+  (   20 TVRAM4_6 )
+  (   21 TVRAM20_6 )
+  (   22 VRAM5_2 )
+  (   23 TVRAM21_6 )
+  (   24 TVRAM6_6 )
+  (   25 TVRAM22_6 )
+  (   26 TVRAM7_6 )
+  (   27 TVRAM23_6 )
+  (   28 MXA7_6 )
+  (   30 +5V )
+  (   31 MXA8_5 )
+  (   32 MXA9_6 )
+  (   34 RAS0-_1 )
+  (   39 GND )
+  (   40 CAS0-_6 )
+  (   41 CAS1-_1 )
+  (   42 CAS2-_1 )
+  (   43 CAS3-_6 )
+  (   44 RAS0-_1 )
+  (   47 WRAM-_6 )
+  (   49 TVRAM8_6 )
+  (   50 VRAM24_2 )
+  (   51 VRAM9_2 )
+  (   52 TVRAM25_6 )
+  (   53 TVRAM10_6 )
+  (   54 TVRAM26_6 )
+  (   55 TVRAM11_6 )
+  (   56 TVRAM27_6 )
+  (   57 TVRAM12_6 )
+  (   58 VRAM28_2 )
+  (   59 +5V )
+  (   60 TVRAM29_6 )
+  (   61 VRAM13_2 )
+  (   62 VRAM30_2 )
+  (   63 TVRAM14_6 )
+  (   64 TVRAM31_6 )
+  (   65 TVRAM15_6 )
+  (   67  ? )
+  (   68  ? )
+  (   69  ? )
+  (   70  ? )
+  (   72 GND )
+ )
+ ( 33AFD43A $noname C69 4,7uF {Lib=CP}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( 33AFD420 $noname C68 4,7uF {Lib=CP}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( 33AFD420 $noname C67 4,7uF {Lib=CP}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 21FA8347 $noname U11 S5933_PQ160 {Lib=S5933_PQ160}
+  (    1 EQ0_7 )
+  (    2 P_AD23_7 )
+  (    3 P_AD22_7 )
+  (    4 P_AD21_7 )
+  (    5 DQ31_7 )
+  (    6 P_AD20_7 )
+  (    7 P_AD19_7 )
+  (    8 P_AD18_7 )
+  (    9 EQ1_7 )
+  (   10 GND )
+  (   11 +5V )
+  (   12 P_AD17_7 )
+  (   13 DQ30_7 )
+  (   14 P_AD16_7 )
+  (   15 P_C/BE2#_7 )
+  (   16 P_FRAME#_7 )
+  (   17 EQ2_7 )
+  (   18 P_IRDY#_7 )
+  (   19 P_TRDY#_7 )
+  (   20 P_DEVSEL#_7 )
+  (   21 EQ3_7 )
+  (   22 P_STOP#_7 )
+  (   23 P_LOCK#_7 )
+  (   24 P_PERR#_7 )
+  (   25 DPC29_2 )
+  (   26 P_SERR#_7 )
+  (   27 P_PAR_7 )
+  (   28 P_C/BE1#_7 )
+  (   29 EQ4_7 )
+  (   30 GND )
+  (   31 +5V )
+  (   32 P_AD15_7 )
+  (   33 EQ5_7 )
+  (   34 P_AD14_7 )
+  (   35 P_AD13_7 )
+  (   36 P_AD12_7 )
+  (   37 DPC28_2 )
+  (   38 P_AD11_7 )
+  (   39 P_AD10_7 )
+  (   40 P_AD9_7 )
+  (   41 EQ6_7 )
+  (   42 P_AD8_7 )
+  (   43 P_C/BE0#_7 )
+  (   44 P_AD7_7 )
+  (   45 DQ27_7 )
+  (   46 P_AD6_7 )
+  (   47 P_AD5_7 )
+  (   48 P_AD4_7 )
+  (   49 EQ7_7 )
+  (   50 GND )
+  (   51 +5V )
+  (   52 P_AD3_7 )
+  (   53 DQ26_7 )
+  (   54 P_AD2_7 )
+  (   55 P_AD1_7 )
+  (   56 P_AD0_7 )
+  (   57 IRQ_SRL_7 )
+  (   58 P_INTA#_7 )
+  (   59 N-000271 )
+  (   60 BE-3_5 )
+  (   61 EA1_7 )
+  (   62 BE-2_7 )
+  (   63 BE-1_5 )
+  (   64 ADR5_5 )
+  (   65 DPC25_2 )
+  (   66 ADR4_5 )
+  (   67 ADR3_5 )
+  (   68 ADR2_5 )
+  (   69 EA2_7 )
+  (   70 GND )
+  (   71 +5V )
+  (   72 /PCRD_1 )
+  (   73 EA3_7 )
+  (   74 /PCWR_1 )
+  (   75 SELECT-_5 )
+  (   76 DQ15_5 )
+  (   77 DQ24_7 )
+  (   78 DQ14_5 )
+  (   79 DPC13_2 )
+  (   80 DQ12_5 )
+  (   81 EA4_7 )
+  (   82 DQ11_7 )
+  (   83 DQ10_5 )
+  (   84 DQ9_7 )
+  (   85 DPC23_2 )
+  (   86 DQ8_7 )
+  (   87 BE-0_5 )
+  (   88 DPC7_8 )
+  (   89 EA5_7 )
+  (   90 GND )
+  (   91 +5V )
+  (   92 DPC6_8 )
+  (   93 DQ22_7 )
+  (   94 DQ5_7 )
+  (   95 DQ4_7 )
+  (   96 DPC3_8 )
+  (   97 EA6_7 )
+  (   98 DQ2_5 )
+  (   99 DPC1_8 )
+  (  100 DPC0_2 )
+  (  101 EA7_7 )
+  (  102 WRFIFO-_7 )
+  (  103 WRFULL_5 )
+  (  104 RDFIFO-_1 )
+  (  105 DQ21_7 )
+  (  106 RDEMPTY_1 )
+  (  107 PTADR-_5 )
+  (  108 PTWR_5 )
+  (  109 X_IRQ_1 )
+  (  110 GND )
+  (  111 +5V )
+  (  112 PTBURST-_5 )
+  (  113 EA9_7 )
+  (  114 PTATN-_1 )
+  (  115 PTRDY-_7 )
+  (  116 PTBE-0_5 )
+  (  117 DPC20_2 )
+  (  118 PTBE-1_5 )
+  (  119 PTBE-2_7 )
+  (  120 PTBE-3_7 )
+  (  121 EA10_7 )
+  (  122 PTNUM1_7 )
+  (  123 PTNUM0_5 )
+  (  124 IRQ-_7 )
+  (  125 DQ19_7 )
+  (  126 RESET-_4 )
+  (  127 N-000342 )
+  (  128 N-000341 )
+  (  129 EA11_7 )
+  (  130 GND )
+  (  131 +5V )
+  (  132 ADR6_5 )
+  (  133 DQ18_7 )
+  (  135 N-000340 )
+  (  137 EA12_7 )
+  (  138 N-000339 )
+  (  139 P_RST#_7 )
+  (  140 BPCLK_1 )
+  (  141 EA13_7 )
+  (  142 P_CLK_7 )
+  (  143 P_GNT#_7 )
+  (  144 P_REQ#_7 )
+  (  145 DQ17_7 )
+  (  146 P_AD31_7 )
+  (  147 P_AD30_7 )
+  (  148 P_AD29_7 )
+  (  149 EA14_7 )
+  (  150 GND )
+  (  151 +5V )
+  (  152 P_AD28_7 )
+  (  153 EA15_7 )
+  (  154 P_AD27_7 )
+  (  155 P_AD26_7 )
+  (  156 P_AD25_7 )
+  (  157 DPC16_2 )
+  (  158 P_AD24_7 )
+  (  159 P_C/BE3#_7 )
+  (  160 P_IDSEL_7 )
+ )
+ ( 2691B632 $noname W4 TEST {Lib=TEST}
+  (    1 GND )
+  (    2 N-000285 )
+ )
+ ( 2691B637 $noname W5 TEST {Lib=TEST}
+  (    1 GND )
+  (    2 N-000287 )
+ )
+ ( 26A799E8 $noname R5 10K {Lib=R}
+  (    1 N-000271 )
+  (    2 +5V )
+ )
+ ( 26A79A01 $noname R6 10K {Lib=R}
+  (    1 N-000339 )
+  (    2 +5V )
+ )
+ ( 26A79A0B $noname R7 10K {Lib=R}
+  (    1 N-000340 )
+  (    2 +5V )
+ )
+ ( 26B211C0 $noname R28 2,2K {Lib=R}
+  (    1 +5V )
+  (    2 N-000341 )
+ )
+ ( 26B211CF $noname R29 2,2K {Lib=R}
+  (    1 +5V )
+  (    2 N-000342 )
+ )
+ ( 26B211D9 $noname C24 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 26B211E3 $noname C25 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 26B211ED $noname C26 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 26B211F7 $noname C27 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 26B21201 $noname C28 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 26B2120B $noname C29 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 26B21215 $noname C30 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 26B2121F $noname C31 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 2820F08A $noname C38 4,7uF {Lib=CP}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( 269C6109 $noname BUS1 BUSPCI_5V {Lib=BUSPCI-5V}
+  (  A62 +5V )
+  (  A61 +5V )
+  (  A60  ? )
+  (  A59 +5V )
+  (  A58 P_AD0_7 )
+  (  A57 P_AD2_7 )
+  (  A56 GND )
+  (  A55 P_AD4_7 )
+  (  A54 P_AD6_7 )
+  (  A53 +3.3V )
+  (  A52 P_C/BE0#_7 )
+  (  A49 P_AD9_7 )
+  (  A48 GND )
+  (  A47 P_AD11_7 )
+  (  A46 P_AD13_7 )
+  (  A45 +3.3V )
+  (  A44 P_AD15_7 )
+  (  A43 P_PAR_7 )
+  (  A42 GND )
+  (  A41  ? )
+  (  A40  ? )
+  (  A39 +3.3V )
+  (  A38 P_STOP#_7 )
+  (  A37 GND )
+  (  A36 P_TRDY#_7 )
+  (  A35 GND )
+  (  A34 P_FRAME#_7 )
+  (  A33 +3.3V )
+  (  A32 P_AD16_7 )
+  (  A31 P_AD18_7 )
+  (  A30 GND )
+  (  A29 P_AD20_7 )
+  (  A28 P_AD22_7 )
+  (  A25 P_AD24_7 )
+  (  A27 +3.3V )
+  (  A26 P_IDSEL_7 )
+  (  A24 GND )
+  (  A23 P_AD26_7 )
+  (  A22 P_AD28_7 )
+  (  A21 +3.3V )
+  (  A20 P_AD30_7 )
+  (  A19  ? )
+  (  A18 GND )
+  (  A17 P_GNT#_7 )
+  (  A16 +5V )
+  (  A15 P_RST#_7 )
+  (  A14  ? )
+  (  A13 GND )
+  (  A12 GND )
+  (  A11  ? )
+  (  A10 +5V )
+  (   A9  ? )
+  (   A8 +5V )
+  (   A7  ? )
+  (   A6 P_INTA#_7 )
+  (   A5 +5V )
+  (   A4 N-000280 )
+  (   A3  ? )
+  (   A2 +12V )
+  (   A1  ? )
+  (  B62 +5V )
+  (  B61 +5V )
+  (  B60  ? )
+  (  B59 +5V )
+  (  B58 P_AD1_7 )
+  (  B57 GND )
+  (  B56 P_AD3_7 )
+  (  B55 P_AD5_7 )
+  (  B54 +3.3V )
+  (  B53 P_AD7_7 )
+  (  B52 P_AD8_7 )
+  (  B49 GND )
+  (  B48 P_AD10_7 )
+  (  B47 P_AD12_7 )
+  (  B46 GND )
+  (  B45 P_AD14_7 )
+  (  B44 P_C/BE1#_7 )
+  (  B43 +3.3V )
+  (  B42 P_SERR#_7 )
+  (  B41 +3.3V )
+  (  B40 P_PERR#_7 )
+  (  B39 P_LOCK#_7 )
+  (  B38 GND )
+  (  B37 P_DEVSEL#_7 )
+  (  B36 +3.3V )
+  (  B35 P_IRDY#_7 )
+  (  B34 GND )
+  (  B33 P_C/BE2#_7 )
+  (  B32 P_AD17_7 )
+  (  B31 +3.3V )
+  (  B30 P_AD19_7 )
+  (  B29 P_AD21_7 )
+  (  B28 GND )
+  (  B27 P_AD23_7 )
+  (  B26 P_C/BE3#_7 )
+  (  B25 +3.3V )
+  (  B24 P_AD25_7 )
+  (  B23 P_AD27_7 )
+  (  B22 GND )
+  (  B21 P_AD29_7 )
+  (  B20 P_AD31_7 )
+  (  B19 +5V )
+  (  B18 P_REQ#_7 )
+  (  B17 GND )
+  (  B16 P_CLK_7 )
+  (  B15 GND )
+  (  B14  ? )
+  (  B13 GND )
+  (  B12 GND )
+  (  B11 N-000285 )
+  (  B10  ? )
+  (   B9 N-000287 )
+  (   B8  ? )
+  (   B7  ? )
+  (   B6 +5V )
+  (   B5 +5V )
+  (   B4 N-000280 )
+  (   B3 GND )
+  (   B2  ? )
+  (   B1  ? )
+ )
+ ( 2F5F7E5C $noname U1 24C16 {Lib=24C16}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 N-000342 )
+  (    6 N-000341 )
+  (    7 +5V )
+  (    8 +5V )
+ )
+ ( C8AF8090 $noname RR1 8x10K {Lib=RR8}
+  (    1 +5V )
+  (    2 EQ0_7 )
+  (    3 DQ31_7 )
+  (    4 EQ1_7 )
+  (    5 DQ30_7 )
+  (    6 EQ2_7 )
+  (    7 EQ3_7 )
+  (    8 DPC29_2 )
+  (    9 EQ4_7 )
+ )
+ ( C8B01EF2 $noname RR2 8x10K {Lib=RR8}
+  (    1 +5V )
+  (    2 EQ6_7 )
+  (    3 DPC28_2 )
+  (    4 EQ5_7 )
+  (    5 DQ27_7 )
+  (    6 EA1_7 )
+  (    7 IRQ_SRL_7 )
+  (    8 DQ26_7 )
+  (    9 EQ7_7 )
+ )
+ ( C8B23B9F $noname RR3 8x10K {Lib=RR8}
+  (    1 +5V )
+  (    2 EA4_7 )
+  (    3 DQ24_7 )
+  (    4 SELECT-_5 )
+  (    5 /PCWR_1 )
+  (    6 EA3_7 )
+  (    7 /PCRD_1 )
+  (    8 EA2_7 )
+  (    9 DPC25_2 )
+ )
+ ( C8B2B4CE $noname RR4 8x10K {Lib=RR8}
+  (    1 +5V )
+  (    2 EA6_7 )
+  (    3 DQ22_7 )
+  (    4 EA5_7 )
+  (    5 DPC23_2 )
+  (    6 EA15_7 )
+  (    7 DPC16_2 )
+  (    8 EA14_7 )
+  (    9 DQ17_7 )
+ )
+ ( C8B2B4E3 $noname RR5 8x10K {Lib=RR8}
+  (    1 +5V )
+  (    2 PTATN-_1 )
+  (    3 EA9_7 )
+  (    4 X_IRQ_1 )
+  (    5 PTADR-_5 )
+  (    6 DQ21_7 )
+  (    7 RDFIFO-_1 )
+  (    8 WRFIFO-_7 )
+  (    9 EA7_7 )
+ )
+ ( C93123CE $noname RR6 8x10K {Lib=RR8}
+  (    1 +5V )
+  (    2 PTRDY-_7 )
+  (    3 DPC20_2 )
+  (    4 EA13_7 )
+  (    5 EA12_7 )
+  (    6 DQ18_7 )
+  (    7 EA11_7 )
+  (    8 DQ19_7 )
+  (    9 EA10_7 )
+ )
+ ( C931248E $noname RR7 8x10K {Lib=RR8}
+  (    1 +5V )
+  (    2 DPC0_2 )
+  (    3 DPC1_8 )
+  (    4 DQ2_5 )
+  (    5 DPC3_8 )
+  (    6 DQ4_7 )
+  (    7 DQ5_7 )
+  (    8 DPC6_8 )
+  (    9 DPC7_8 )
+ )
+ ( C9363A3F $noname RR8 8x10K {Lib=RR8}
+  (    1 +5V )
+  (    2 DQ15_5 )
+  (    3 DQ14_5 )
+  (    4 DPC13_2 )
+  (    5 DQ12_5 )
+  (    6 DQ11_7 )
+  (    7 DQ10_5 )
+  (    8 DQ9_7 )
+  (    9 DQ8_7 )
+ )
+ ( 26A799F7 $noname W2 FLOAT# {Lib=TEST}
+  (    1 GND )
+  (    2 N-000339 )
+ )
+ ( 26A79A10 $noname W3 SERNV {Lib=TEST}
+  (    1 GND )
+  (    2 N-000340 )
+ )
+ ( 26A799ED $noname W1 16/32 {Lib=TEST}
+  (    1 GND )
+  (    2 N-000271 )
+ )
+ ( 335F5DF2 $noname C32 100nF {Lib=C}
+  (    1 GND )
+  (    2 N-000344 )
+ )
+ ( A4586827 $noname R8 150 {Lib=R}
+  (    1 N-000369 )
+  (    2 GND )
+ )
+ ( 32F9E902 $noname U9 BT473 {Lib=BT473}
+  (    1 VAA_8 )
+  (    2 VAA_8 )
+  (    3 GND )
+  (    4 GND )
+  (    5  ? )
+  (    6  ? )
+  (    7 BLANK-_1 )
+  (    8 CSYNC-OUT_3 )
+  (    9 CDACLK_5 )
+  (   10 TVI0_8 )
+  (   11 TVI1_8 )
+  (   12 GND )
+  (   13 GND )
+  (   14 DPC0_2 )
+  (   15 DPC1_8 )
+  (   16 DQ2_5 )
+  (   17 DPC3_8 )
+  (   18 DQ4_7 )
+  (   19 DQ5_7 )
+  (   20 DPC6_8 )
+  (   21 DPC7_8 )
+  (   22 RDCDA-_8 )
+  (   23 WRCDA-_1 )
+  (   24 PC_A0_4 )
+  (   25 PCA1_8 )
+  (   26 PCA2_5 )
+  (   27  ? )
+  (   28 OE_PAL-_4 )
+  (   29 OE_RVB-_8 )
+  (   30  ? )
+  (   31 GND )
+  (   32 GND )
+  (   33 VAA_8 )
+  (   34 VAA_8 )
+  (   35 VAA_8 )
+  (   36 VAA_8 )
+  (   37 RED_8 )
+  (   38 GREEN_OUT_1 )
+  (   39 ROUGE_3 )
+  (   40 N-000369 )
+  (   41 N-000345 )
+  (   42 N-000345 )
+  (   43 N-000344 )
+  (   44 N-000344 )
+  (   45 TVR0_4 )
+  (   46 TVR1_8 )
+  (   47 TVR2_2 )
+  (   48 TVR3_8 )
+  (   49 TVR4_4 )
+  (   50 TVR5_2 )
+  (   51 TVR6_4 )
+  (   52 TVR7_8 )
+  (   53 TVG0_8 )
+  (   54 TVG1_8 )
+  (   55 TVG2_8 )
+  (   56 TVG3_4 )
+  (   57 TVG4_2 )
+  (   58 TVG5_4 )
+  (   59 TVG6_8 )
+  (   60 TVG7_8 )
+  (   61 TVB0_8 )
+  (   62 TVB1_4 )
+  (   63 TVB2_2 )
+  (   64 TVB3_8 )
+  (   65 TVB4_2 )
+  (   66 TVB5_4 )
+  (   67 TVB6_4 )
+  (   68 TVB7_8 )
+ )
+ ( 32F9E7F1 $noname U8 BT253 {Lib=BT253}
+  (    1 VAA_8 )
+  (    2 GND )
+  (    3 GND )
+  (    4  ? )
+  (    5  ? )
+  (    6 N-000352 )
+  (    7 N-000350 )
+  (    8 CSYNCIN-_8 )
+  (    9 DPC7_8 )
+  (   10 DPC6_8 )
+  (   11 DQ5_7 )
+  (   12 DQ4_7 )
+  (   13 DPC3_8 )
+  (   14 DQ2_5 )
+  (   15 DPC1_8 )
+  (   16 DPC0_2 )
+  (   17 PC_A0_4 )
+  (   18 PCA1_8 )
+  (   19 PCA2_5 )
+  (   20 RDCAD-_8 )
+  (   21 GND )
+  (   22 GND )
+  (   23 GND )
+  (   24 WRCAD-_8 )
+  (   25 TVB7_8 )
+  (   26 TVB6_4 )
+  (   27 TVB5_4 )
+  (   28 TVB4_2 )
+  (   29 TVB3_8 )
+  (   30 TVB2_2 )
+  (   31 TVB1_4 )
+  (   32 TVB0_8 )
+  (   33 TVG7_8 )
+  (   34 TVG6_8 )
+  (   35 TVG5_4 )
+  (   36 TVG4_2 )
+  (   37 CLAMP_1 )
+  (   38 CLKCAD_1 )
+  (   39 CLKCAD_1 )
+  (   40 CLKCAD_1 )
+  (   41 GND )
+  (   42 GND )
+  (   43 VAA_8 )
+  (   44 VAA_8 )
+  (   45 TVG3_4 )
+  (   46 TVG2_8 )
+  (   47 TVG1_8 )
+  (   48 TVG0_8 )
+  (   49 TVR7_8 )
+  (   50 TVR6_4 )
+  (   51 TVR5_2 )
+  (   52 TVR4_4 )
+  (   53 TVR3_8 )
+  (   54 TVR2_2 )
+  (   55 TVR1_8 )
+  (   56 TVR0_4 )
+  (   57 OE_RVB-_8 )
+  (   58 N-000353 )
+  (   59 CLAMP_1 )
+  (   60 N-000354 )
+  (   61 GND )
+  (   62 N-000355 )
+  (   63 GND )
+  (   64 REF+_8 )
+  (   65 REF+_8 )
+  (   66 REF+_8 )
+  (   67 GND )
+  (   68 N-000353 )
+  (   69 N-000351 )
+  (   70 N-000354 )
+  (   71 REF+_8 )
+  (   72 N-000355 )
+  (   73 REF+_8 )
+  (   74  ? )
+  (   75 N-000362 )
+  (   76 REF+_8 )
+  (   77  ? )
+  (   78 REF+_8 )
+  (   79 N-000363 )
+  (   80 REF+_8 )
+  (   81  ? )
+  (   82 REF+_8 )
+  (   83 N-000364 )
+  (   84 VAA_8 )
+ )
+ ( 84DFB9D2 $noname R42 75 {Lib=R}
+  (    1 GND )
+  (    2 RED_8 )
+ )
+ ( 84DFB9D7 $noname R43 75 {Lib=R}
+  (    1 GND )
+  (    2 GREEN_OUT_1 )
+ )
+ ( 84DFB9DC $noname R44 75 {Lib=R}
+  (    1 GND )
+  (    2 ROUGE_3 )
+ )
+ ( 84DFBA31 $noname C33 100nF {Lib=C}
+  (    1 VAA_8 )
+  (    2 GND )
+ )
+ ( 84DFBA36 $noname C34 100nF {Lib=C}
+  (    1 VAA_8 )
+  (    2 N-000369 )
+ )
+ ( 84DFBAEF $noname C42 2,2uF {Lib=CP}
+  (    1 VAA_8 )
+  (    2 N-000369 )
+ )
+ ( 84DFBB21 $noname C35 100nF {Lib=C}
+  (    1 VAA_8 )
+  (    2 N-000345 )
+ )
+ ( A44C0348 $noname R47 75 {Lib=R}
+  (    1 RED_IN_1 )
+  (    2 GND )
+ )
+ ( A44C032F $noname R45 75 {Lib=R}
+  (    1 GREEN_IN_1 )
+  (    2 GND )
+ )
+ ( A44C0339 $noname R46 75 {Lib=R}
+  (    1 BLUE_IN_1 )
+  (    2 GND )
+ )
+ ( A44C03AC $noname R38 510 {Lib=R}
+  (    1 N-000351 )
+  (    2 GND )
+ )
+ ( A44D982A $noname R15 1M {Lib=R}
+  (    1 GND )
+  (    2 N-000350 )
+ )
+ ( A44D9848 $noname C36 100nF {Lib=C}
+  (    1 N-000350 )
+  (    2 N-000365 )
+ )
+ ( A44D9843 $noname R36 470 {Lib=R}
+  (    1 N-000365 )
+  (    2 N-000352 )
+ )
+ ( A44D984D $noname C37 100pF {Lib=C}
+  (    1 GND )
+  (    2 N-000365 )
+ )
+ ( A44C034D $noname R24 220 {Lib=R}
+  (    1 RED_IN_1 )
+  (    2 N-000368 )
+ )
+ ( A44C0343 $noname R23 220 {Lib=R}
+  (    1 GREEN_IN_1 )
+  (    2 N-000367 )
+ )
+ ( A44C0334 $noname R22 220 {Lib=R}
+  (    1 BLUE_IN_1 )
+  (    2 N-000366 )
+ )
+ ( A44C037F $noname C39 1uF {Lib=C}
+  (    1 N-000364 )
+  (    2 N-000368 )
+ )
+ ( A44C0384 $noname C40 1uF {Lib=C}
+  (    1 N-000363 )
+  (    2 N-000367 )
+ )
+ ( A44C0389 $noname C41 1uF {Lib=C}
+  (    1 N-000362 )
+  (    2 N-000366 )
+ )
+ ( 84DFB9B9 $noname C52 22uF {Lib=CP}
+  (    1 VAA_8 )
+  (    2 GND )
+ )
+ ( 28ED6A43 $noname C51 22uF {Lib=CP}
+  (    1 VAA_8 )
+  (    2 GND )
+ )
+ ( 84DFBB99 $noname L5 22uH {Lib=INDUCTOR}
+  (    1 +5V )
+  (    2 VAA_8 )
+ )
+ ( 5D7688E4 $noname R37 510 {Lib=R}
+  (    1 GND )
+  (    2 REF+_8 )
+ )
+)
+*
+{ Net List by Nets
+Net 0 [0] ""
+Net 1 [0] ""
+Net 2 [2] "CLKCAD_1"
+ #CLKCAD#_1
+ (U22 2)(_2)
+ #CLKCAD#_1
+ (U8 40)(_8)
+ (U8 39)(_8)
+ (U8 38)(_8)
+ (U24 77)(_5)
+ #CLKCAD#_1
+Net 3 [2] "CDACLK_5"
+ (U9 9)(_8)
+ (U24 76)(_5)
+ (U22 79)(_2)
+ #CLKCDA#_1
+ #CLKCDA#_1
+ #CLKCDA#_1
+Net 4 [2] "X_PROG-_5"
+ #X_PROG-#_5
+ #X_PROG-#_1
+ (U22 52)(_2)
+ #X_PROG-#_1
+ #X_PROG-#_5
+ (U23 84)(_5)
+ (U24 82)(_5)
+Net 5 [2] "X_DONE_2"
+ (U22 50)(_2)
+ (U23 83)(_5)
+ #X_DONE#_1
+ #X_DONE#_5
+ #X_DONE#_1
+ #X_DONE#_5
+ (U24 80)(_5)
+Net 6 [2] "X_CLK_2"
+ (U22 74)(_2)
+ #X_CLK#_5
+ #X_CLK#_1
+ #X_CLK#_5
+ (U23 86)(_5)
+ #X_CLK#_1
+ (U24 119)(_5)
+Net 7 [2] "X_DOUT_5"
+ #X_DOUT#_5
+ (U22 72)(_2)
+ #X_DATA#_1
+ (U24 118)(_5)
+ #X_DATA#_1
+Net 8 [2] "CSYNC-OUT_3"
+ (R30 2)(_3)
+ #CSYNC-OUT#_1
+ #CSYNC-OUT#_1
+ (U24 13)(_5)
+ #CSYNC-OUT#_1
+ (U22 9)(_2)
+ (U9 8)(_8)
+ #CSYNC-OUT#_1
+Net 9 [2] "ROUGE_3"
+ #BLUE_OUT#_1
+ #BLUE_OUT#_1
+ #BLUE_OUT#_1
+ (U9 39)(_8)
+ (C60 2)(_3)
+ (R44 2)(_8)
+ (J4 3)(_1)
+Net 10 [2] "GREEN_OUT_1"
+ #GREEN_OUT#_1
+ (C59 2)(_3)
+ (R43 2)(_8)
+ #GREEN_OUT#_1
+ (U9 38)(_8)
+ #GREEN_OUT#_1
+ (J4 2)(_1)
+Net 11 [2] "RED_8"
+ (C58 2)(_3)
+ (J4 1)(_1)
+ #RED_OUT#_1
+ (R42 2)(_8)
+ #RED_OUT#_1
+ (U9 37)(_8)
+ #RED_OUT#_1
+Net 12 [2] "CVBSOUT_3"
+ (R41 1)(_3)
+ (P8 1)(_1)
+Net 13 [2] "F_PALIN_5"
+ (U10 104)(_4)
+ #F_PALIN#_1
+ #F_PALIN#_1
+ (U24 43)(_5)
+Net 14 [2] "HD_PAL-_1"
+ #HD_PAL-#_1
+ (U24 52)(_5)
+ (U10 36)(_4)
+ #HD_PAL-#_1
+Net 15 [2] "VD_PAL-_5"
+ (U10 34)(_4)
+ #VD_PAL-#_1
+ #VD_PAL-#_1
+ (U24 37)(_5)
+Net 16 [2] "BT812_WR-_1"
+ #BT812_WR-#_1
+ (U23 70)(_5)
+ #BT812_WR-#_1
+ (U10 83)(_4)
+Net 17 [2] "BT812_RD-_4"
+ (U10 86)(_4)
+ (U23 71)(_5)
+ #BT812_RD-#_1
+ #BT812_RD-#_1
+Net 18 [2] "OE_PAL-_4"
+ (U10 47)(_4)
+ (U10 46)(_4)
+ #OE_PAL-#_1
+ #OE_PAL-#_1
+ (U9 28)(_8)
+Net 19 [2] "BLUE_IN_1"
+ #BLUE_IN#_1
+ (R22 1)(_8)
+ (R46 1)(_8)
+ #BLUE_IN#_1
+ (P3 1)(_1)
+Net 20 [2] "GREEN_IN_1"
+ #GREEN_IN#_1
+ (C3 2)(_4)
+ (R45 1)(_8)
+ #GREEN_IN#_1
+ #GREEN_IN#_1
+ (P2 1)(_1)
+ (R23 1)(_8)
+Net 21 [2] "RED_IN_1"
+ #RED_IN#_1
+ (P1 1)(_1)
+ #RED_IN#_1
+ (R24 1)(_8)
+ #RED_IN#_1
+ (R47 1)(_8)
+ (C4 2)(_4)
+Net 22 [2] "RESET-_4"
+ (U10 87)(_4)
+ #SYSRST-#_1
+ #SYSRST-#_1
+ #SYSRST-#_5
+ (U24 148)(_5)
+ (U23 1)(_5)
+ #SYSRST-#_1
+ (U11 126)(_7)
+Net 23 [2] "RDFIFO-_1"
+ #RDFIFO-#_1
+ (U11 104)(_7)
+ #RDFIFO-#_1
+ (U24 16)(_5)
+ (RR5 7)(_7)
+ #RDFIFO-#_7
+Net 24 [2] "WRFIFO-_7"
+ #WRFIFO-#_7
+ #WRFIFDO-#_1
+ #WRFIFDO-#_1
+ (U11 102)(_7)
+ (RR5 8)(_7)
+ (U24 18)(_5)
+Net 25 [2] "RDEMPTY_1"
+ #RDEMPTY#_1
+ (U11 106)(_7)
+ (U24 15)(_5)
+ #RDEMPTY#_1
+Net 26 [2] "WRFULL_5"
+ #WRFULL#_1
+ #WRFULL#_1
+ (U11 103)(_7)
+ (U24 17)(_5)
+Net 27 [2] "PTRDY-_7"
+ (U24 3)(_5)
+ #PTRDY-#_7
+ (U11 115)(_7)
+ #PTRDY-#_1
+ (U23 19)(_5)
+ #PTRDY-#_5
+ (RR6 2)(_7)
+ #PTRDY-#_1
+Net 28 [2] "PTBURST-_5"
+ #PTBURST-#_5
+ (U11 112)(_7)
+ (U24 5)(_5)
+ (U23 17)(_5)
+ #PTBURST#_1
+ #PTBURST#_1
+Net 29 [2] "SELECT-_5"
+ (U11 75)(_7)
+ #SELECT-#_7
+ (RR3 4)(_7)
+ (U23 45)(_5)
+ (U24 135)(_5)
+ #SELECT-#_1
+ #SELECT-#_5
+ #SELECT-#_1
+Net 30 [2] "PTWR_5"
+ #PTWR#_5
+ #PTWR#_1
+ (U23 16)(_5)
+ (U24 12)(_5)
+ (U11 108)(_7)
+ #PTWR#_1
+Net 31 [2] "PTATN-_1"
+ (RR5 2)(_7)
+ #PTATN-#_1
+ (U11 114)(_7)
+ (U23 18)(_5)
+ #PTATN-#_5
+ #PTATN-#_1
+ #PTATN-#_7
+ (U24 4)(_5)
+Net 32 [2] "PTADR-_5"
+ (RR5 5)(_7)
+ #PTADR-#_1
+ #PTADR-#_1
+ (U24 14)(_5)
+ (U23 24)(_5)
+ #PTADR-#_7
+ (U11 107)(_7)
+ #PTADR-#_5
+Net 33 [2] "BPCLK_1"
+ (U11 140)(_7)
+ (U23 30)(_5)
+ #BPCLK#_1
+ #BPCLK#_1
+Net 34 [2] "PTNUM0_5"
+ (U11 123)(_7)
+ #PTNUM0#_5
+ #PTNUM0#_1
+ (U23 34)(_5)
+ #PTNUM0#_1
+ (U24 150)(_5)
+Net 35 [2] "PTNUM1_7"
+ (U24 154)(_5)
+ #PTNUM1#_1
+ (U23 32)(_5)
+ (U11 122)(_7)
+ #PTNUM1#_5
+ #PTNUM1#_1
+Net 36 [2] "BLANK-_1"
+ #BLANK-#_1
+ #BLANK-#_1
+ (U9 7)(_8)
+ (U24 53)(_5)
+ (U22 8)(_2)
+ #BLANK-#_1
+Net 37 [2] "CSYNCIN-_8"
+ (U24 54)(_5)
+ (U8 8)(_8)
+ #CSYNCIN-#_1
+ #CSYNCIN-#_1
+Net 38 [2] "WRAM-_6"
+ #WRAM-#_6
+ #WRAM-#_1
+ #WRAM-#_6
+ (U17 47)(_6)
+ (U14 47)(_6)
+ (U15 47)(_6)
+ (U19 47)(_6)
+ #WRAM-#_6
+ #WRAM-#_1
+ #WRAM-#_6
+ #WRAM-#_6
+ (U16 47)(_6)
+ (U18 47)(_6)
+ #WRAM-#_6
+ (U12 47)(_6)
+ (U24 63)(_5)
+ #WRAM-#_6
+ (U13 47)(_6)
+ #WRAM-#_6
+Net 39 [2] "WRCAD-_8"
+ (U23 69)(_5)
+ #WRCAD-#_1
+ #WRCAD-#_1
+ (U8 24)(_8)
+Net 40 [2] "WRCDA-_1"
+ #WRCDA-#_1
+ #WRCDA-#_1
+ (U23 73)(_5)
+ (U9 23)(_8)
+Net 41 [2] "RDCDA-_8"
+ (U23 72)(_5)
+ #RDCDA-#_1
+ #RDCDA-#_1
+ (U9 22)(_8)
+Net 42 [2] "RDCAD-_8"
+ #RDCAD-#_1
+ #RDCAD-#_1
+ (U23 74)(_5)
+ (U8 20)(_8)
+Net 43 [2] "RAS7-_6"
+ (U13 34)(_6)
+ #RAS7-#_6
+ #RAS7-#_1
+ (U24 64)(_5)
+ (U13 44)(_6)
+ #RAS7-#_1
+Net 44 [2] "RAS6-_6"
+ #RAS6-#_6
+ #RAS6-#_1
+ (U24 65)(_5)
+ (U14 34)(_6)
+ #RAS6-#_1
+ (U14 44)(_6)
+Net 45 [2] "RAS5-_6"
+ (U24 66)(_5)
+ #RAS5-#_6
+ #RAS5-#_1
+ (U12 44)(_6)
+ (U12 34)(_6)
+ #RAS5-#_1
+Net 46 [2] "RAS4-_6"
+ (U16 44)(_6)
+ (U16 34)(_6)
+ #RAS4-#_6
+ #RAS4-#_1
+ #RAS4-#_1
+ (U24 67)(_5)
+Net 47 [2] "RAS3-_5"
+ (U24 68)(_5)
+ (U15 44)(_6)
+ (U15 34)(_6)
+ #RAS3-#_6
+ #RAS3-#_1
+ #RAS3-#_1
+Net 48 [2] "RAS2-_1"
+ #RAS2-#_1
+ #RAS2-#_1
+ (U24 69)(_5)
+ #RAS2-#_6
+ (U17 34)(_6)
+ (U17 44)(_6)
+Net 49 [2] "RAS1-_1"
+ #RAS1-#_1
+ (U24 73)(_5)
+ #RAS1-#_1
+ (U18 34)(_6)
+ (U18 44)(_6)
+ #RAS1-#_6
+Net 50 [2] "RAS0-_1"
+ (U24 74)(_5)
+ #RAS0-#_1
+ #RAS0-#_6
+ #RAS0-#_1
+ (U19 34)(_6)
+ (U19 44)(_6)
+Net 51 [2] "CAS3-_6"
+ (U17 43)(_6)
+ (U13 43)(_6)
+ #CAS3-#_6
+ #CAS3-#_6
+ #CAS3-#_6
+ #CAS3-#_6
+ #CAS3-#_6
+ (U16 43)(_6)
+ (U19 43)(_6)
+ #CAS3-#_6
+ #CAS3-#_1
+ (U15 43)(_6)
+ (U12 43)(_6)
+ (U18 43)(_6)
+ #CAS3-#_6
+ #CAS3-#_1
+ (U24 62)(_5)
+ (U14 43)(_6)
+ #CAS3-#_6
+Net 52 [2] "CAS2-_1"
+ #CAS2-#_1
+ (U14 42)(_6)
+ (U24 59)(_5)
+ #CAS2-#_6
+ (U15 42)(_6)
+ (U19 42)(_6)
+ #CAS2-#_6
+ #CAS2-#_6
+ #CAS2-#_6
+ #CAS2-#_6
+ (U17 42)(_6)
+ (U13 42)(_6)
+ #CAS2-#_6
+ #CAS2-#_6
+ (U18 42)(_6)
+ #CAS2-#_1
+ #CAS2-#_6
+ (U12 42)(_6)
+ (U16 42)(_6)
+Net 53 [2] "CAS1-_1"
+ (U16 41)(_6)
+ #CAS1-#_1
+ #CAS1-#_6
+ #CAS1-#_6
+ #CAS1-#_6
+ (U15 41)(_6)
+ #CAS1-#_1
+ (U14 41)(_6)
+ (U24 58)(_5)
+ (U19 41)(_6)
+ #CAS1-#_6
+ #CAS1-#_6
+ (U17 41)(_6)
+ (U13 41)(_6)
+ #CAS1-#_6
+ #CAS1-#_6
+ (U18 41)(_6)
+ #CAS1-#_6
+ (U12 41)(_6)
+Net 54 [2] "CAS0-_6"
+ #CAS0-#_6
+ (U24 57)(_5)
+ (U18 40)(_6)
+ (U14 40)(_6)
+ (U12 40)(_6)
+ #CAS0-#_6
+ (U15 40)(_6)
+ #CAS0-#_6
+ #CAS0-#_6
+ #CAS0-#_6
+ #CAS0-#_1
+ #CAS0-#_6
+ #CAS0-#_6
+ (U19 40)(_6)
+ #CAS0-#_1
+ #CAS0-#_6
+ (U16 40)(_6)
+ (U13 40)(_6)
+ (U17 40)(_6)
+Net 55 [2] "/PCWR_1"
+ (U23 47)(_5)
+ #/PCWR#_1
+ #/PCWR#_1
+ (U11 74)(_7)
+ (RR3 5)(_7)
+ #WR-#_7
+ (U24 132)(_5)
+Net 56 [2] "/PCRD_1"
+ (U24 133)(_5)
+ (RR3 7)(_7)
+ (U11 72)(_7)
+ #/PCRD#_1
+ #/PCRD#_1
+ (U23 46)(_5)
+ #RD-#_7
+Net 57 [2] "CLAMP_1"
+ (U8 59)(_8)
+ #CLAMP#_1
+ #CLAMP#_1
+ (U8 37)(_8)
+ (U24 75)(_5)
+ #CLAMP#_1
+ (U22 7)(_2)
+Net 58 [2] "WRITE_RAM_1"
+ #WRITE_RAM#_1
+ (U3 1)(_2)
+ (U4 1)(_2)
+ (U5 1)(_2)
+ (U6 1)(_2)
+ #WRITE_RAM#_1
+ (U24 55)(_5)
+Net 59 [2] "ACCES_RAM-_2"
+ #ACCES_RAM-#_2
+ (U3 19)(_2)
+ #ACCES_RAM-#_1
+ (U24 56)(_5)
+ (U4 19)(_2)
+ (U5 19)(_2)
+ (U6 19)(_2)
+ #ACCES_RAM-#_1
+ (U22 21)(_2)
+Net 60 [2] "IRQ_SRL_7"
+ (RR2 7)(_7)
+ #IRQ_SRL#_1
+ (U24 134)(_5)
+ #IRQ_SRL#_7
+ #IRQ_SRL#_1
+ (U11 57)(_7)
+Net 61 [2] "X_IRQ_1"
+ #X_IRQ#_1
+ #X_IRQ#_7
+ #X_IRQ#_1
+ (U24 11)(_5)
+ (RR5 4)(_7)
+ (U11 109)(_7)
+Net 62 [2] "IRQ-_7"
+ (U24 149)(_5)
+ #IRQ-#_1
+ #IRQ-#_1
+ (U11 124)(_7)
+Net 63 [2] "C_OUT_1"
+ #C_OUT#_1
+ (J4 8)(_1)
+ (R39 1)(_3)
+ #C_OUT#_1
+Net 64 [2] "Y_OUT_1"
+ (J4 9)(_1)
+ (R40 2)(_3)
+ #Y_OUT#_1
+ #Y_OUT#_1
+Net 65 [2] "ACQ_ON_2"
+ (U22 13)(_2)
+ (U24 48)(_5)
+ #ACQ_ON#_1
+ #ACQ_ON#_1
+Net 66 [1] ""
+ (U22 73)(_2)
+Noconnect 0
+Net 67 [1] ""
+ (U22 16)(_2)
+Noconnect 0
+Net 68 [1] ""
+Noconnect 0
+ (U22 15)(_2)
+Net 69 [1] ""
+ (U22 14)(_2)
+Noconnect 0
+Net 70 [1] ""
+Noconnect 0
+ (U22 10)(_2)
+Net 71 [1] ""
+ (U22 5)(_2)
+Noconnect 0
+Net 72 [1] ""
+ (U22 4)(_2)
+Noconnect 0
+Net 73 [1] ""
+Noconnect 0
+ (U22 3)(_2)
+Net 74 [1] ""
+ (U22 30)(_2)
+Noconnect 0
+Net 75 [1] ""
+ (U22 76)(_2)
+Noconnect 0
+Net 76 [1] ""
+Noconnect 0
+ (U22 66)(_2)
+Net 77 [1] ""
+ (U22 65)(_2)
+Noconnect 0
+Net 78 [1] ""
+Noconnect 0
+ (U22 27)(_2)
+Net 79 [1] ""
+Noconnect 0
+ (U22 6)(_2)
+Net 80 [1] ""
+Noconnect 0
+Net 81 [2] ""
+ (C43 1)(_3)
+ (U20 12)(_3)
+Net 82 [2] "CHROM_3"
+ (R16 2)(_3)
+ (U20 14)(_3)
+ #CHROM#_3
+ #CHROM#_3
+Net 83 [2] "LUM_3"
+ (U20 19)(_3)
+ #LUM#_3
+ #LUM#_3
+ (R17 2)(_3)
+Net 84 [2] "CVBS_3"
+ (R18 2)(_3)
+ #CVBS#_3
+ (U20 16)(_3)
+ #CVBS#_3
+Net 85 [2] "+5F"
+ (L3 2)(_3)
+ (#+5F3 1)(_3)
+ (#FLG1 1)(_3)
+ (#+5F2 1)(_3)
+ (C55 1)(_3)
+ (#+5F1 1)(_3)
+ (#+5F4 1)(_3)
+ (Q1 3)(_3)
+ (Q2 3)(_3)
+ (Q3 3)(_3)
+Net 86 [2] ""
+ (C61 1)(_3)
+ (R30 1)(_3)
+ (R31 2)(_3)
+Net 87 [2] ""
+ (R11 2)(_3)
+ (U20 13)(_3)
+ (C64 1)(_3)
+ (C48 2)(_3)
+Net 88 [2] ""
+ (C54 1)(_3)
+ (L2 2)(_3)
+ (U20 8)(_3)
+ (#FLG2 1)(_3)
+Net 89 [2] ""
+ (U20 22)(_3)
+ (R10 2)(_3)
+Net 90 [2] ""
+ (Q1 2)(_3)
+ (R16 1)(_3)
+Net 91 [2] ""
+ (C44 1)(_3)
+ (U20 6)(_3)
+Net 92 [2] ""
+ (U20 21)(_3)
+ (R9 2)(_3)
+Net 93 [2] ""
+ (Q1 1)(_3)
+ (R39 2)(_3)
+ (R32 1)(_3)
+Net 94 [2] ""
+ (U20 18)(_3)
+ (L1 1)(_3)
+Net 95 [2] ""
+ (U20 15)(_3)
+ (C45 1)(_3)
+Net 96 [2] ""
+ (U20 23)(_3)
+ (X3 2)(_3)
+Net 97 [2] ""
+ (R17 1)(_3)
+ (Q2 2)(_3)
+Net 98 [2] ""
+ (R33 1)(_3)
+ (R40 1)(_3)
+ (Q2 1)(_3)
+Net 99 [2] ""
+ (Q3 2)(_3)
+ (R18 1)(_3)
+Net 100 [2] ""
+ (Q3 1)(_3)
+ (R41 2)(_3)
+ (R34 1)(_3)
+Net 101 [2] ""
+ (C46 1)(_3)
+ (L1 2)(_3)
+ (C53 1)(_3)
+Net 102 [2] ""
+ (POT1 1)(_3)
+ (R9 1)(_3)
+Net 103 [2] ""
+ (C61 2)(_3)
+ (U20 24)(_3)
+Net 104 [2] ""
+ (C60 1)(_3)
+ (U20 7)(_3)
+Net 105 [1] ""
+ (U20 5)(_3)
+Noconnect 0
+Net 106 [1] ""
+Noconnect 0
+ (U20 4)(_3)
+Net 107 [1] ""
+Noconnect 0
+ (U20 3)(_3)
+Net 108 [1] ""
+Noconnect 0
+ (U20 1)(_3)
+Net 109 [2] ""
+ (U20 9)(_3)
+ (C59 1)(_3)
+Net 110 [2] ""
+ (C58 1)(_3)
+ (U20 11)(_3)
+Net 111 [2] ""
+ (X3 1)(_3)
+ (CV1 1)(_3)
+Net 112 [2] ""
+ (U20 2)(_3)
+ (R4 1)(_3)
+Net 113 [2] ""
+ (L6 1)(_3)
+ (R10 1)(_3)
+Net 114 [2] ""
+ (U20 20)(_3)
+ (R11 1)(_3)
+ (L6 2)(_3)
+Net 115 [1] ""
+ (U10 26)(_4)
+Noconnect 0
+Net 116 [1] ""
+Noconnect 0
+ (U10 25)(_4)
+Net 117 [1] ""
+ (U10 27)(_4)
+Noconnect 0
+Net 118 [1] ""
+ (U10 127)(_4)
+Noconnect 0
+Net 119 [1] ""
+Noconnect 0
+ (U10 154)(_4)
+Net 120 [1] ""
+Noconnect 0
+ (U10 152)(_4)
+Net 121 [1] ""
+ (U10 129)(_4)
+Noconnect 0
+Net 122 [1] ""
+Noconnect 0
+ (U10 150)(_4)
+Net 123 [1] ""
+ (U10 131)(_4)
+Noconnect 0
+Net 124 [1] ""
+Noconnect 0
+ (U10 101)(_4)
+Net 125 [1] ""
+ (U10 32)(_4)
+Noconnect 0
+Net 126 [1] ""
+Noconnect 0
+ (U10 38)(_4)
+Net 127 [1] ""
+ (U10 29)(_4)
+Noconnect 0
+Net 128 [1] ""
+Noconnect 0
+ (U10 28)(_4)
+Net 129 [1] ""
+Noconnect 0
+ (U10 37)(_4)
+Net 130 [1] ""
+Noconnect 0
+ (U10 107)(_4)
+Net 131 [1] ""
+Noconnect 0
+ (U10 106)(_4)
+Net 132 [1] ""
+ (U10 33)(_4)
+Noconnect 0
+Net 133 [1] ""
+Noconnect 0
+ (U10 35)(_4)
+Net 134 [2] ""
+ (C3 1)(_4)
+ (R3 2)(_4)
+Net 135 [2] ""
+ (R2 2)(_4)
+ (C4 1)(_4)
+Net 136 [2] "C-VIDEO_4"
+ (D4 1)(_4)
+ (U10 125)(_4)
+ (D3 2)(_4)
+ (R2 1)(_4)
+ #C-VIDEO#_4
+Net 137 [2] ""
+ (U10 137)(_4)
+ (R12 1)(_4)
+ (U10 144)(_4)
+ (U10 113)(_4)
+ (C6 1)(_4)
+Net 138 [2] ""
+ (C5 2)(_4)
+ (R19 1)(_4)
+Net 139 [2] ""
+ (R20 1)(_4)
+ (C8 2)(_4)
+Net 140 [2] ""
+ (C16 1)(_4)
+ (U10 110)(_4)
+Net 141 [2] ""
+ (R27 1)(_4)
+ (U10 135)(_4)
+Net 142 [2] ""
+ (C65 2)(_4)
+ (X2 1)(_4)
+ (U10 109)(_4)
+ (R25 2)(_4)
+Net 143 [2] ""
+ (X2 2)(_4)
+ (C66 2)(_4)
+ (R25 1)(_4)
+ (U10 108)(_4)
+Net 144 [1] ""
+ (U10 105)(_4)
+Noconnect 0
+Net 145 [2] ""
+ (U10 117)(_4)
+ (C5 1)(_4)
+Net 146 [2] ""
+ (C8 1)(_4)
+ (U10 4)(_4)
+Net 147 [2] ""
+ (R19 2)(_4)
+ (U10 115)(_4)
+Net 148 [2] "Y-VIDEO_4"
+ (D2 1)(_4)
+ (U10 156)(_4)
+ #Y-VIDEO#_4
+ (R3 1)(_4)
+ (D1 2)(_4)
+Net 149 [2] "Y_SYNC_4"
+ #Y_SYNC#_4
+ (U10 6)(_4)
+ #Y_SYNC#_4
+ (R20 2)(_4)
+ (R35 2)(_4)
+Net 150 [2] "VAF_4"
+ (U10 119)(_4)
+ (U10 82)(_4)
+ (U10 81)(_4)
+ (U10 80)(_4)
+ (U10 79)(_4)
+ (U10 78)(_4)
+ (U10 43)(_4)
+ (U10 42)(_4)
+ (L4 2)(_4)
+ (U10 40)(_4)
+ (U10 39)(_4)
+ (U10 2)(_4)
+ (U10 1)(_4)
+ (C2 1)(_4)
+ (C62 1)(_4)
+ (C14 1)(_4)
+ (C13 1)(_4)
+ (C12 1)(_4)
+ (U10 120)(_4)
+ (U10 121)(_4)
+ #VAF#_4
+ (U10 122)(_4)
+ #VAF#_4
+ #VAF#_4
+ (U10 132)(_4)
+ (U10 141)(_4)
+ #VAF#_4
+ (U10 142)(_4)
+ (U10 149)(_4)
+ (U10 158)(_4)
+ (U10 159)(_4)
+ (U10 160)(_4)
+ (U10 123)(_4)
+ (R12 2)(_4)
+ (U10 41)(_4)
+Net 151 [2] ""
+ (R27 2)(_4)
+ (U10 114)(_4)
+ (C7 1)(_4)
+Net 152 [2] ""
+ (C1 1)(_4)
+ (R35 1)(_4)
+ (C47 1)(_4)
+Net 153 [2] ""
+ (R14 1)(_4)
+ (C1 2)(_4)
+ (U10 140)(_4)
+Net 154 [1] ""
+Noconnect 0
+ (U23 100)(_5)
+Net 155 [1] ""
+Noconnect 0
+ (U23 2)(_5)
+Net 156 [1] ""
+Noconnect 0
+ (U23 99)(_5)
+Net 157 [1] ""
+ (U23 98)(_5)
+Noconnect 0
+Net 158 [1] ""
+Noconnect 0
+ (U23 68)(_5)
+Net 159 [1] ""
+Noconnect 0
+ (U23 79)(_5)
+Net 160 [1] ""
+ (U23 62)(_5)
+Noconnect 0
+Net 161 [1] ""
+Noconnect 0
+ (U23 60)(_5)
+Net 162 [1] ""
+Noconnect 0
+ (U23 58)(_5)
+Net 163 [1] ""
+ (U23 50)(_5)
+Noconnect 0
+Net 164 [1] ""
+ (U23 49)(_5)
+Noconnect 0
+Net 165 [1] ""
+Noconnect 0
+ (U23 33)(_5)
+Net 166 [1] ""
+ (U23 31)(_5)
+Noconnect 0
+Net 167 [1] ""
+Noconnect 0
+ (U23 76)(_5)
+Net 168 [2] "CLK10MHz_5"
+ (R21 2)(_5)
+ (U23 57)(_5)
+ #CLK10MHz#_5
+ (U24 2)(_5)
+ #CLK10MHz#_5
+Net 169 [2] "IOE-_5"
+ #IOE-#_5
+ (U24 103)(_5)
+ (U2 16)(_5)
+ #IOE-#_5
+Net 170 [2] "IWR-_5"
+ (U24 98)(_5)
+ (U2 3)(_5)
+ #IWR-#_5
+ #IWR-#_5
+Net 171 [2] "ICAS-_5"
+ (U2 17)(_5)
+ (U24 104)(_5)
+ #ICAS-#_5
+ #ICAS-#_5
+Net 172 [2] "IRAS-_5"
+ (U2 4)(_5)
+ #IRAS-#_5
+ (U24 97)(_5)
+ #IRAS-#_5
+Net 173 [2] "IA9_5"
+ #IA9#_5
+ #IA9#_5
+ (U24 96)(_5)
+ (U2 5)(_5)
+Net 174 [2] "IA8_5"
+ #IA8#_5
+ (U2 15)(_5)
+ (U24 93)(_5)
+ #IA8#_5
+Net 175 [2] "IA7_5"
+ (U2 14)(_5)
+ (U24 78)(_5)
+ #IA7#_5
+ #IA7#_5
+Net 176 [2] "IA6_5"
+ (U2 13)(_5)
+ #IA6#_5
+ #IA6#_5
+ (U24 83)(_5)
+Net 177 [2] "IA5_5"
+ #IA5#_5
+ (U24 85)(_5)
+ (U2 12)(_5)
+ #IA5#_5
+Net 178 [2] "IA4_5"
+ (U2 11)(_5)
+ #IA4#_5
+ (U24 86)(_5)
+ #IA4#_5
+Net 179 [2] "IA3_5"
+ (U24 87)(_5)
+ #IA3#_5
+ #IA3#_5
+ (U2 9)(_5)
+Net 180 [2] "IA2_5"
+ (U24 88)(_5)
+ (U2 8)(_5)
+ #IA2#_5
+ #IA2#_5
+Net 181 [2] "IA1_5"
+ (U2 7)(_5)
+ #IA1#_5
+ (U24 92)(_5)
+ #IA1#_5
+Net 182 [2] "IA0_5"
+ (U24 94)(_5)
+ (U2 6)(_5)
+ #IA0#_5
+ #IA0#_5
+Net 183 [2] "ID3_5"
+ #ID3#_5
+ #ID3#_5
+ (U2 19)(_5)
+ (U24 106)(_5)
+Net 184 [2] "ID2_5"
+ #ID2#_5
+ (U2 18)(_5)
+ (U24 105)(_5)
+ #ID2#_5
+Net 185 [2] "ID1_5"
+ #ID1#_5
+ #ID1#_5
+ (U2 2)(_5)
+ (U24 99)(_5)
+Net 186 [2] "ID0_5"
+ (U2 1)(_5)
+ #ID0#_5
+ (U24 102)(_5)
+ #ID0#_5
+Net 187 [2] "CSIO-_5"
+ #CSIO-#_5
+ #CSIO-#_5
+ (U23 61)(_5)
+ (U24 159)(_5)
+Net 188 [2] ""
+ (R48 2)(_5)
+ (P4 1)(_5)
+ (U23 25)(_5)
+ (U23 29)(_5)
+ (U23 27)(_5)
+Net 189 [2] ""
+ (U23 53)(_5)
+ (P5 4)(_5)
+Net 190 [1] ""
+Noconnect 0
+ (U21 6)(_5)
+Net 191 [2] ""
+ (P5 3)(_5)
+ (U21 1)(_5)
+ (U23 75)(_5)
+Net 192 [2] ""
+ (U23 77)(_5)
+ (P5 2)(_5)
+ (U21 2)(_5)
+Net 193 [2] ""
+ (U23 55)(_5)
+ (U21 4)(_5)
+ (U21 3)(_5)
+ (P5 5)(_5)
+Net 194 [1] ""
+ (U24 121)(_5)
+Noconnect 0
+Net 195 [1] ""
+ (U24 84)(_5)
+Noconnect 0
+Net 196 [2] "X_DIN_5"
+ (U24 117)(_5)
+ (U23 85)(_5)
+ #X_DIN#_5
+ #X_DIN#_5
+Net 197 [2] ""
+ (D6 1)(_5)
+ (R13 2)(_5)
+Net 198 [2] "LED_5"
+ #LED#_5
+ (U23 81)(_5)
+ #LED#_5
+ (D6 2)(_5)
+Net 199 [2] ""
+ (C49 1)(_5)
+ (X1 1)(_5)
+ (R21 1)(_5)
+ (R26 2)(_5)
+Net 200 [1] ""
+ (U7 8)(_5)
+Noconnect 0
+Net 201 [2] "HDOUT_5"
+ (U24 7)(_5)
+ (U7 1)(_5)
+ #HDOUT#_5
+ #HDOUT#_5
+Net 202 [2] "HDREFOUT_5"
+ #HDREFOUT#_5
+ (U24 6)(_5)
+ (U7 2)(_5)
+ #HDREFOUT#_5
+Net 203 [2] "14MHZOUT_5"
+ #14MHZOUT#_5
+ (U7 6)(_5)
+ #14MHZOUT#_5
+ (U24 95)(_5)
+Net 204 [2] "VOSC_5"
+ #VOSC#_5
+ #VOSC#_5
+ (C63 1)(_5)
+ (U7 5)(_5)
+ (U7 4)(_5)
+ (U7 7)(_5)
+ (C23 1)(_5)
+ (R1 1)(_5)
+Net 205 [2] "XTAL_I_5"
+ #XTAL_I#_5
+ (X1 2)(_5)
+ (U23 56)(_5)
+ (C50 1)(_5)
+ (R26 1)(_5)
+Net 206 [2] ""
+ (P10 1)(_5)
+ (U23 87)(_5)
+Net 207 [2] ""
+ (U23 82)(_5)
+ (P11 1)(_5)
+Net 208 [2] ""
+ (P9 1)(_5)
+ (U23 51)(_5)
+Net 209 [2] "RESERV1_5"
+ (U23 59)(_5)
+ #RESERV1#_5
+ (U24 44)(_5)
+ #RESERV1#_5
+Net 210 [1] ""
+ (U13 70)(_6)
+Noconnect 0
+Net 211 [1] ""
+ (U13 69)(_6)
+Noconnect 0
+Net 212 [1] ""
+Noconnect 0
+ (U13 68)(_6)
+Net 213 [1] ""
+ (U13 67)(_6)
+Noconnect 0
+Net 214 [1] ""
+ (U14 70)(_6)
+Noconnect 0
+Net 215 [1] ""
+Noconnect 0
+ (U14 69)(_6)
+Net 216 [1] ""
+ (U14 68)(_6)
+Noconnect 0
+Net 217 [1] ""
+Noconnect 0
+ (U14 67)(_6)
+Net 218 [1] ""
+Noconnect 0
+ (U12 70)(_6)
+Net 219 [1] ""
+ (U12 69)(_6)
+Noconnect 0
+Net 220 [1] ""
+Noconnect 0
+ (U12 68)(_6)
+Net 221 [1] ""
+Noconnect 0
+ (U12 67)(_6)
+Net 222 [1] ""
+Noconnect 0
+ (U16 70)(_6)
+Net 223 [1] ""
+Noconnect 0
+ (U16 69)(_6)
+Net 224 [1] ""
+ (U16 68)(_6)
+Noconnect 0
+Net 225 [1] ""
+Noconnect 0
+ (U16 67)(_6)
+Net 226 [1] ""
+Noconnect 0
+ (U15 70)(_6)
+Net 227 [1] ""
+Noconnect 0
+ (U15 69)(_6)
+Net 228 [1] ""
+ (U15 68)(_6)
+Noconnect 0
+Net 229 [1] ""
+ (U15 67)(_6)
+Noconnect 0
+Net 230 [1] ""
+ (U17 70)(_6)
+Noconnect 0
+Net 231 [1] ""
+Noconnect 0
+ (U17 69)(_6)
+Net 232 [1] ""
+ (U17 68)(_6)
+Noconnect 0
+Net 233 [1] ""
+Noconnect 0
+ (U17 67)(_6)
+Net 234 [1] ""
+Noconnect 0
+ (U18 70)(_6)
+Net 235 [1] ""
+Noconnect 0
+ (U18 69)(_6)
+Net 236 [1] ""
+ (U18 68)(_6)
+Noconnect 0
+Net 237 [1] ""
+ (U18 67)(_6)
+Noconnect 0
+Net 238 [1] ""
+ (U19 70)(_6)
+Noconnect 0
+Net 239 [1] ""
+ (U19 69)(_6)
+Noconnect 0
+Net 240 [1] ""
+ (U19 68)(_6)
+Noconnect 0
+Net 241 [1] ""
+Noconnect 0
+ (U19 67)(_6)
+Net 242 [2] "+3.3V"
+ (C68 1)(_7)
+ (C69 1)(_7)
+ (BUS1 A45)(_7)
+ (BUS1 A39)(_7)
+ (#+3.3V12 1)(_7)
+ (#+3.3V11 1)(_7)
+ (#+3.3V10 1)(_7)
+ (#+3.3V9 1)(_7)
+ (#+3.3V8 1)(_7)
+ (#+3.3V2 1)(_7)
+ (#+3.3V7 1)(_7)
+ (#+3.3V5 1)(_7)
+ (#+3.3V6 1)(_7)
+ (BUS1 A53)(_7)
+ (#+3.3V3 1)(_7)
+ (#+3.3V4 1)(_7)
+ (BUS1 B43)(_7)
+ (BUS1 B31)(_7)
+ (BUS1 B36)(_7)
+ (BUS1 B54)(_7)
+ (BUS1 B25)(_7)
+ (#FLG3 1)(_7)
+ (#PWR1 1)(_7)
+ (BUS1 A33)(_7)
+ (BUS1 A27)(_7)
+ (BUS1 A21)(_7)
+ (#+3.3V1 1)(_7)
+ (BUS1 B41)(_7)
+Net 243 [1] ""
+ (BUS1 B1)(_7)
+Noconnect 0
+Net 244 [2] "P_AD1_7"
+ #P_AD1#_7
+ #P_AD1#_7
+ (U11 55)(_7)
+ (BUS1 B58)(_7)
+Net 245 [2] "P_AD3_7"
+ (BUS1 B56)(_7)
+ #P_AD3#_7
+ (U11 52)(_7)
+ #P_AD3#_7
+Net 246 [2] "P_AD5_7"
+ #P_AD5#_7
+ (BUS1 B55)(_7)
+ (U11 47)(_7)
+ #P_AD5#_7
+Net 247 [2] "P_AD7_7"
+ (U11 44)(_7)
+ (BUS1 B53)(_7)
+ #P_AD7#_7
+ #P_AD7#_7
+Net 248 [2] "P_AD8_7"
+ #P_AD8#_7
+ (BUS1 B52)(_7)
+ #P_AD8#_7
+ (U11 42)(_7)
+Net 249 [2] "P_AD10_7"
+ #P_AD10#_7
+ #P_AD10#_7
+ (BUS1 B48)(_7)
+ (U11 39)(_7)
+Net 250 [2] "P_AD12_7"
+ (U11 36)(_7)
+ #P_AD12#_7
+ #P_AD12#_7
+ (BUS1 B47)(_7)
+Net 251 [2] "P_AD14_7"
+ #P_AD14#_7
+ (BUS1 B45)(_7)
+ #P_AD14#_7
+ (U11 34)(_7)
+Net 252 [2] "P_AD17_7"
+ (U11 12)(_7)
+ (BUS1 B32)(_7)
+ #P_AD17#_7
+ #P_AD17#_7
+Net 253 [2] "P_AD19_7"
+ (BUS1 B30)(_7)
+ (U11 7)(_7)
+ #P_AD19#_7
+ #P_AD19#_7
+Net 254 [2] "P_AD21_7"
+ #P_AD21#_7
+ (BUS1 B29)(_7)
+ (U11 4)(_7)
+ #P_AD21#_7
+Net 255 [2] "P_AD23_7"
+ #P_AD23#_7
+ (U11 2)(_7)
+ (BUS1 B27)(_7)
+ #P_AD23#_7
+Net 256 [2] "P_AD25_7"
+ (U11 156)(_7)
+ #P_AD25#_7
+ #P_AD25#_7
+ (BUS1 B24)(_7)
+Net 257 [2] "P_AD27_7"
+ #P_AD27#_7
+ (U11 154)(_7)
+ #P_AD27#_7
+ (BUS1 B23)(_7)
+Net 258 [2] "P_AD29_7"
+ #P_AD29#_7
+ #P_AD29#_7
+ (BUS1 B21)(_7)
+ (U11 148)(_7)
+Net 259 [2] "P_AD31_7"
+ #P_AD31#_7
+ (BUS1 B20)(_7)
+ #P_AD31#_7
+ (U11 146)(_7)
+Net 260 [2] "P_C/BE1#_7"
+ #P_C/BE1##_7
+ (U11 28)(_7)
+ #P_C/BE1##_7
+ (BUS1 B44)(_7)
+Net 261 [2] "P_C/BE2#_7"
+ (U11 15)(_7)
+ #P_C/BE2##_7
+ (BUS1 B33)(_7)
+ #P_C/BE2##_7
+Net 262 [2] "P_C/BE3#_7"
+ (BUS1 B26)(_7)
+ #P_C/BE3##_7
+ (U11 159)(_7)
+ #P_C/BE3##_7
+Net 263 [2] "P_CLK_7"
+ #P_CLK#_7
+ #P_CLK#_7
+ (U11 142)(_7)
+ (BUS1 B16)(_7)
+Net 264 [2] "P_IRDY#_7"
+ #P_IRDY##_7
+ #P_IRDY##_7
+ (U11 18)(_7)
+ (BUS1 B35)(_7)
+Net 265 [2] "P_LOCK#_7"
+ #P_LOCK##_7
+ #P_LOCK##_7
+ (BUS1 B39)(_7)
+ (U11 23)(_7)
+Net 266 [2] "P_DEVSEL#_7"
+ (BUS1 B37)(_7)
+ #P_DEVSEL##_7
+ #P_DEVSEL##_7
+ (U11 20)(_7)
+Net 267 [2] "P_REQ#_7"
+ #P_REQ##_7
+ #P_REQ##_7
+ (U11 144)(_7)
+ (BUS1 B18)(_7)
+Net 268 [2] "P_PERR#_7"
+ #P_PERR##_7
+ (BUS1 B40)(_7)
+ #P_PERR##_7
+ (U11 24)(_7)
+Net 269 [2] "P_SERR#_7"
+ #P_SERR##_7
+ (U11 26)(_7)
+ (BUS1 B42)(_7)
+ #P_SERR##_7
+Net 270 [2] "GND"
+ (U10 75)(_4)
+ (U10 134)(_4)
+ (U10 130)(_4)
+ (U10 128)(_4)
+ (U10 126)(_4)
+ (U10 124)(_4)
+ (U10 116)(_4)
+ (U10 5)(_4)
+ (U10 111)(_4)
+ (U10 103)(_4)
+ (U10 98)(_4)
+ (U10 66)(_4)
+ (BUS1 B15)(_7)
+ (BUS1 B13)(_7)
+ (BUS1 B12)(_7)
+ (U14 39)(_6)
+ (U14 1)(_6)
+ (U13 1)(_6)
+ (U13 39)(_6)
+ (U13 72)(_6)
+ (BUS1 B3)(_7)
+ (U1 4)(_7)
+ (U1 3)(_7)
+ (U1 2)(_7)
+ (#GND36 1)(_4)
+ (#GND35 1)(_4)
+ (U1 1)(_7)
+ (W2 1)(_7)
+ (W3 1)(_7)
+ (W1 1)(_7)
+ (#GND34 1)(_4)
+ (U10 56)(_4)
+ (U10 44)(_4)
+ (U10 30)(_4)
+ (U10 16)(_4)
+ (C66 1)(_4)
+ (C65 1)(_4)
+ (BUS1 A12)(_7)
+ (BUS1 A13)(_7)
+ (#GND33 1)(_4)
+ (#GND32 1)(_4)
+ (U8 67)(_8)
+ (U8 63)(_8)
+ (#GND31 1)(_4)
+ (#GND30 1)(_4)
+ (BUS1 A18)(_7)
+ (BUS1 A24)(_7)
+ (D3 1)(_4)
+ (U4 10)(_2)
+ (D1 1)(_4)
+ (R42 1)(_8)
+ (U10 89)(_4)
+ (U10 118)(_4)
+ (U10 88)(_4)
+ (U10 157)(_4)
+ (C6 2)(_4)
+ (U5 10)(_2)
+ (U8 61)(_8)
+ (U10 7)(_4)
+ (BUS1 A30)(_7)
+ (BUS1 A35)(_7)
+ (R14 2)(_4)
+ (R43 1)(_8)
+ (#PWR7 1)(_5)
+ (P12 1)(_5)
+ (C62 2)(_4)
+ (#GND37 1)(_4)
+ (#GND38 1)(_4)
+ (BUS1 A37)(_7)
+ (C9 2)(_4)
+ (BUS1 A42)(_7)
+ (C10 2)(_4)
+ (C2 2)(_4)
+ (C11 2)(_4)
+ (BUS1 A48)(_7)
+ (C14 2)(_4)
+ (C13 2)(_4)
+ (#GND29 1)(_4)
+ (C12 2)(_4)
+ (#GND39 1)(_4)
+ (C16 2)(_4)
+ (#GND28 1)(_4)
+ (#GND27 1)(_4)
+ (#GND26 1)(_4)
+ (#GND25 1)(_4)
+ (#GND24 1)(_4)
+ (R44 1)(_8)
+ (C21 2)(_5)
+ (C22 2)(_5)
+ (C33 2)(_8)
+ (#GND23 1)(_4)
+ (#GND22 1)(_4)
+ (BUS1 A56)(_7)
+ (C38 2)(_7)
+ (U3 10)(_2)
+ (#GND84 1)(_7)
+ (#GND90 1)(_8)
+ (#GND91 1)(_8)
+ (#GND92 1)(_8)
+ (U8 2)(_8)
+ (U8 3)(_8)
+ (U8 41)(_8)
+ (U8 42)(_8)
+ (#GND81 1)(_7)
+ (#GND93 1)(_8)
+ (C31 2)(_7)
+ (U12 72)(_6)
+ (#GND46 1)(_5)
+ (U12 39)(_6)
+ (U7 3)(_5)
+ (C63 2)(_5)
+ (#GND45 1)(_5)
+ (C57 2)(_5)
+ (C56 2)(_5)
+ (#GND44 1)(_5)
+ (C20 2)(_5)
+ (C19 2)(_5)
+ (C18 2)(_5)
+ (C17 2)(_5)
+ (U9 12)(_8)
+ (U9 13)(_8)
+ (#GND94 1)(_8)
+ (#GND43 1)(_5)
+ (#GND42 1)(_5)
+ (#GND95 1)(_8)
+ (#GND41 1)(_5)
+ (C50 2)(_5)
+ (U12 1)(_6)
+ (C49 2)(_5)
+ (R47 2)(_8)
+ (#GND40 1)(_5)
+ (R45 2)(_8)
+ (#GND80 1)(_7)
+ (C30 2)(_7)
+ (#GND79 1)(_7)
+ (C29 2)(_7)
+ (U9 3)(_8)
+ (U9 4)(_8)
+ (U9 31)(_8)
+ (U9 32)(_8)
+ (#GND78 1)(_7)
+ (C28 2)(_7)
+ (#GND77 1)(_7)
+ (C27 2)(_7)
+ (#GND76 1)(_7)
+ (C26 2)(_7)
+ (#GND75 1)(_7)
+ (C25 2)(_7)
+ (#GND74 1)(_7)
+ (C24 2)(_7)
+ (#GND73 1)(_7)
+ (#GND72 1)(_7)
+ (#GND71 1)(_7)
+ (R46 2)(_8)
+ (#GND96 1)(_8)
+ (BUS1 B17)(_7)
+ (W5 1)(_7)
+ (#PWR3 1)(_3)
+ (W4 1)(_7)
+ (L6 3)(_3)
+ (#GND87 1)(_8)
+ (#GND97 1)(_8)
+ (#PWR2 1)(_3)
+ (#GND69 1)(_7)
+ (U8 23)(_8)
+ (#GND68 1)(_7)
+ (U10 155)(_4)
+ (#GND67 1)(_7)
+ (#GND98 1)(_8)
+ (U8 22)(_8)
+ (#GND65 1)(_7)
+ (#GND64 1)(_7)
+ (U16 72)(_6)
+ (U16 39)(_6)
+ (#GND88 1)(_8)
+ (U16 1)(_6)
+ (R38 2)(_8)
+ (C55 2)(_3)
+ (R32 2)(_3)
+ (R33 2)(_3)
+ (#GND99 1)(_8)
+ (R34 2)(_3)
+ (C46 2)(_3)
+ (#GND63 1)(_7)
+ (U24 1)(_5)
+ (U24 10)(_5)
+ (U24 19)(_5)
+ (R8 2)(_8)
+ (U24 29)(_5)
+ (#GND102 1)(_8)
+ (U24 39)(_5)
+ (U24 51)(_5)
+ (U24 61)(_5)
+ (U24 70)(_5)
+ (U24 79)(_5)
+ (C15 2)(_4)
+ (U24 91)(_5)
+ (U24 101)(_5)
+ (U24 110)(_5)
+ (U24 122)(_5)
+ (U24 131)(_5)
+ (U24 141)(_5)
+ (U24 151)(_5)
+ (#GND62 1)(_7)
+ (#GND100 1)(_8)
+ (#GND61 1)(_7)
+ (#GND60 1)(_7)
+ (R15 1)(_8)
+ (#GND59 1)(_7)
+ (#GND58 1)(_7)
+ (#GND57 1)(_7)
+ (#GND56 1)(_7)
+ (U20 17)(_3)
+ (#GND55 1)(_7)
+ (U23 91)(_5)
+ (U23 80)(_5)
+ (U23 67)(_5)
+ (U20 10)(_3)
+ (U23 52)(_5)
+ (U23 41)(_5)
+ (U23 26)(_5)
+ (U23 14)(_5)
+ (U23 4)(_5)
+ (U10 147)(_4)
+ (#GND54 1)(_7)
+ (#GND53 1)(_7)
+ (U10 153)(_4)
+ (BUS1 B34)(_7)
+ (U8 21)(_8)
+ (C7 2)(_4)
+ (U14 72)(_6)
+ (#GND52 1)(_7)
+ (C53 2)(_3)
+ (#GND51 1)(_7)
+ (C23 2)(_5)
+ (C44 2)(_3)
+ (#GND50 1)(_7)
+ (#PWR4 1)(_5)
+ (C64 2)(_3)
+ (#GND49 1)(_7)
+ (C48 1)(_3)
+ (C45 2)(_3)
+ (CV1 2)(_3)
+ (#GND48 1)(_7)
+ (C43 2)(_3)
+ (#GND47 1)(_7)
+ (#GND101 1)(_8)
+ (U21 5)(_5)
+ (C37 1)(_8)
+ (R31 1)(_3)
+ (U15 72)(_6)
+ (P5 1)(_5)
+ (U15 39)(_6)
+ (U15 1)(_6)
+ (C54 2)(_3)
+ (U10 136)(_4)
+ (U10 138)(_4)
+ (U10 3)(_4)
+ (U10 151)(_4)
+ (C47 2)(_4)
+ (BUS1 B28)(_7)
+ (BUS1 B57)(_7)
+ (#GND5 1)(_1)
+ (POT1 3)(_3)
+ (POT1 2)(_3)
+ (J4 6)(_1)
+ (J4 7)(_1)
+ (J4 4)(_1)
+ (J4 5)(_1)
+ (U17 72)(_6)
+ (U17 39)(_6)
+ (#GND86 1)(_8)
+ (P4 2)(_5)
+ (C52 2)(_8)
+ (U17 1)(_6)
+ (C51 2)(_8)
+ (R37 1)(_8)
+ (#GND89 1)(_8)
+ (#PWR5 1)(_5)
+ (C32 1)(_8)
+ (U11 10)(_7)
+ (U11 30)(_7)
+ (U11 50)(_7)
+ (U11 70)(_7)
+ (U11 90)(_7)
+ (#PWR8 1)(_8)
+ (U11 130)(_7)
+ (U11 150)(_7)
+ (U11 110)(_7)
+ (#GND70 1)(_7)
+ (BUS1 B49)(_7)
+ (U6 10)(_2)
+ (#PWR6 1)(_5)
+ (U18 72)(_6)
+ (#PWR9 1)(_8)
+ (U18 39)(_6)
+ (#PWR18 1)(_7)
+ (U18 1)(_6)
+ (#GND21 1)(_3)
+ (#GND20 1)(_3)
+ (#GND19 1)(_3)
+ (#GND18 1)(_3)
+ (#GND17 1)(_3)
+ (#FLG6 1)(_7)
+ (#GND16 1)(_3)
+ (#GND15 1)(_3)
+ (#GND14 1)(_3)
+ (#GND13 1)(_3)
+ (#GND12 1)(_3)
+ (U2 20)(_5)
+ (#GND11 1)(_3)
+ (#GND10 1)(_3)
+ (C73 2)(_5)
+ (C72 2)(_5)
+ (#GND9 1)(_3)
+ (C71 2)(_5)
+ (C70 2)(_5)
+ (#GND8 1)(_3)
+ (#GND7 1)(_3)
+ (#GND6 1)(_3)
+ (U22 88)(_2)
+ (U10 139)(_4)
+ (BUS1 B46)(_7)
+ (U10 143)(_4)
+ (BUS1 B22)(_7)
+ (#GND66 1)(_7)
+ (U10 90)(_4)
+ (BUS1 B38)(_7)
+ (U10 145)(_4)
+ (U22 49)(_2)
+ (U22 38)(_2)
+ (U22 1)(_2)
+ (#GND1 1)(_1)
+ (U19 72)(_6)
+ (U22 23)(_2)
+ (U19 39)(_6)
+ (U22 64)(_2)
+ (U22 11)(_2)
+ (U19 1)(_6)
+ (P8 2)(_1)
+ (#GND4 1)(_1)
+ (P1 2)(_1)
+ (P2 2)(_1)
+ (P3 2)(_1)
+ (U22 77)(_2)
+ (#GND2 1)(_1)
+ (#GND3 1)(_1)
+ (C67 2)(_7)
+ (C68 2)(_7)
+ (C69 2)(_7)
+ (#GND82 1)(_7)
+ (#GND85 1)(_7)
+ (#GND83 1)(_7)
+ (#PWR10 1)(_8)
+Net 271 [2] ""
+ (U11 59)(_7)
+ (W1 2)(_7)
+ (R5 1)(_7)
+Net 272 [1] ""
+ (BUS1 A60)(_7)
+Noconnect 0
+Net 273 [1] ""
+ (BUS1 A41)(_7)
+Noconnect 0
+Net 274 [1] ""
+ (BUS1 A40)(_7)
+Noconnect 0
+Net 275 [1] ""
+ (BUS1 A19)(_7)
+Noconnect 0
+Net 276 [1] ""
+ (BUS1 A14)(_7)
+Noconnect 0
+Net 277 [1] ""
+Noconnect 0
+ (BUS1 A11)(_7)
+Net 278 [1] ""
+Noconnect 0
+ (BUS1 A9)(_7)
+Net 279 [1] ""
+Noconnect 0
+ (BUS1 A7)(_7)
+Net 280 [2] ""
+ (BUS1 A4)(_7)
+ (BUS1 B4)(_7)
+Net 281 [1] ""
+Noconnect 0
+ (BUS1 A3)(_7)
+Net 282 [1] ""
+ (BUS1 A1)(_7)
+Noconnect 0
+Net 283 [1] ""
+Noconnect 0
+ (BUS1 B60)(_7)
+Net 284 [1] ""
+ (BUS1 B14)(_7)
+Noconnect 0
+Net 285 [2] ""
+ (W4 2)(_7)
+ (BUS1 B11)(_7)
+Net 286 [1] ""
+Noconnect 0
+ (BUS1 B10)(_7)
+Net 287 [2] ""
+ (BUS1 B9)(_7)
+ (W5 2)(_7)
+Net 288 [1] ""
+Noconnect 0
+ (BUS1 B8)(_7)
+Net 289 [1] ""
+ (BUS1 B7)(_7)
+Noconnect 0
+Net 290 [1] ""
+Noconnect 0
+ (BUS1 B2)(_7)
+Net 291 [2] "+5V"
+ (U13 59)(_6)
+ (#+5V11 1)(_7)
+ (#+5V26 1)(_7)
+ (#VCC2 1)(_3)
+ (#PWR16 1)(_5)
+ (U11 31)(_7)
+ (#PWR17 1)(_7)
+ (BUS1 B19)(_7)
+ (C9 1)(_4)
+ (C10 1)(_4)
+ (C11 1)(_4)
+ (#PWR12 1)(_3)
+ (#FLG4 1)(_7)
+ (RR1 1)(_7)
+ (R48 1)(_5)
+ (U16 30)(_6)
+ (#PWR15 1)(_5)
+ (U16 10)(_6)
+ (R4 2)(_3)
+ (U1 7)(_7)
+ (R5 2)(_7)
+ (R6 2)(_7)
+ (R7 2)(_7)
+ (R28 1)(_7)
+ (#+5V13 1)(_7)
+ (R29 1)(_7)
+ (C24 1)(_7)
+ (#+5V4 1)(_7)
+ (U16 59)(_6)
+ (U21 7)(_5)
+ (U21 8)(_5)
+ (C25 1)(_7)
+ (RR2 1)(_7)
+ (C26 1)(_7)
+ (RR3 1)(_7)
+ (U22 100)(_2)
+ (C27 1)(_7)
+ (#PWR14 1)(_5)
+ (C28 1)(_7)
+ (R1 2)(_5)
+ (C29 1)(_7)
+ (C30 1)(_7)
+ (U12 59)(_6)
+ (U12 10)(_6)
+ (C21 1)(_5)
+ (C22 1)(_5)
+ (U11 51)(_7)
+ (U11 71)(_7)
+ (U11 91)(_7)
+ (U12 30)(_6)
+ (C31 1)(_7)
+ (#+5V14 1)(_7)
+ (#+5V15 1)(_7)
+ (U18 30)(_6)
+ (U15 30)(_6)
+ (U15 10)(_6)
+ (#+5V27 1)(_7)
+ (C67 1)(_7)
+ (U23 3)(_5)
+ (U23 15)(_5)
+ (#+5V25 1)(_7)
+ (U23 28)(_5)
+ (#VCC9 1)(_5)
+ (#+5V24 1)(_7)
+ (U23 40)(_5)
+ (#VCC10 1)(_5)
+ (#VCC11 1)(_5)
+ (U23 54)(_5)
+ (U23 66)(_5)
+ (#VCC8 1)(_5)
+ (U23 78)(_5)
+ (U11 111)(_7)
+ (U23 92)(_5)
+ (U11 131)(_7)
+ (U3 20)(_2)
+ (U22 37)(_2)
+ (U22 51)(_2)
+ (U13 10)(_6)
+ (U22 25)(_2)
+ (U11 151)(_7)
+ (#VCC3 1)(_4)
+ (#+5V16 1)(_7)
+ (#+5V3 1)(_7)
+ (U17 30)(_6)
+ (#+5V5 1)(_7)
+ (BUS1 B6)(_7)
+ (U22 12)(_2)
+ (#VCC7 1)(_4)
+ (C15 1)(_4)
+ (#+5V6 1)(_7)
+ (#+5V21 1)(_7)
+ (#+5V23 1)(_7)
+ (#PWR11 1)(_2)
+ (#+5V17 1)(_7)
+ (U24 160)(_5)
+ (U24 142)(_5)
+ (U24 120)(_5)
+ (U24 100)(_5)
+ (U24 81)(_5)
+ (U24 60)(_5)
+ (U24 41)(_5)
+ (U24 20)(_5)
+ (U22 26)(_2)
+ (U22 22)(_2)
+ (U22 24)(_2)
+ (C38 1)(_7)
+ (U17 10)(_6)
+ (#VCC4 1)(_4)
+ (BUS1 A62)(_7)
+ (U22 89)(_2)
+ (U22 63)(_2)
+ (#VCC5 1)(_4)
+ (#VCC6 1)(_4)
+ (BUS1 A61)(_7)
+ (RR4 1)(_7)
+ (U6 20)(_2)
+ (U18 10)(_6)
+ (BUS1 A59)(_7)
+ (RR5 1)(_7)
+ (C57 1)(_5)
+ (U10 91)(_4)
+ (U10 112)(_4)
+ (C56 1)(_5)
+ (U15 59)(_6)
+ (C20 1)(_5)
+ (BUS1 B59)(_7)
+ (C19 1)(_5)
+ (C18 1)(_5)
+ (#+5V2 1)(_7)
+ (BUS1 A8)(_7)
+ (U14 30)(_6)
+ (L4 1)(_4)
+ (BUS1 B61)(_7)
+ (C17 1)(_5)
+ (U14 10)(_6)
+ (BUS1 B62)(_7)
+ (U24 42)(_5)
+ (U24 38)(_5)
+ (U24 40)(_5)
+ (U4 20)(_2)
+ (U1 8)(_7)
+ (C70 1)(_5)
+ (BUS1 A5)(_7)
+ (RR6 1)(_7)
+ (L2 1)(_3)
+ (RR7 1)(_7)
+ (U10 102)(_4)
+ (#+5V18 1)(_7)
+ (#+5V19 1)(_7)
+ (L3 1)(_3)
+ (#VCC1 1)(_3)
+ (U22 75)(_2)
+ (U13 30)(_6)
+ (U2 10)(_5)
+ (RR8 1)(_7)
+ (D2 2)(_4)
+ (#PWR13 1)(_5)
+ (R13 1)(_5)
+ (#+5V22 1)(_7)
+ (#+5V29 1)(_7)
+ (U11 11)(_7)
+ (D4 2)(_4)
+ (U10 76)(_4)
+ (#+5V20 1)(_7)
+ (#+5V10 1)(_7)
+ (BUS1 A16)(_7)
+ (#+5V9 1)(_7)
+ (U5 20)(_2)
+ (#+5V12 1)(_7)
+ (L5 1)(_8)
+ (#+5V1 1)(_7)
+ (U17 59)(_6)
+ (U14 59)(_6)
+ (#+5V28 1)(_7)
+ (U19 30)(_6)
+ (#+5V7 1)(_7)
+ (#VCC12 1)(_8)
+ (U10 31)(_4)
+ (BUS1 B5)(_7)
+ (C73 1)(_5)
+ (#+5V8 1)(_7)
+ (U19 10)(_6)
+ (C72 1)(_5)
+ (U10 45)(_4)
+ (BUS1 A10)(_7)
+ (C71 1)(_5)
+ (U18 59)(_6)
+ (U19 59)(_6)
+ (U10 57)(_4)
+Net 292 [2] "P_AD0_7"
+ #P_AD0#_7
+ #P_AD0#_7
+ (U11 56)(_7)
+ (BUS1 A58)(_7)
+Net 293 [2] "P_AD2_7"
+ #P_AD2#_7
+ (BUS1 A57)(_7)
+ (U11 54)(_7)
+ #P_AD2#_7
+Net 294 [2] "P_AD4_7"
+ (BUS1 A55)(_7)
+ #P_AD4#_7
+ (U11 48)(_7)
+ #P_AD4#_7
+Net 295 [2] "P_AD6_7"
+ (U11 46)(_7)
+ #P_AD6#_7
+ #P_AD6#_7
+ (BUS1 A54)(_7)
+Net 296 [2] "P_AD9_7"
+ #P_AD9#_7
+ (U11 40)(_7)
+ #P_AD9#_7
+ (BUS1 A49)(_7)
+Net 297 [2] "P_AD11_7"
+ (BUS1 A47)(_7)
+ #P_AD11#_7
+ (U11 38)(_7)
+ #P_AD11#_7
+Net 298 [2] "P_AD13_7"
+ (BUS1 A46)(_7)
+ #P_AD13#_7
+ (U11 35)(_7)
+ #P_AD13#_7
+Net 299 [2] "P_AD15_7"
+ #P_AD15#_7
+ (U11 32)(_7)
+ (BUS1 A44)(_7)
+ #P_AD15#_7
+Net 300 [2] "P_AD16_7"
+ (U11 14)(_7)
+ #P_AD16#_7
+ #P_AD16#_7
+ (BUS1 A32)(_7)
+Net 301 [2] "P_AD18_7"
+ (BUS1 A31)(_7)
+ #P_AD18#_7
+ #P_AD18#_7
+ (U11 8)(_7)
+Net 302 [2] "P_AD20_7"
+ (BUS1 A29)(_7)
+ #P_AD20#_7
+ (U11 6)(_7)
+ #P_AD20#_7
+Net 303 [2] "P_AD22_7"
+ (BUS1 A28)(_7)
+ #P_AD22#_7
+ (U11 3)(_7)
+ #P_AD22#_7
+Net 304 [2] "P_AD24_7"
+ (U11 158)(_7)
+ #P_AD24#_7
+ #P_AD24#_7
+ (BUS1 A25)(_7)
+Net 305 [2] "P_AD26_7"
+ (BUS1 A23)(_7)
+ (U11 155)(_7)
+ #P_AD26#_7
+ #P_AD26#_7
+Net 306 [2] "P_AD28_7"
+ (BUS1 A22)(_7)
+ #P_AD28#_7
+ (U11 152)(_7)
+ #P_AD28#_7
+Net 307 [2] "P_AD30_7"
+ (U11 147)(_7)
+ (BUS1 A20)(_7)
+ #P_AD30#_7
+ #P_AD30#_7
+Net 308 [2] "P_C/BE0#_7"
+ (BUS1 A52)(_7)
+ #P_C/BE0##_7
+ #P_C/BE0##_7
+ (U11 43)(_7)
+Net 309 [2] "P_PAR_7"
+ #P_PAR#_7
+ #P_PAR#_7
+ (BUS1 A43)(_7)
+ (U11 27)(_7)
+Net 310 [2] "P_RST#_7"
+ (BUS1 A15)(_7)
+ #P_RST##_7
+ #P_RST##_7
+ (U11 139)(_7)
+Net 311 [2] "P_FRAME#_7"
+ #P_FRAME##_7
+ #P_FRAME##_7
+ (U11 16)(_7)
+ (BUS1 A34)(_7)
+Net 312 [2] "P_TRDY#_7"
+ (BUS1 A36)(_7)
+ (U11 19)(_7)
+ #P_TRDY##_7
+ #P_TRDY##_7
+Net 313 [2] "P_STOP#_7"
+ #P_STOP##_7
+ #P_STOP##_7
+ (BUS1 A38)(_7)
+ (U11 22)(_7)
+Net 314 [2] "P_IDSEL_7"
+ (BUS1 A26)(_7)
+ #P_IDSEL#_7
+ (U11 160)(_7)
+ #P_IDSEL#_7
+Net 315 [2] "P_GNT#_7"
+ #P_GNT##_7
+ (BUS1 A17)(_7)
+ #P_GNT##_7
+ (U11 143)(_7)
+Net 316 [2] "P_INTA#_7"
+ #P_INTA##_7
+ (U11 58)(_7)
+ (BUS1 A6)(_7)
+ #P_INTA##_7
+Net 317 [2] "EA1_7"
+ #EA1#_7
+ (RR2 6)(_7)
+ (U11 61)(_7)
+ #EA1#_7
+Net 318 [2] "EA2_7"
+ #EA2#_7
+ (RR3 8)(_7)
+ #EA2#_7
+ (U11 69)(_7)
+Net 319 [2] "EA3_7"
+ #EA3#_7
+ #EA3#_7
+ (U11 73)(_7)
+ (RR3 6)(_7)
+Net 320 [2] "EA4_7"
+ (U11 81)(_7)
+ #EA4#_7
+ (RR3 2)(_7)
+ #EA4#_7
+Net 321 [2] "EA5_7"
+ (RR4 4)(_7)
+ #EA5#_7
+ #EA5#_7
+ (U11 89)(_7)
+Net 322 [2] "EA6_7"
+ #EA6#_7
+ (RR4 2)(_7)
+ (U11 97)(_7)
+ #EA6#_7
+Net 323 [2] "EA7_7"
+ #EA7#_7
+ (RR5 9)(_7)
+ #EA7#_7
+ (U11 101)(_7)
+Net 324 [2] "EA9_7"
+ #EA9#_7
+ (U11 113)(_7)
+ #EA9#_7
+ (RR5 3)(_7)
+Net 325 [2] "EA10_7"
+ #EA10#_7
+ (U11 121)(_7)
+ #EA10#_7
+ (RR6 9)(_7)
+Net 326 [2] "EA11_7"
+ #EA11#_7
+ #EA11#_7
+ (RR6 7)(_7)
+ (U11 129)(_7)
+Net 327 [2] "EA12_7"
+ #EA12#_7
+ (U11 137)(_7)
+ (RR6 5)(_7)
+ #EA12#_7
+Net 328 [2] "EA13_7"
+ #EA13#_7
+ #EA13#_7
+ (U11 141)(_7)
+ (RR6 4)(_7)
+Net 329 [2] "EA14_7"
+ #EA14#_7
+ (RR4 8)(_7)
+ (U11 149)(_7)
+ #EA14#_7
+Net 330 [2] "EA15_7"
+ #EA15#_7
+ (RR4 6)(_7)
+ (U11 153)(_7)
+ #EA15#_7
+Net 331 [2] "EQ0_7"
+ (U11 1)(_7)
+ #EQ0#_7
+ (RR1 2)(_7)
+ #EQ0#_7
+Net 332 [2] "EQ1_7"
+ (U11 9)(_7)
+ #EQ1#_7
+ #EQ1#_7
+ (RR1 4)(_7)
+Net 333 [2] "EQ2_7"
+ (U11 17)(_7)
+ #EQ2#_7
+ (RR1 6)(_7)
+ #EQ2#_7
+Net 334 [2] "EQ3_7"
+ (RR1 7)(_7)
+ #EQ3#_7
+ #EQ3#_7
+ (U11 21)(_7)
+Net 335 [2] "EQ4_7"
+ (RR1 9)(_7)
+ #EQ4#_7
+ (U11 29)(_7)
+ #EQ4#_7
+Net 336 [2] "EQ5_7"
+ (RR2 4)(_7)
+ (U11 33)(_7)
+ #EQ5#_7
+ #EQ5#_7
+Net 337 [2] "EQ6_7"
+ (U11 41)(_7)
+ #EQ6#_7
+ (RR2 2)(_7)
+ #EQ6#_7
+Net 338 [2] "EQ7_7"
+ (RR2 9)(_7)
+ #EQ7#_7
+ #EQ7#_7
+ (U11 49)(_7)
+Net 339 [2] ""
+ (W2 2)(_7)
+ (R6 1)(_7)
+ (U11 138)(_7)
+Net 340 [2] ""
+ (W3 2)(_7)
+ (U11 135)(_7)
+ (R7 1)(_7)
+Net 341 [2] ""
+ (U1 6)(_7)
+ (R28 2)(_7)
+ (U11 128)(_7)
+Net 342 [2] ""
+ (U11 127)(_7)
+ (R29 2)(_7)
+ (U1 5)(_7)
+Net 343 [2] "+12V"
+ (#+12V1 1)(_7)
+ (#FLG5 1)(_7)
+ (BUS1 A2)(_7)
+Net 344 [2] ""
+ (U9 44)(_8)
+ (U9 43)(_8)
+ (C32 2)(_8)
+Net 345 [2] ""
+ (C35 2)(_8)
+ (U9 41)(_8)
+ (U9 42)(_8)
+Net 346 [1] ""
+ (U8 4)(_8)
+Noconnect 0
+Net 347 [1] ""
+Noconnect 0
+ (U9 30)(_8)
+Net 348 [1] ""
+ (U9 6)(_8)
+Noconnect 0
+Net 349 [1] ""
+ (U9 5)(_8)
+Noconnect 0
+Net 350 [2] ""
+ (U8 7)(_8)
+ (R15 2)(_8)
+ (C36 1)(_8)
+Net 351 [2] ""
+ (R38 1)(_8)
+ (U8 69)(_8)
+Net 352 [2] ""
+ (U8 6)(_8)
+ (R36 2)(_8)
+Net 353 [2] ""
+ (U8 58)(_8)
+ (U8 68)(_8)
+Net 354 [2] ""
+ (U8 70)(_8)
+ (U8 60)(_8)
+Net 355 [2] ""
+ (U8 72)(_8)
+ (U8 62)(_8)
+Net 356 [1] ""
+Noconnect 0
+ (U8 5)(_8)
+Net 357 [1] ""
+ (U8 74)(_8)
+Noconnect 0
+Net 358 [1] ""
+ (U8 77)(_8)
+Noconnect 0
+Net 359 [1] ""
+ (U8 81)(_8)
+Noconnect 0
+Net 360 [2] "VAA_8"
+ (U9 2)(_8)
+ (U9 33)(_8)
+ (U9 34)(_8)
+ (U9 35)(_8)
+ (U9 36)(_8)
+ #VAA#_8
+ (U9 1)(_8)
+ (U8 44)(_8)
+ (U8 43)(_8)
+ #VAA#_8
+ (C51 1)(_8)
+ (C35 1)(_8)
+ (C52 1)(_8)
+ (U8 1)(_8)
+ (U8 84)(_8)
+ (C33 1)(_8)
+ (L5 2)(_8)
+ (C34 1)(_8)
+ (C42 1)(_8)
+Net 361 [1] ""
+Noconnect 0
+ (U9 27)(_8)
+Net 362 [2] ""
+ (C41 1)(_8)
+ (U8 75)(_8)
+Net 363 [2] ""
+ (U8 79)(_8)
+ (C40 1)(_8)
+Net 364 [2] ""
+ (U8 83)(_8)
+ (C39 1)(_8)
+Net 365 [2] ""
+ (C36 2)(_8)
+ (C37 2)(_8)
+ (R36 1)(_8)
+Net 366 [2] ""
+ (C41 2)(_8)
+ (R22 2)(_8)
+Net 367 [2] ""
+ (C40 2)(_8)
+ (R23 2)(_8)
+Net 368 [2] ""
+ (C39 2)(_8)
+ (R24 2)(_8)
+Net 369 [2] ""
+ (R8 1)(_8)
+ (C42 2)(_8)
+ (U9 40)(_8)
+ (C34 2)(_8)
+Net 370 [2] "REF+_8"
+ (R37 2)(_8)
+ (U8 64)(_8)
+ (U8 73)(_8)
+ #REF+#_8
+ (U8 66)(_8)
+ (U8 76)(_8)
+ (U8 71)(_8)
+ (U8 78)(_8)
+ (U8 80)(_8)
+ (U8 82)(_8)
+ (U8 65)(_8)
+Net 371 [2] "OE_RVB-_8"
+ #OE_RVB-#_8
+ (U9 29)(_8)
+ #OE_RVB-#_8
+ (U8 57)(_8)
+Net 372 [2] "TVRAM10_6"
+ #TVRAM10#_6
+ #TVRAM10#_6
+ #TVRAM10#_6
+ #TVRAM10#_6
+ (U18 53)(_6)
+ (U22 35)(_2)
+ #TVRAM10#_6
+ (U4 16)(_2)
+ (U14 53)(_6)
+ (U16 53)(_6)
+ (U12 53)(_6)
+ (U13 53)(_6)
+ #TVRAM10#_6
+ #TVRAM10#_6
+ (U19 53)(_6)
+ #VRAM10#_2
+ #VRAM10#_2
+ (U15 53)(_6)
+ (U17 53)(_6)
+ #TVRAM10#_6
+Net 373 [2] "TVRAM11_6"
+ #TVRAM11#_6
+ #TVRAM11#_6
+ (U19 55)(_6)
+ (U13 55)(_6)
+ (U12 55)(_6)
+ (U16 55)(_6)
+ (U22 36)(_2)
+ #VRAM11#_2
+ #TVRAM11#_6
+ (U15 55)(_6)
+ #TVRAM11#_6
+ #TVRAM11#_6
+ #TVRAM11#_6
+ (U18 55)(_6)
+ #TVRAM11#_6
+ (U4 15)(_2)
+ (U14 55)(_6)
+ #VRAM11#_2
+ (U17 55)(_6)
+ #TVRAM11#_6
+Net 374 [2] "TVRAM12_6"
+ #TVRAM12#_6
+ #TVRAM12#_6
+ (U15 57)(_6)
+ (U12 57)(_6)
+ #TVRAM12#_6
+ (U19 57)(_6)
+ #TVRAM12#_6
+ (U16 57)(_6)
+ #TVRAM12#_6
+ #TVRAM12#_6
+ (U22 39)(_2)
+ #TVRAM12#_6
+ (U18 57)(_6)
+ #TVRAM12#_6
+ #VRAM12#_2
+ (U14 57)(_6)
+ (U13 57)(_6)
+ (U4 14)(_2)
+ (U17 57)(_6)
+ #VRAM12#_2
+Net 375 [2] "VRAM13_2"
+ (U4 13)(_2)
+ #VRAM13#_2
+ #TVRAM13#_6
+ (U15 61)(_6)
+ (U12 61)(_6)
+ (U17 61)(_6)
+ (U19 61)(_6)
+ #TVRAM13#_6
+ (U13 61)(_6)
+ (U14 61)(_6)
+ #TVRAM13#_6
+ (U16 61)(_6)
+ #VRAM13#_2
+ #TVRAM13#_6
+ #TVRAM13#_6
+ (U22 40)(_2)
+ (U18 61)(_6)
+ #TVRAM13#_6
+ #TVRAM13#_6
+ #TVRAM13#_6
+Net 376 [2] "TVRAM14_6"
+ #TVRAM14#_6
+ (U18 63)(_6)
+ (U22 41)(_2)
+ #TVRAM14#_6
+ #TVRAM14#_6
+ (U19 63)(_6)
+ #VRAM14#_2
+ (U16 63)(_6)
+ #TVRAM14#_6
+ #TVRAM14#_6
+ (U14 63)(_6)
+ (U17 63)(_6)
+ (U12 63)(_6)
+ #VRAM14#_2
+ #TVRAM14#_6
+ (U4 12)(_2)
+ #TVRAM14#_6
+ #TVRAM14#_6
+ (U15 63)(_6)
+ (U13 63)(_6)
+Net 377 [2] "TVRAM15_6"
+ (U13 65)(_6)
+ (U19 65)(_6)
+ #TVRAM15#_6
+ (U15 65)(_6)
+ #TVRAM15#_6
+ #TVRAM15#_6
+ (U12 65)(_6)
+ #TVRAM15#_6
+ (U4 11)(_2)
+ #VRAM15#_2
+ #TVRAM15#_6
+ (U16 65)(_6)
+ #TVRAM15#_6
+ (U22 42)(_2)
+ (U18 65)(_6)
+ #VRAM15#_2
+ #TVRAM15#_6
+ #TVRAM15#_6
+ (U14 65)(_6)
+ (U17 65)(_6)
+Net 378 [2] "TVRAM16_6"
+ #TVRAM16#_6
+ #VRAM16#_2
+ (U18 3)(_6)
+ #TVRAM16#_6
+ (U22 43)(_2)
+ #VRAM16#_2
+ (U16 3)(_6)
+ #TVRAM16#_6
+ #TVRAM16#_6
+ (U5 18)(_2)
+ (U12 3)(_6)
+ #TVRAM16#_6
+ #TVRAM16#_6
+ #TVRAM16#_6
+ #TVRAM16#_6
+ (U17 3)(_6)
+ (U13 3)(_6)
+ (U19 3)(_6)
+ (U14 3)(_6)
+ (U15 3)(_6)
+Net 379 [2] "TVRAM17_6"
+ (U13 5)(_6)
+ (U17 5)(_6)
+ #TVRAM17#_6
+ #TVRAM17#_6
+ (U5 17)(_2)
+ #VRAM17#_2
+ #TVRAM17#_6
+ #VRAM17#_2
+ (U14 5)(_6)
+ #TVRAM17#_6
+ (U18 5)(_6)
+ (U22 44)(_2)
+ #TVRAM17#_6
+ #TVRAM17#_6
+ (U16 5)(_6)
+ (U12 5)(_6)
+ #TVRAM17#_6
+ #TVRAM17#_6
+ (U19 5)(_6)
+ (U15 5)(_6)
+Net 380 [2] "TVRAM18_6"
+ #TVRAM18#_6
+ #VRAM18#_2
+ (U12 7)(_6)
+ #TVRAM18#_6
+ #TVRAM18#_6
+ (U16 7)(_6)
+ (U15 7)(_6)
+ #TVRAM18#_6
+ (U22 45)(_2)
+ #TVRAM18#_6
+ (U17 7)(_6)
+ (U19 7)(_6)
+ (U14 7)(_6)
+ #TVRAM18#_6
+ #TVRAM18#_6
+ (U5 16)(_2)
+ #VRAM18#_2
+ #TVRAM18#_6
+ (U13 7)(_6)
+ (U18 7)(_6)
+Net 381 [2] "TVRAM19_6"
+ (U13 9)(_6)
+ (U18 9)(_6)
+ #TVRAM19#_6
+ #VRAM19#_2
+ (U16 9)(_6)
+ (U15 9)(_6)
+ #VRAM19#_2
+ #TVRAM19#_6
+ #TVRAM19#_6
+ (U5 15)(_2)
+ #TVRAM19#_6
+ (U22 46)(_2)
+ #TVRAM19#_6
+ (U12 9)(_6)
+ #TVRAM19#_6
+ (U14 9)(_6)
+ (U19 9)(_6)
+ (U17 9)(_6)
+ #TVRAM19#_6
+ #TVRAM19#_6
+Net 382 [2] "TVRAM20_6"
+ (U19 21)(_6)
+ #TVRAM20#_6
+ (U14 21)(_6)
+ #TVRAM20#_6
+ #TVRAM20#_6
+ (U5 14)(_2)
+ #TVRAM20#_6
+ (U17 21)(_6)
+ #TVRAM20#_6
+ (U12 21)(_6)
+ #TVRAM20#_6
+ #TVRAM20#_6
+ (U22 47)(_2)
+ (U16 21)(_6)
+ #VRAM20#_2
+ #VRAM20#_2
+ (U18 21)(_6)
+ (U13 21)(_6)
+ #TVRAM20#_6
+ (U15 21)(_6)
+Net 383 [2] "TVRAM21_6"
+ #TVRAM21#_6
+ #VRAM21#_2
+ (U17 23)(_6)
+ #TVRAM21#_6
+ #TVRAM21#_6
+ (U14 23)(_6)
+ #TVRAM21#_6
+ #TVRAM21#_6
+ (U5 13)(_2)
+ (U12 23)(_6)
+ (U18 23)(_6)
+ (U13 23)(_6)
+ #VRAM21#_2
+ (U22 48)(_2)
+ (U15 23)(_6)
+ #TVRAM21#_6
+ #TVRAM21#_6
+ #TVRAM21#_6
+ (U16 23)(_6)
+ (U19 23)(_6)
+Net 384 [2] "TVRAM22_6"
+ (U16 25)(_6)
+ (U15 25)(_6)
+ (U22 53)(_2)
+ #TVRAM22#_6
+ #TVRAM22#_6
+ #VRAM22#_2
+ #TVRAM22#_6
+ (U14 25)(_6)
+ #VRAM22#_2
+ (U18 25)(_6)
+ #TVRAM22#_6
+ (U19 25)(_6)
+ (U13 25)(_6)
+ (U5 12)(_2)
+ #TVRAM22#_6
+ #TVRAM22#_6
+ #TVRAM22#_6
+ #TVRAM22#_6
+ (U12 25)(_6)
+ (U17 25)(_6)
+Net 385 [2] "TVRAM23_6"
+ (U17 27)(_6)
+ #TVRAM23#_6
+ #TVRAM23#_6
+ (U12 27)(_6)
+ (U18 27)(_6)
+ (U13 27)(_6)
+ (U5 11)(_2)
+ #TVRAM23#_6
+ #VRAM23#_2
+ #TVRAM23#_6
+ (U16 27)(_6)
+ (U19 27)(_6)
+ (U15 27)(_6)
+ #TVRAM23#_6
+ #TVRAM23#_6
+ #VRAM23#_2
+ (U22 54)(_2)
+ #TVRAM23#_6
+ (U14 27)(_6)
+ #TVRAM23#_6
+Net 386 [2] "VRAM24_2"
+ #VRAM24#_2
+ (U12 50)(_6)
+ #TVRAM24#_6
+ #TVRAM24#_6
+ (U19 50)(_6)
+ (U22 55)(_2)
+ (U15 50)(_6)
+ (U16 50)(_6)
+ (U14 50)(_6)
+ #TVRAM24#_6
+ #TVRAM24#_6
+ #VRAM24#_2
+ (U6 18)(_2)
+ #TVRAM24#_6
+ #TVRAM24#_6
+ #TVRAM24#_6
+ (U13 50)(_6)
+ (U17 50)(_6)
+ (U18 50)(_6)
+ #TVRAM24#_6
+Net 387 [2] "TVRAM25_6"
+ (U13 52)(_6)
+ (U18 52)(_6)
+ #TVRAM25#_6
+ #TVRAM25#_6
+ #TVRAM25#_6
+ #TVRAM25#_6
+ (U17 52)(_6)
+ #TVRAM25#_6
+ #VRAM25#_2
+ (U6 17)(_2)
+ #TVRAM25#_6
+ (U15 52)(_6)
+ (U14 52)(_6)
+ (U12 52)(_6)
+ #TVRAM25#_6
+ (U22 56)(_2)
+ (U16 52)(_6)
+ #VRAM25#_2
+ #TVRAM25#_6
+ (U19 52)(_6)
+Net 388 [2] "TVRAM26_6"
+ (U22 57)(_2)
+ #TVRAM26#_6
+ #VRAM26#_2
+ #TVRAM26#_6
+ (U18 54)(_6)
+ (U19 54)(_6)
+ #TVRAM26#_6
+ #TVRAM26#_6
+ (U15 54)(_6)
+ #TVRAM26#_6
+ (U14 54)(_6)
+ (U12 54)(_6)
+ #TVRAM26#_6
+ (U16 54)(_6)
+ #VRAM26#_2
+ (U17 54)(_6)
+ (U6 16)(_2)
+ #TVRAM26#_6
+ #TVRAM26#_6
+ (U13 54)(_6)
+Net 389 [2] "TVRAM27_6"
+ (U16 56)(_6)
+ (U19 56)(_6)
+ #TVRAM27#_6
+ (U22 58)(_2)
+ #VRAM27#_2
+ (U18 56)(_6)
+ (U15 56)(_6)
+ (U12 56)(_6)
+ (U14 56)(_6)
+ (U6 15)(_2)
+ #TVRAM27#_6
+ #TVRAM27#_6
+ (U13 56)(_6)
+ (U17 56)(_6)
+ #VRAM27#_2
+ #TVRAM27#_6
+ #TVRAM27#_6
+ #TVRAM27#_6
+ #TVRAM27#_6
+ #TVRAM27#_6
+Net 390 [2] "VRAM28_2"
+ #VRAM28#_2
+ (U16 58)(_6)
+ (U19 58)(_6)
+ (U22 59)(_2)
+ (U14 58)(_6)
+ (U18 58)(_6)
+ (U6 14)(_2)
+ (U13 58)(_6)
+ (U17 58)(_6)
+ #VRAM28#_2
+ #TVRAM28#_6
+ #TVRAM28#_6
+ #TVRAM28#_6
+ #TVRAM28#_6
+ (U15 58)(_6)
+ #TVRAM28#_6
+ #TVRAM28#_6
+ #TVRAM28#_6
+ #TVRAM28#_6
+ (U12 58)(_6)
+Net 391 [2] "TVRAM29_6"
+ #TVRAM29#_6
+ (U15 60)(_6)
+ (U22 60)(_2)
+ #TVRAM29#_6
+ #TVRAM29#_6
+ (U19 60)(_6)
+ #TVRAM29#_6
+ (U18 60)(_6)
+ #VRAM29#_2
+ #TVRAM29#_6
+ #TVRAM29#_6
+ (U13 60)(_6)
+ (U6 13)(_2)
+ (U14 60)(_6)
+ #TVRAM29#_6
+ #TVRAM29#_6
+ (U17 60)(_6)
+ #VRAM29#_2
+ (U12 60)(_6)
+ (U16 60)(_6)
+Net 392 [2] "VRAM30_2"
+ (U13 62)(_6)
+ #VRAM30#_2
+ (U15 62)(_6)
+ (U18 62)(_6)
+ (U16 62)(_6)
+ (U12 62)(_6)
+ #TVRAM30#_6
+ #VRAM30#_2
+ (U17 62)(_6)
+ #TVRAM30#_6
+ #TVRAM30#_6
+ #TVRAM30#_6
+ #TVRAM30#_6
+ #TVRAM30#_6
+ (U19 62)(_6)
+ (U6 12)(_2)
+ (U22 61)(_2)
+ #TVRAM30#_6
+ #TVRAM30#_6
+ (U14 62)(_6)
+Net 393 [2] "TVRAM31_6"
+ #TVRAM31#_6
+ #TVRAM31#_6
+ (U6 11)(_2)
+ #TVRAM31#_6
+ #TVRAM31#_6
+ (U19 64)(_6)
+ #TVRAM31#_6
+ #TVRAM31#_6
+ (U12 64)(_6)
+ (U13 64)(_6)
+ (U22 62)(_2)
+ #VRAM31#_2
+ (U17 64)(_6)
+ #TVRAM31#_6
+ #TVRAM31#_6
+ (U18 64)(_6)
+ (U16 64)(_6)
+ #VRAM31#_2
+ (U15 64)(_6)
+ (U14 64)(_6)
+Net 394 [2] "VRAM9_2"
+ #VRAM9#_2
+ #TVRAM9#_6
+ (U13 51)(_6)
+ (U18 51)(_6)
+ #TVRAM9#_6
+ #TVRAM9#_6
+ #VRAM9#_2
+ (U15 51)(_6)
+ (U14 51)(_6)
+ (U4 17)(_2)
+ (U12 51)(_6)
+ #TVRAM9#_6
+ (U16 51)(_6)
+ (U19 51)(_6)
+ #TVRAM9#_6
+ #TVRAM9#_6
+ #TVRAM9#_6
+ (U22 34)(_2)
+ (U17 51)(_6)
+ #TVRAM9#_6
+Net 395 [2] "TVB0_8"
+ #TVB0#_8
+ (U9 61)(_8)
+ (U8 32)(_8)
+ (U22 92)(_2)
+ #TVB0#_4
+ #TVB0#_2
+ (U10 55)(_4)
+ #TVB0#_8
+Net 396 [2] "TVB1_4"
+ #TVB1#_4
+ (U22 93)(_2)
+ #TVB1#_8
+ #TVB1#_8
+ (U8 31)(_8)
+ (U9 62)(_8)
+ (U10 54)(_4)
+ #TVB1#_2
+Net 397 [2] "TVB2_2"
+ #TVB2#_2
+ (U8 30)(_8)
+ (U10 53)(_4)
+ (U9 63)(_8)
+ (U22 94)(_2)
+ #TVB2#_8
+ #TVB2#_4
+ #TVB2#_8
+Net 398 [2] "TVB3_8"
+ (U10 52)(_4)
+ #TVB3#_8
+ (U22 95)(_2)
+ #TVB3#_4
+ (U9 64)(_8)
+ #TVB3#_8
+ #TVB3#_2
+ (U8 29)(_8)
+Net 399 [2] "TVB4_2"
+ (U22 96)(_2)
+ (U8 28)(_8)
+ #TVB4#_2
+ #TVB4#_8
+ (U10 51)(_4)
+ (U9 65)(_8)
+ #TVB4#_8
+ #TVB4#_4
+Net 400 [2] "TVB5_4"
+ (U8 27)(_8)
+ #TVB5#_4
+ (U22 97)(_2)
+ #TVB5#_2
+ #TVB5#_8
+ (U10 50)(_4)
+ (U9 66)(_8)
+ #TVB5#_8
+Net 401 [2] "TVB6_4"
+ (U8 26)(_8)
+ (U9 67)(_8)
+ (U22 98)(_2)
+ #TVB6#_4
+ (U10 49)(_4)
+ #TVB6#_2
+ #TVB6#_8
+ #TVB6#_8
+Net 402 [2] "TVB7_8"
+ (U10 48)(_4)
+ #TVB7#_8
+ (U8 25)(_8)
+ (U9 68)(_8)
+ (U22 99)(_2)
+ #TVB7#_2
+ #TVB7#_4
+ #TVB7#_8
+Net 403 [2] "TVRAM8_6"
+ (U14 49)(_6)
+ #TVRAM8#_6
+ #TVRAM8#_6
+ (U15 49)(_6)
+ (U12 49)(_6)
+ (U22 33)(_2)
+ #TVRAM8#_6
+ (U19 49)(_6)
+ #TVRAM8#_6
+ #VRAM8#_2
+ #TVRAM8#_6
+ (U13 49)(_6)
+ #TVRAM8#_6
+ #VRAM8#_2
+ (U4 18)(_2)
+ (U16 49)(_6)
+ #TVRAM8#_6
+ (U18 49)(_6)
+ #TVRAM8#_6
+ (U17 49)(_6)
+Net 404 [2] "TVG0_8"
+ (U9 53)(_8)
+ (U10 74)(_4)
+ #TVG0#_8
+ #TVG0#_2
+ #TVG0#_4
+ (U22 67)(_2)
+ #TVG0#_8
+ (U8 48)(_8)
+Net 405 [2] "TVG1_8"
+ (U8 47)(_8)
+ #TVG1#_8
+ (U22 68)(_2)
+ #TVG1#_2
+ (U9 54)(_8)
+ #TVG1#_4
+ (U10 73)(_4)
+ #TVG1#_8
+Net 406 [2] "TVG2_8"
+ #TVG2#_8
+ (U8 46)(_8)
+ (U22 69)(_2)
+ (U10 72)(_4)
+ #TVG2#_8
+ (U9 55)(_8)
+ #TVG2#_2
+ #TVG2#_4
+Net 407 [2] "TVG3_4"
+ (U9 56)(_8)
+ #TVG3#_4
+ #TVG3#_8
+ (U10 71)(_4)
+ (U22 70)(_2)
+ #TVG3#_2
+ #TVG3#_8
+ (U8 45)(_8)
+Net 408 [2] "TVG4_2"
+ #TVG4#_2
+ #TVG4#_4
+ (U22 71)(_2)
+ #TVG4#_8
+ (U8 36)(_8)
+ (U9 57)(_8)
+ (U10 70)(_4)
+ #TVG4#_8
+Net 409 [2] "TVG5_4"
+ #TVG5#_4
+ #TVG5#_2
+ #TVG5#_8
+ (U10 69)(_4)
+ (U8 35)(_8)
+ (U9 58)(_8)
+ (U22 78)(_2)
+ #TVG5#_8
+Net 410 [2] "TVG6_8"
+ #TVG6#_8
+ #TVG6#_4
+ #TVG6#_2
+ (U8 34)(_8)
+ #TVG6#_8
+ (U22 80)(_2)
+ (U10 68)(_4)
+ (U9 59)(_8)
+Net 411 [2] "TVG7_8"
+ (U8 33)(_8)
+ #TVG7#_8
+ #TVG7#_2
+ (U9 60)(_8)
+ (U22 81)(_2)
+ #TVG7#_4
+ #TVG7#_8
+ (U10 67)(_4)
+Net 412 [2] "TVRAM7_6"
+ (U16 26)(_6)
+ #TVRAM7#_6
+ #TVRAM7#_6
+ (U19 26)(_6)
+ (U14 26)(_6)
+ (U22 32)(_2)
+ #TVRAM7#_6
+ #VRAM7#_2
+ #TVRAM7#_6
+ #VRAM7#_2
+ (U13 26)(_6)
+ (U17 26)(_6)
+ #TVRAM7#_6
+ (U3 11)(_2)
+ #TVRAM7#_6
+ (U12 26)(_6)
+ (U18 26)(_6)
+ #TVRAM7#_6
+ (U15 26)(_6)
+ #TVRAM7#_6
+Net 413 [2] "TVR0_4"
+ #TVR0#_4
+ (U9 45)(_8)
+ #TVR0#_8
+ #TVR0#_2
+ (U8 56)(_8)
+ (U22 82)(_2)
+ (U10 65)(_4)
+ #TVR0#_8
+Net 414 [2] "TVR1_8"
+ (U9 46)(_8)
+ (U10 64)(_4)
+ (U8 55)(_8)
+ #TVR1#_8
+ #TVR1#_4
+ (U22 83)(_2)
+ #TVR1#_8
+ #TVR1#_2
+Net 415 [2] "TVR2_2"
+ #TVR2#_2
+ (U9 47)(_8)
+ (U10 63)(_4)
+ (U8 54)(_8)
+ #TVR2#_8
+ #TVR2#_4
+ (U22 84)(_2)
+ #TVR2#_8
+Net 416 [2] "TVR3_8"
+ (U9 48)(_8)
+ #TVR3#_8
+ (U10 62)(_4)
+ #TVR3#_8
+ (U8 53)(_8)
+ (U22 85)(_2)
+ #TVR3#_4
+ #TVR3#_2
+Net 417 [2] "TVR4_4"
+ (U10 61)(_4)
+ #TVR4#_4
+ (U22 86)(_2)
+ #TVR4#_2
+ #TVR4#_8
+ #TVR4#_8
+ (U9 49)(_8)
+ (U8 52)(_8)
+Net 418 [2] "TVR5_2"
+ (U8 51)(_8)
+ (U9 50)(_8)
+ #TVR5#_2
+ #TVR5#_8
+ (U10 60)(_4)
+ #TVR5#_8
+ (U22 87)(_2)
+ #TVR5#_4
+Net 419 [2] "TVR6_4"
+ #TVR6#_4
+ #TVR6#_2
+ (U9 51)(_8)
+ (U10 59)(_4)
+ #TVR6#_8
+ (U22 90)(_2)
+ #TVR6#_8
+ (U8 50)(_8)
+Net 420 [2] "TVR7_8"
+ #TVR7#_8
+ (U9 52)(_8)
+ (U22 91)(_2)
+ (U8 49)(_8)
+ (U10 58)(_4)
+ #TVR7#_8
+ #TVR7#_2
+ #TVR7#_4
+Net 421 [2] "TVRAM6_6"
+ (U22 31)(_2)
+ (U14 24)(_6)
+ #TVRAM6#_6
+ #VRAM6#_2
+ (U13 24)(_6)
+ (U16 24)(_6)
+ (U19 24)(_6)
+ (U17 24)(_6)
+ #TVRAM6#_6
+ #TVRAM6#_6
+ (U3 12)(_2)
+ (U12 24)(_6)
+ (U15 24)(_6)
+ #TVRAM6#_6
+ #TVRAM6#_6
+ #TVRAM6#_6
+ (U18 24)(_6)
+ #VRAM6#_2
+ #TVRAM6#_6
+ #TVRAM6#_6
+Net 422 [2] "VRAM5_2"
+ (U16 22)(_6)
+ (U14 22)(_6)
+ (U19 22)(_6)
+ (U22 29)(_2)
+ #VRAM5#_2
+ #TVRAM5#_6
+ (U13 22)(_6)
+ #TVRAM5#_6
+ (U17 22)(_6)
+ #TVRAM5#_6
+ (U3 13)(_2)
+ #TVRAM5#_6
+ (U12 22)(_6)
+ #TVRAM5#_6
+ (U15 22)(_6)
+ #TVRAM5#_6
+ #TVRAM5#_6
+ #VRAM5#_2
+ (U18 22)(_6)
+ #TVRAM5#_6
+Net 423 [2] "TVRAM4_6"
+ #TVRAM4#_6
+ #VRAM4#_2
+ #TVRAM4#_6
+Noconnect 0
+ #TVRAM4#_6
+ (U15 20)(_6)
+ (U12 20)(_6)
+ #TVRAM4#_6
+ #TVRAM4#_6
+ (U3 14)(_2)
+ #TVRAM4#_6
+ (U17 20)(_6)
+ #TVRAM4#_6
+ (U22 28)(_2)
+ #TVRAM4#_6
+ #VRAM4#_2
+ (U19 20)(_6)
+ (U18 20)(_6)
+ (U16 20)(_6)
+ (U14 20)(_6)
+ (U13 20)(_6)
+Net 424 [2] "TVRAM3_6"
+ (U16 8)(_6)
+ (U19 8)(_6)
+ (U22 18)(_2)
+ #TVRAM3#_6
+Noconnect 0
+ #TVRAM3#_6
+ #TVRAM3#_6
+ #TVRAM3#_6
+ #TVRAM3#_6
+ #TVRAM3#_6
+ #TVRAM3#_6
+ #VRAM3#_2
+ #TVRAM3#_6
+ (U18 8)(_6)
+ (U3 15)(_2)
+ (U17 8)(_6)
+ (U12 8)(_6)
+ (U13 8)(_6)
+ #VRAM3#_2
+ (U14 8)(_6)
+ (U15 8)(_6)
+Net 425 [2] "VRAM2_2"
+ (U3 16)(_2)
+ #VRAM2#_2
+ #TVRAM2#_6
+ #VRAM2#_2
+ (U19 6)(_6)
+ (U16 6)(_6)
+ (U12 6)(_6)
+ (U14 6)(_6)
+ #TVRAM2#_6
+ (U15 6)(_6)
+ (U22 20)(_2)
+ (U17 6)(_6)
+ #TVRAM2#_6
+ (U18 6)(_6)
+ #TVRAM2#_6
+ #TVRAM2#_6
+ #TVRAM2#_6
+ #TVRAM2#_6
+ #TVRAM2#_6
+ (U13 6)(_6)
+Net 426 [2] "DPC16_2"
+ (RR4 7)(_7)
+ #DPC16#_2
+ (U5 2)(_2)
+ #DQ16#_7
+ #DQ16#_7
+ (U11 157)(_7)
+Net 427 [2] "DQ17_7"
+ #DQ17#_7
+ #DPC17#_2
+ (RR4 9)(_7)
+ (U5 3)(_2)
+ #DQ17#_7
+ (U11 145)(_7)
+Net 428 [2] "DQ18_7"
+ #DQ18#_7
+ (U11 133)(_7)
+ (U5 4)(_2)
+ #DPC18#_2
+ (RR6 6)(_7)
+ #DQ18#_7
+Net 429 [2] "DQ19_7"
+ (RR6 8)(_7)
+ #DQ19#_7
+ #DPC19#_2
+ (U5 5)(_2)
+ #DQ19#_7
+ (U11 125)(_7)
+Net 430 [2] "DPC20_2"
+ (U11 117)(_7)
+ #DPC20#_2
+ #DQ20#_7
+ (RR6 3)(_7)
+ (U5 6)(_2)
+ #DQ20#_7
+Net 431 [2] "DQ21_7"
+ #DQ21#_7
+ #DQ21#_7
+ #DPC21#_2
+ (RR5 6)(_7)
+ (U5 7)(_2)
+ (U11 105)(_7)
+Net 432 [2] "DQ22_7"
+ #DQ22#_7
+ #DQ22#_7
+ #DPC22#_2
+ (U11 93)(_7)
+ (U5 8)(_2)
+ (RR4 3)(_7)
+Net 433 [2] "DPC23_2"
+ (U5 9)(_2)
+ (RR4 5)(_7)
+ #DPC23#_2
+ #DQ23#_7
+ #DQ23#_7
+ (U11 85)(_7)
+Net 434 [2] "DQ24_7"
+ (U11 77)(_7)
+ #DQ24#_7
+ (RR3 3)(_7)
+ (U6 2)(_2)
+ #DPC24#_2
+ #DQ24#_7
+Net 435 [2] "DPC25_2"
+ #DPC25#_2
+ (RR3 9)(_7)
+ (U6 3)(_2)
+ (U11 65)(_7)
+ #DQ25#_7
+ #DQ25#_7
+Net 436 [2] "DQ26_7"
+ #DQ26#_7
+ (RR2 8)(_7)
+ #DQ26#_7
+ (U6 4)(_2)
+ (U11 53)(_7)
+ #DPC26#_2
+Net 437 [2] "DQ27_7"
+ (RR2 5)(_7)
+ (U11 45)(_7)
+ (U6 5)(_2)
+ #DQ27#_7
+ #DPC27#_2
+ #DQ27#_7
+Net 438 [2] "DPC28_2"
+ (RR2 3)(_7)
+ #DPC28#_2
+ (U11 37)(_7)
+ (U6 6)(_2)
+ #DQ28#_7
+ #DQ28#_7
+Net 439 [2] "DPC29_2"
+ (U6 7)(_2)
+ (U11 25)(_7)
+ (RR1 8)(_7)
+ #DPC29#_2
+ #DQ29#_7
+ #DQ29#_7
+Net 440 [2] "DQ30_7"
+ #DQ30#_7
+ #DPC30#_2
+ (U6 8)(_2)
+ (U11 13)(_7)
+ #DQ30#_7
+ (RR1 5)(_7)
+Net 441 [2] "DQ31_7"
+ (U11 5)(_7)
+ #DQ31#_7
+ #DPC31#_2
+ (U6 9)(_2)
+ (RR1 3)(_7)
+ #DQ31#_7
+Net 442 [2] "TVRAM1_6"
+ (U3 17)(_2)
+ (U14 4)(_6)
+ (U19 4)(_6)
+ (U12 4)(_6)
+ (U22 19)(_2)
+ (U16 4)(_6)
+ (U17 4)(_6)
+ #TVRAM1#_6
+ (U18 4)(_6)
+ #TVRAM1#_6
+ #TVRAM1#_6
+ #TVRAM1#_6
+ #TVRAM1#_6
+ (U13 4)(_6)
+ #VRAM1#_2
+ #TVRAM1#_6
+ (U15 4)(_6)
+ #TVRAM1#_6
+ #VRAM1#_2
+ #TVRAM1#_6
+Net 443 [2] "DPC0_2"
+ #DPC0#_2
+ #PC_D0#_4
+ (U3 2)(_2)
+ (U24 21)(_5)
+ #DQ0#_7
+ (U23 13)(_5)
+ (U10 92)(_4)
+ #DQ0#_5
+ #DQ0#_7
+ (U9 14)(_8)
+ #DQ0#_5
+ (RR7 2)(_7)
+ (U8 16)(_8)
+ #DPC0#_8
+ (U11 100)(_7)
+ #DPC0#_8
+Net 444 [2] "DPC1_8"
+ #DPC1#_8
+ (U23 12)(_5)
+ (U11 99)(_7)
+ (U8 15)(_8)
+ (RR7 3)(_7)
+ #DQ1#_7
+ #DQ1#_7
+ #PC_D1#_4
+ (U10 93)(_4)
+ #DPC1#_2
+ (U3 3)(_2)
+ (U24 22)(_5)
+ #DQ1#_5
+ #DQ1#_5
+ (U9 15)(_8)
+ #DPC1#_8
+Net 445 [2] "DQ2_5"
+ #DQ2#_5
+ (U10 94)(_4)
+ (RR7 4)(_7)
+ #DQ2#_5
+ #DQ2#_7
+ (U24 23)(_5)
+ #DQ2#_7
+ (U11 98)(_7)
+ (U23 11)(_5)
+ (U8 14)(_8)
+ #PC_D2#_4
+ #DPC2#_8
+ #DPC2#_2
+ (U9 16)(_8)
+ #DPC2#_8
+ (U3 4)(_2)
+Net 446 [2] "DPC3_8"
+ #DPC3#_8
+ (U9 17)(_8)
+ #DPC3#_2
+ #PC_D3#_4
+ #DPC3#_8
+ (U8 13)(_8)
+ (U24 24)(_5)
+ (U11 96)(_7)
+ (U23 7)(_5)
+ #DQ3#_7
+ #DQ3#_7
+ #DQ3#_5
+ (RR7 5)(_7)
+ #DQ3#_5
+ (U10 95)(_4)
+ (U3 5)(_2)
+Net 447 [2] "DQ4_7"
+ (U3 6)(_2)
+ (U24 25)(_5)
+ (U10 96)(_4)
+ #DQ4#_7
+ #DQ4#_5
+ (RR7 6)(_7)
+ #DPC4#_8
+ (U9 18)(_8)
+ #DPC4#_2
+ #DQ4#_5
+ #PC_D4#_4
+ #DPC4#_8
+ #DQ4#_7
+ (U8 12)(_8)
+ (U11 95)(_7)
+ (U23 9)(_5)
+Net 448 [2] "DQ5_7"
+ (U3 7)(_2)
+ (U8 11)(_8)
+ (U23 8)(_5)
+ #DQ5#_7
+ #DQ5#_7
+ #DQ5#_5
+ (U11 94)(_7)
+ #PC_D5#_4
+ (U10 97)(_4)
+ #DPC5#_8
+ #DPC5#_2
+ #DQ5#_5
+ (U9 19)(_8)
+ (U24 26)(_5)
+ #DPC5#_8
+ (RR7 7)(_7)
+Net 449 [2] "DPC6_8"
+ (RR7 8)(_7)
+ (U24 27)(_5)
+ (U9 20)(_8)
+ #DPC6#_8
+ #DPC6#_2
+ (U11 92)(_7)
+ #PC_D6#_4
+ (U10 99)(_4)
+ #DQ6#_5
+ #DQ6#_5
+ (U23 6)(_5)
+ (U8 10)(_8)
+ (U3 8)(_2)
+ #DQ6#_7
+ #DQ6#_7
+ #DPC6#_8
+Net 450 [2] "DPC7_8"
+ (U23 5)(_5)
+ #DPC7#_8
+ (U9 21)(_8)
+ #DPC7#_8
+ #DPC7#_2
+ #PC_D7#_4
+ (U8 9)(_8)
+ #DQ7#_7
+ (U11 88)(_7)
+ #DQ7#_5
+ (RR7 9)(_7)
+ (U3 9)(_2)
+ (U24 28)(_5)
+ #DQ7#_5
+ (U10 100)(_4)
+ #DQ7#_7
+Net 451 [2] "TVRAM0_6"
+ (U19 2)(_6)
+ (U14 2)(_6)
+ (U12 2)(_6)
+ (U16 2)(_6)
+ (U15 2)(_6)
+ #TVRAM0#_6
+ #VRAM0#_2
+ (U17 2)(_6)
+ #TVRAM0#_6
+ (U3 18)(_2)
+ (U18 2)(_6)
+ #VRAM0#_2
+ #TVRAM0#_6
+ (U22 17)(_2)
+ #TVRAM0#_6
+ #TVRAM0#_6
+ #TVRAM0#_6
+ #TVRAM0#_6
+ #TVRAM0#_6
+ (U13 2)(_6)
+Net 452 [2] "PC_A0_4"
+ (U23 65)(_5)
+ #PC_A0#_4
+ (U9 24)(_8)
+ (U8 17)(_8)
+ #PCA0#_8
+ #PCA0#_8
+ (U10 84)(_4)
+ #PCA0#_5
+Net 453 [2] "PCA1_8"
+ (U23 64)(_5)
+ (U10 85)(_4)
+ (U8 18)(_8)
+ (U9 25)(_8)
+ #PCA1#_8
+ #PC_A1#_4
+ #PCA1#_8
+ #PCA1#_5
+Net 454 [2] "PCA2_5"
+ (U8 19)(_8)
+ (U9 26)(_8)
+ #PCA2#_5
+ #PCA2#_8
+ #PCA2#_8
+ (U23 63)(_5)
+Net 455 [2] "BE-0_5"
+ (U23 38)(_5)
+ #BE-0#_5
+ #BE-0#_7
+ (U24 144)(_5)
+ (U11 87)(_7)
+ #BE-0#_5
+Net 456 [2] "BE-1_5"
+ #BE-1#_5
+ (U11 63)(_7)
+ (U24 145)(_5)
+ #BE-1#_7
+ #BE-1#_5
+ (U23 37)(_5)
+Net 457 [2] "BE-2_7"
+ (U11 62)(_7)
+ #BE-2#_7
+ (U24 146)(_5)
+ #BE-2#_5
+ (U23 36)(_5)
+ #BE-2#_5
+Net 458 [2] "BE-3_5"
+ #BE-3#_5
+ #BE-3#_7
+ (U11 60)(_7)
+ (U24 147)(_5)
+ (U23 35)(_5)
+ #BE-3#_5
+Net 459 [2] "PTBE-0_5"
+ #PTBE-0#_5
+ (U24 158)(_5)
+ #PTBE-0#_5
+ (U11 116)(_7)
+ (U23 20)(_5)
+ #PTBE-0#_7
+Net 460 [2] "PTBE-1_5"
+ #PTBE-1#_5
+ (U11 118)(_7)
+ (U24 157)(_5)
+ #PTBE-1#_5
+ (U23 21)(_5)
+ #PTBE-1#_7
+Net 461 [2] "PTBE-2_7"
+ #PTBE-2#_7
+ (U24 156)(_5)
+ #PTBE-2#_5
+ (U23 22)(_5)
+ (U11 119)(_7)
+ #PTBE-2#_5
+Net 462 [2] "PTBE-3_7"
+ (U23 23)(_5)
+ #PTBE-3#_7
+ (U24 155)(_5)
+ (U11 120)(_7)
+ #PTBE-3#_5
+ #PTBE-3#_5
+Net 463 [2] "ADR2_5"
+ #ADR2#_5
+ (U23 48)(_5)
+ #ADR2#_5
+ #ADR2#_7
+ (U24 137)(_5)
+ (U11 68)(_7)
+Net 464 [2] "ADR3_5"
+ (U11 67)(_7)
+ (U24 138)(_5)
+ #ADR3#_5
+ #ADR3#_7
+ #ADR3#_5
+ (U23 44)(_5)
+Net 465 [2] "ADR4_5"
+ (U23 43)(_5)
+ #ADR4#_5
+ #ADR4#_5
+ (U24 139)(_5)
+ #ADR4#_7
+ (U11 66)(_7)
+Net 466 [2] "ADR5_5"
+ #ADR5#_5
+ (U11 64)(_7)
+ (U23 42)(_5)
+ (U24 140)(_5)
+ #ADR5#_7
+ #ADR5#_5
+Net 467 [2] "ADR6_5"
+ #ADR6#_5
+ (U24 143)(_5)
+ #ADR6#_5
+ (U11 132)(_7)
+ (U23 39)(_5)
+ #ADR6#_7
+Net 468 [2] "DQ8_7"
+ (U11 86)(_7)
+ #DQ8#_7
+ #DQ8#_7
+ #DQ8#_5
+ #DPC8#_2
+ (U23 97)(_5)
+ #DQ8#_5
+ (RR8 9)(_7)
+ (U24 32)(_5)
+ (U4 2)(_2)
+Net 469 [2] "DQ9_7"
+ #DQ9#_7
+ (U23 96)(_5)
+ #DQ9#_5
+ (U4 3)(_2)
+ #DPC9#_2
+ (U11 84)(_7)
+ (RR8 8)(_7)
+ #DQ9#_5
+ #DQ9#_7
+ (U24 33)(_5)
+Net 470 [2] "DQ10_5"
+ (U24 34)(_5)
+ #DQ10#_5
+ (U4 4)(_2)
+ #DQ10#_5
+ #DQ10#_7
+ (U23 95)(_5)
+ #DPC10#_2
+ (RR8 7)(_7)
+ #DQ10#_7
+ (U11 83)(_7)
+Net 471 [2] "DQ11_7"
+ (U11 82)(_7)
+ #DQ11#_7
+ (U4 5)(_2)
+ #DQ11#_7
+ #DPC11#_2
+ (U24 35)(_5)
+ #DQ11#_5
+ #DQ11#_5
+ (U23 94)(_5)
+ (RR8 6)(_7)
+Net 472 [2] "DQ12_5"
+ (U24 36)(_5)
+ #DQ12#_5
+ #DPC12#_2
+ (U23 93)(_5)
+ #DQ12#_7
+ (U4 6)(_2)
+ #DQ12#_7
+ (RR8 5)(_7)
+ (U11 80)(_7)
+ #DQ12#_5
+Net 473 [2] "DPC13_2"
+ (U11 79)(_7)
+ (U23 90)(_5)
+ #DPC13#_2
+ #DQ13#_5
+ #DQ13#_7
+ (U4 7)(_2)
+ (U24 45)(_5)
+ #DQ13#_7
+ (RR8 4)(_7)
+ #DQ13#_5
+Net 474 [2] "DQ14_5"
+ #DQ14#_5
+ (U23 88)(_5)
+ (RR8 3)(_7)
+ #DQ14#_7
+ #DPC14#_2
+ #DQ14#_7
+ (U24 46)(_5)
+ (U4 8)(_2)
+ (U11 78)(_7)
+ #DQ14#_5
+Net 475 [2] "DQ15_5"
+ (U23 89)(_5)
+ (RR8 2)(_7)
+ (U24 47)(_5)
+ #DQ15#_5
+ #DQ15#_7
+ (U4 9)(_2)
+ #DPC15#_2
+ #DQ15#_5
+ (U11 76)(_7)
+ #DQ15#_7
+Net 476 [2] "MXA0_6"
+ (U13 12)(_6)
+ (U24 128)(_5)
+ #MXA0#_6
+ #MXA0#_6
+ (U17 12)(_6)
+ #MXA0#_5
+ #MXA0#_6
+ (U15 12)(_6)
+ #MXA0#_6
+ #MXA0#_6
+ (U12 12)(_6)
+ (U16 12)(_6)
+ #MXA0#_6
+ (U14 12)(_6)
+ #MXA0#_6
+ (U19 12)(_6)
+ #MXA0#_6
+ (U18 12)(_6)
+Net 477 [2] "MXA1_6"
+ #MXA1#_6
+ #MXA1#_6
+ #MXA1#_6
+ (U19 13)(_6)
+ (U16 13)(_6)
+ (U14 13)(_6)
+ (U12 13)(_6)
+ #MXA1#_6
+ (U18 13)(_6)
+ #MXA1#_6
+ #MXA1#_6
+ (U15 13)(_6)
+ (U17 13)(_6)
+ #MXA1#_5
+ (U13 13)(_6)
+ (U24 127)(_5)
+ #MXA1#_6
+ #MXA1#_6
+Net 478 [2] "MXA2_6"
+ #MXA2#_6
+ (U12 14)(_6)
+ #MXA2#_6
+ #MXA2#_6
+ (U24 126)(_5)
+ #MXA2#_6
+ #MXA2#_6
+ (U13 14)(_6)
+ (U18 14)(_6)
+ (U16 14)(_6)
+ (U19 14)(_6)
+ #MXA2#_6
+ (U15 14)(_6)
+ (U17 14)(_6)
+ #MXA2#_6
+ #MXA2#_5
+ #MXA2#_6
+ (U14 14)(_6)
+Net 479 [2] "MXA3_6"
+ (U18 15)(_6)
+ #MXA3#_6
+ #MXA3#_5
+ #MXA3#_6
+ (U13 15)(_6)
+ (U15 15)(_6)
+ (U19 15)(_6)
+ (U17 15)(_6)
+ #MXA3#_6
+ #MXA3#_6
+ (U16 15)(_6)
+ (U12 15)(_6)
+ #MXA3#_6
+ (U24 125)(_5)
+ #MXA3#_6
+ #MXA3#_6
+ #MXA3#_6
+ (U14 15)(_6)
+Net 480 [2] "MXA4_6"
+ #MXA4#_6
+ #MXA4#_6
+ (U17 16)(_6)
+ #MXA4#_6
+ (U12 16)(_6)
+ (U19 16)(_6)
+ (U15 16)(_6)
+ (U18 16)(_6)
+ #MXA4#_6
+ (U13 16)(_6)
+ (U16 16)(_6)
+ (U24 124)(_5)
+ #MXA4#_5
+ #MXA4#_6
+ (U14 16)(_6)
+ #MXA4#_6
+ #MXA4#_6
+ #MXA4#_6
+Net 481 [2] "MXA5_6"
+ #MXA5#_6
+ #MXA5#_6
+ (U19 17)(_6)
+ #MXA5#_6
+ #MXA5#_5
+ #MXA5#_6
+ #MXA5#_6
+ (U18 17)(_6)
+ (U12 17)(_6)
+ (U17 17)(_6)
+ #MXA5#_6
+ (U13 17)(_6)
+ (U16 17)(_6)
+ (U24 123)(_5)
+ (U14 17)(_6)
+ #MXA5#_6
+ #MXA5#_6
+ (U15 17)(_6)
+Net 482 [2] "MXA6_6"
+ #MXA6#_6
+ (U24 116)(_5)
+ #MXA6#_6
+ (U14 18)(_6)
+ #MXA6#_6
+ (U16 18)(_6)
+ #MXA6#_6
+ #MXA6#_6
+ (U17 18)(_6)
+ #MXA6#_6
+ (U18 18)(_6)
+ #MXA6#_5
+ (U12 18)(_6)
+ #MXA6#_6
+ (U13 18)(_6)
+ #MXA6#_6
+ (U15 18)(_6)
+ (U19 18)(_6)
+Net 483 [2] "MXA7_6"
+ #MXA7#_6
+ (U14 28)(_6)
+ #MXA7#_6
+ (U15 28)(_6)
+ #MXA7#_6
+ (U16 28)(_6)
+ (U24 115)(_5)
+ #MXA7#_6
+ #MXA7#_6
+ #MXA7#_6
+ (U12 28)(_6)
+ #MXA7#_6
+ #MXA7#_5
+ (U17 28)(_6)
+ (U13 28)(_6)
+ #MXA7#_6
+ (U19 28)(_6)
+ (U18 28)(_6)
+Net 484 [2] "MXA8_5"
+ #MXA8#_5
+ (U17 31)(_6)
+ (U13 31)(_6)
+ #MXA8#_6
+ #MXA8#_6
+ #MXA8#_6
+ #MXA8#_6
+ #MXA8#_6
+ (U12 31)(_6)
+ (U24 114)(_5)
+ (U19 31)(_6)
+ #MXA8#_6
+ (U16 31)(_6)
+ (U15 31)(_6)
+ (U14 31)(_6)
+ (U18 31)(_6)
+ #MXA8#_6
+ #MXA8#_6
+Net 485 [2] "MXA9_6"
+ (U15 32)(_6)
+ (U13 32)(_6)
+ (U16 32)(_6)
+ #MXA9#_6
+ (U12 32)(_6)
+ #MXA9#_6
+ #MXA9#_6
+ (U24 113)(_5)
+ #MXA9#_6
+ #MXA9#_6
+ (U19 32)(_6)
+ (U14 32)(_6)
+ #MXA9#_5
+ #MXA9#_6
+ (U18 32)(_6)
+ (U17 32)(_6)
+ #MXA9#_6
+ #MXA9#_6
+Net 486 [2] "MXA10_6"
+ (U19 19)(_6)
+ (U17 19)(_6)
+ (U18 19)(_6)
+ #MXA10#_6
+ #MXA10#_6
+ #MXA10#_6
+ (U14 19)(_6)
+ #MXA10#_6
+ #MXA10#_5
+ (U13 19)(_6)
+ #MXA10#_6
+ #MXA10#_6
+ #MXA10#_6
+ (U24 109)(_5)
+ (U15 19)(_6)
+ #MXA10#_6
+ (U12 19)(_6)
+ (U16 19)(_6)
+Net 487 [2] "TVI0_8"
+ (U9 10)(_8)
+ #TVI0#_8
+ (U24 108)(_5)
+ #TVI0#_5
+Net 488 [2] "TVI1_8"
+ (U24 107)(_5)
+ #TVI1#_8
+ #TVI1#_5
+ (U9 11)(_8)
+}
+#End

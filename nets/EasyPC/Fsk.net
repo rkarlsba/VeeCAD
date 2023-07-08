@@ -1,0 +1,68 @@
+U1 "74LS00" "14DIL"
+R1 "R" "DISC04"
+R2 "R" "DISC04"
+C1 "C" "DISC03"
+U2 "LM741" "8DIL"
+PL1 "5WP" "5"
+PL2 "5WP" "5"
+
+Net "NODE1"
+U1.8
+U1.1
+
+Net "FREQ2"
+PL1.1
+U1.2
+
+Net "NODE2"
+U1.3
+U1.5
+
+Net "NODE3"
+U1.4
+U1.11
+
+Net "SELOUT"
+U1.6
+R1.1
+
+Net "+5Volts"
+PL1.4
+U1.14
+
+Net "FREQ1"
+U1.13
+PL1.5
+
+Net "-12V"
+U2.4
+PL2.3
+
+Net "SELECT"
+U1.12
+U1.10
+U1.9
+PL1.3
+
+Net "IN-"
+R2.1
+R1.2
+U2.2
+C1.1
+
+Net "OUTPUT"
+C1.2
+U2.6
+PL2.1
+R2.2
+
+Net "GROUND"
+U1.7
+U2.3
+PL1.2
+PL2.5
+
+Net "+12V"
+PL2.2
+U2.7
+

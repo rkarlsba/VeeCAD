@@ -1,0 +1,59 @@
+TinyCAD Schematic Export Formats
+================================
+
+- "TinyCAD" (useless)
+- Pads
+- Eagle
+- Protel
+
+Eagle
+=====
+TinyCAD and Multisim export very different "eagle" files.
+
+
+Kicad Schematic Export Formats
+==============================
+
+- PCBNew  (Kicad native ?)
+- Orcad PCB 2
+- Cadstar
+
+
+PCBNew
+======
+
+Possibly only for Kicad ?  Uses space as delimiter, but never emits
+a space within a field, so solid. Some PCB New netlists from internet
+may not be all that reliable, but my own simple tests emit files
+with required fields all good.
+
+
+
+Orcad PCB 2
+===========
+
+As each component pin is defined, it is assigned to a net, so there
+is no need for a separate Nets section of the file.net.  Uses space
+as delimiter, but seems to only allow spaces in value fields which
+are the last field in a line and so is unambiguous.
+
+Orcad PCB 2 Seems to be fairly standard. Windraft calls it just 
+"Orcad".
+
+Kicad emits Orcad PCB 2 that assigns a net named '?' to unconnected 
+pins, which causes VeeCAD to (correctly) treat these pins as belonging
+to the same net. That wreaks havoc especially auto routing.
+
+
+Protel, Tango
+=============
+These tend to get confused!
+MultiSim outputs these as identical! Orcad & Protel 99SE output Protel 
+with '-' and Tango with ',' as net separator. 
+
+VeeCAD treats Protel, Tango with same code, accepting either '-' or ','
+separator.
+
+PADS PCB
+========
+Separate component and nets sections, like Protel. Line based format.

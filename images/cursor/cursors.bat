@@ -1,0 +1,2 @@
+BRCC32.EXE cursors.RC
+PAUSE

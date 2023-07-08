@@ -1,0 +1,71 @@
+( { WinDraft Native Format
+  Generated on 07/17/2007
+Main Schematic : L:\Elex\Solar Light cct\Light schematic
+}
+( 308B08EA Diode D1 1N4005
+ ( 1 N00002 )
+ ( 2 N00003 )
+ )
+( 308B08FE C-Mono C1 0.1 uF
+ ( 2 N00001 )
+ ( 1 N00003 )
+ )
+( 308B0907 Res R1 470
+ ( 2 LVD )
+ ( 1 N00007 )
+ )
+( 308B091C LED-T5 D3 White
+ ( 1 N00000 )
+ ( 2 N00008 )
+ )
+( 308B0987 TO-92-Xsistor Q2 2N3904
+ ( 2 N00001 )
+ ( 3 N00004 )
+ ( 1 LVD )
+ )
+( 308B099F Switch S1 SPST
+ ( 1 N00000 )
+ ( 2 N00005 )
+ )
+( 308B09F9 TO-92-78xx Q1 LM78L05
+ ( 3 N00000 )
+ ( 2 N00003 )
+ ( 1 N00006 )
+ )
+( 308B0B72 ZDiode D2 9.1V
+ ( 2 N00003 )
+ ( 1 N00007 )
+ )
+( 308B0FE2 Res R4 33
+ ( 2 N00004 )
+ ( 1 N00009 )
+ )
+( 308B1012 Res R2 220
+ ( 1 N00000 )
+ ( 2 N00006 )
+ )
+( 308B1020 Res R3 220
+ ( 1 N00005 )
+ ( 2 N00006 )
+ )
+( 308B119C Res R5 33
+ ( 2 N00004 )
+ ( 1 N00010 )
+ )
+( 308B11DC LED-T5 D5 White
+ ( 1 N00000 )
+ ( 2 N00011 )
+ )
+( 308B11EC LED-T5 D4 White
+ ( 1 N00008 )
+ ( 2 N00009 )
+ )
+( 308B11FD LED-T5 D6 White
+ ( 2 N00010 )
+ ( 1 N00011 )
+ )
+( 3091A000 2pin HDR J1 12V in
+ ( 1 N00001 )
+ ( 2 N00002 )
+ )
+)

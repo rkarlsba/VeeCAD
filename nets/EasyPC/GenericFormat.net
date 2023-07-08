@@ -1,0 +1,53 @@
+R1 "R" ""
+U1 "LM741" ""
+C1 "C" ""
+C2 "C" ""
+R2 "R" ""
+R3 "R" ""
+R4 "R" ""
+C3 "C" ""
+C4 "C" ""
+PL1 "5WP" ""
+
+Net "IN+"
+U1.3
+R2.2
+C3.1
+
+Net "NODE_2"
+U1.2
+R3.2
+R4.1
+
+Net "OUTPUT"
+U1.6
+PL1.3
+C1.2
+R3.1
+
+Net "GROUND"
+C3.2
+R4.2
+PL1.5
+C2.1
+C4.2
+
+Net "+12Volts"
+U1.7
+PL1.2
+C2.2
+
+Net "-12Volts"
+U1.4
+PL1.4
+C4.1
+
+Net "NODE1"
+R1.2
+C1.1
+R2.1
+
+Net "INPUT"
+R1.1
+PL1.1
+

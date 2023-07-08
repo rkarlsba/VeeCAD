@@ -1,0 +1,54 @@
+(
+  { OrCAD/PCB II Netlist Format
+  }
+  (XXXXXXXX "4290W 1K" VR1 TRIM_RECT200X400THOU-TOP
+    (1 Gnd)
+    (2 $8)
+    (3 $9)
+  )
+  (XXXXXXXX "4290W 1K" VR2 TRIM_RECT200X400THOU-TOP
+    (1 Gnd)
+    (2 $11)
+    (3 $6)
+  )
+  (XXXXXXXX "R 1M PTH" R1 RESAD1000W60L620D250B
+    (1 $6)
+    (2 "Lamp Drive")
+  )
+  (XXXXXXXX "R 1M PTH" R2 RESAD1000W60L620D250B
+    (1 $9)
+    (2 "Lamp Drive")
+  )
+  (XXXXXXXX "R 1M PTH" R3 RESAD1000W60L620D250B
+    (1 Ref)
+    (2 $11)
+  )
+  (XXXXXXXX "R 1M PTH" R4 RESAD1000W60L620D250B
+    (1 Gas)
+    (2 $8)
+  )
+  (XXXXXXXX "R 120k PTH" R5 RESAD1000W60L620D250B
+    (1 Gnd)
+    (2 Ref)
+  )
+  (XXXXXXXX "R 120k PTH" R6 RESAD1000W60L620D250B
+    (1 Gnd)
+    (2 Gas)
+  )
+  (XXXXXXXX "R 1M PTH" R7 RESAD1000W60L620D250B
+    (1 Gas)
+    (2 $8)
+  )
+  (XXXXXXXX "R 1M PTH" R8 RESAD1000W60L620D250B
+    (1 Ref)
+    (2 $11)
+  )
+  (XXXXXXXX "PCB connector pitch 2.54mm 2-way 1-row" P1 CONNECTOR_PCB_PAD&HOLE_P254_1X2
+    (1 $6)
+    (2 "Lamp Drive")
+  )
+  (XXXXXXXX "PCB connector pitch 2.54mm 2-way 1-row" P2 CONNECTOR_PCB_PAD&HOLE_P254_1X2
+    (1 $9)
+    (2 "Lamp Drive")
+  )
+)

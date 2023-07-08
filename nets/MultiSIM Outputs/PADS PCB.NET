@@ -1,0 +1,74 @@
+ACCEL_ASCII "C:\Program Files\Electronics Workbench\EWB8 Freeware\Samples2\PADS PCB.net"
+
+(asciiHeader 
+  (asciiVersion 2 2)
+  (timeStamp 2010 7 18 17 44 23)
+  (program "multiSIM" "6.0")
+  (copyright "Copyright © 1999 Interactive Image Technologies, Inc.")
+  (fileAuthor "")
+  (headerString "License")
+  (fileUnits Mil)
+)
+
+(netlist "Roger Sample"
+  (compInst "D1"
+    (compRef "DO-35_1")
+    (originalName "DO-35")
+    (compValue "1N3064")
+    (attr "RefDes2" "h" (pt 0 0) (rotation 0) (isVisible True) (justify Center) (textStyleRef "T:H91W10") )
+    (attr "Description" "" (justify LowerCenter) (textStyleRef "(Default)") )
+  )
+  (compInst "Q1"
+    (compRef "TO-39_1")
+    (originalName "TO-39")
+    (compValue "2N1711")
+    (attr "RefDes2" "h" (pt 0 0) (rotation 0) (isVisible True) (justify Center) (textStyleRef "T:H91W10") )
+    (attr "Description" "" (justify LowerCenter) (textStyleRef "(Default)") )
+  )
+  (compInst "R1"
+    (compRef "R1/4W_1")
+    (originalName "R1/4W")
+    (compValue "1.8kOhm_5%")
+    (attr "RefDes2" "h" (pt 0 0) (rotation 0) (isVisible True) (justify Center) (textStyleRef "T:H91W10") )
+    (attr "Description" "" (justify LowerCenter) (textStyleRef "(Default)") )
+  )
+  (compInst "J1"
+    (compRef "HDR1X2_1")
+    (originalName "HDR1X2")
+    (compValue "HDR1X2")
+    (attr "RefDes2" "h" (pt 0 0) (rotation 0) (isVisible True) (justify Center) (textStyleRef "T:H91W10") )
+    (attr "Description" "" (justify LowerCenter) (textStyleRef "(Default)") )
+  )
+  (compInst "J2"
+    (compRef "HDR1X2_1")
+    (originalName "HDR1X2")
+    (compValue "HDR1X2")
+    (attr "RefDes2" "h" (pt 0 0) (rotation 0) (isVisible True) (justify Center) (textStyleRef "T:H91W10") )
+    (attr "Description" "" (justify LowerCenter) (textStyleRef "(Default)") )
+  )
+  (net "5"
+    (attr "Width" "-1.00" (textStyleRef "(Default)") ) 
+    (node "D1" "2")
+    (node "Q1" "2")
+  )
+  (net "2"
+    (attr "Width" "-1.00" (textStyleRef "(Default)") ) 
+    (node "D1" "1")
+    (node "R1" "2")
+  )
+  (net "4"
+    (attr "Width" "-1.00" (textStyleRef "(Default)") ) 
+    (node "Q1" "3")
+    (node "J2" "1")
+  )
+  (net "1"
+    (attr "Width" "-1.00" (textStyleRef "(Default)") ) 
+    (node "R1" "1")
+    (node "J1" "1")
+  )
+  (net "3"
+    (attr "Width" "-1.00" (textStyleRef "(Default)") ) 
+    (node "J1" "2")
+    (node "J2" "2")
+  )
+)

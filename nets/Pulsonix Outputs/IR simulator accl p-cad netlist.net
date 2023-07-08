@@ -1,0 +1,98 @@
+ ACCEL_ASCII "C:\\james\\VeeCAD_Free_2_26_0_0\\accl p-cad netlist\\IR simulator accl p-cad netlist.net"
+
+(asciiHeader
+  (asciiVersion 2 2)
+  (fileUnits Mil)
+)
+(netlist "Netlist_1"
+  (compInst "VR1"
+    (compRef "4290W 1K_1")
+    (originalName "4290W 1K")
+  )
+  (compInst "VR2"
+    (compRef "4290W 1K_1")
+    (originalName "4290W 1K")
+  )
+  (compInst "R1"
+    (compRef "R 1M PTH_1")
+    (originalName "R 1M PTH")
+  )
+  (compInst "R2"
+    (compRef "R 1M PTH_1")
+    (originalName "R 1M PTH")
+  )
+  (compInst "R3"
+    (compRef "R 1M PTH_1")
+    (originalName "R 1M PTH")
+  )
+  (compInst "R4"
+    (compRef "R 1M PTH_1")
+    (originalName "R 1M PTH")
+  )
+  (compInst "R5"
+    (compRef "R 120k PTH_1")
+    (originalName "R 120k PTH")
+  )
+  (compInst "R6"
+    (compRef "R 120k PTH_1")
+    (originalName "R 120k PTH")
+  )
+  (compInst "R7"
+    (compRef "R 1M PTH_1")
+    (originalName "R 1M PTH")
+  )
+  (compInst "R8"
+    (compRef "R 1M PTH_1")
+    (originalName "R 1M PTH")
+  )
+  (compInst "P1"
+    (compRef "PCB connector pi_1")
+    (originalName "PCB connector pi")
+  )
+  (compInst "P2"
+    (compRef "PCB connector pi_1")
+    (originalName "PCB connector pi")
+  )
+  (net "$6"
+    (node "R1" "1")
+    (node "VR2" "3")
+    (node "P1" "1")
+  )
+  (net "$8"
+    (node "R4" "2")
+    (node "VR1" "2")
+    (node "R7" "2")
+  )
+  (net "$9"
+    (node "VR1" "3")
+    (node "R2" "1")
+    (node "P2" "1")
+  )
+  (net "$11"
+    (node "VR2" "2")
+    (node "R3" "2")
+    (node "R8" "2")
+  )
+  (net "Gas"
+    (node "R4" "1")
+    (node "R6" "2")
+    (node "R7" "1")
+  )
+  (net "Gnd"
+    (node "VR1" "1")
+    (node "VR2" "1")
+    (node "R5" "1")
+    (node "R6" "1")
+  )
+  (net "Lamp Drive"
+    (node "R1" "2")
+    (node "R2" "2")
+    (node "P1" "2")
+    (node "P2" "2")
+  )
+  (net "Ref"
+    (node "R3" "1")
+    (node "R5" "2")
+    (node "R8" "1")
+  )
+)

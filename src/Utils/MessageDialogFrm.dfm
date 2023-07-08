@@ -1,0 +1,49 @@
+object MessageDialogForm: TMessageDialogForm
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'MessageDialogForm'
+  ClientHeight = 109
+  ClientWidth = 259
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PromptTLabel: TLabel
+    Left = 18
+    Top = 24
+    Width = 223
+    Height = 41
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'PromptTLabel'
+    WordWrap = True
+  end
+  object OKTButton: TButton
+    Left = 40
+    Top = 71
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object CancelTButton: TButton
+    Left = 152
+    Top = 71
+    Width = 75
+    Height = 25
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 1
+  end
+end

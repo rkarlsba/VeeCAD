@@ -1,0 +1,125 @@
+.POWERNAMES
+GND
+VCC
+5V
+5VEX
+.ENDNAMES
+
+.NETS
+.        RL4.4    CON1.4                                                         
+.        RN2.5    IC1.15   PN1.3                                                 
+.        RL10.4   CON1.1                                                         
+.        CON1.8   RL1.3    RL5.4    CON1.11                                      
+.        CON1.10  D1.1     RL1.5                                                 
+.        RL9.11   RL10.13                                                        
+.        PN2.4    IC2.3                                                          
+.        CON1.9   RL5.8    RL8.4                                                 
+.        D6.1     RL1.6    RL3.8    D5.1     RL3.16   RL4.16                     
+.        RL10.6   RL9.4                                                          
+M3       LED1.1   D9.2     D4.2     RL9.16   RL7.2    IC3.12                     
+.        RL3.4    CON1.12                                                        
+.        RL4.8    CON1.5                                                         
+BA       RL8.11   RL6.6    RN1.7    IC4.8                                        
+.        RL9.13   CON1.2                                                         
+.        PN2.5    IC2.4                                                          
+.        RL6.5    D3.1     D7.1     RL8.8    RL5.1                               
+.        RL8.1    D8.1     RL7.6    RL2.6                                        
+.        CON1.3   RL5.9                                                          
+ES       RL3.9    RN1.5    IC4.7                                                 
+.        IC2.17   CON2.2                                                         
+.        RN1.8    LED2.2                                                         
+.        IC2.18   CON2.1                                                         
+.        RL9.8    RL10.9   RL5.13                                                
+M4       LED2.1   RL10.16  D2.2     D10.2    RL2.2    IC3.11                     
+.        IC2.16   CON2.4                                                         
+.        RN1.6    LED1.2                                                         
+.        PN2.2    IC2.1                                                          
+.        IC2.15   CON2.5                                                         
+.        IC2.14   CON2.7                                                         
+.        IC2.13   CON2.8                                                         
+.        IC2.12   CON2.10                                                        
+.        IC2.11   CON2.11                                                        
+.        CON4.8   RN3.3    IC5.2                                                 
+.        IC3.18   CON3.1                                                         
+.        IC3.17   CON3.2                                                         
+.        IC3.16   CON3.4                                                         
+.        IC3.15   CON3.5                                                         
+.        IC3.13   CON3.7                                                         
+.        PN2.6    IC2.5                                                          
+.        PN2.3    IC2.2                                                          
+.        PN2.7    IC2.6                                                          
+.        PN2.8    IC2.7                                                          
+.        PN2.9    IC2.8                                                          
+.        PN2.16   IC3.1                                                          
+.        PN2.17   IC3.2                                                          
+.        PN1.16   IC3.3                                                          
+.        PN1.17   IC3.4                                                          
+.        PN1.14   IC3.6                                                          
+5V       IC3.10   CON1.7   IC2.10   CON3.6   CON3.9   RL10.1   D10.1    RL7.3    
+&        RL2.3    RN1.9    D2.1     RL2.5    RL9.1    D9.1     D4.1     RL7.5    
+&        RN1.11   RL3.13   RL8.13   RL6.3    C4.2     C2.2     CON2.12  CON3.3   
+&        C1.2     C3.2     C6.2     IC4.10   PN2.26   C7.1     C9.2     IC6.2    
+&        R2.2     R3.2     TP3.1    IC5.14                                       
+.        PN2.1    IC3.7                                                          
+.        PN2.14   IC3.8                                                          
+.        CON4.7   RN3.2    IC5.1                                                 
+.        CON4.9   RN3.5    IC5.4                                                 
+.        RL4.13   IC3.9    IC2.9                                                 
+.        CON4.10  RN3.6    IC5.5                                                 
+.        CON4.11  RN3.9    IC5.9                                                 
+.        CON4.12  RN3.8    IC5.10                                                
+.        RN4.9    LED6.2                                                         
+.        RN4.11   LED13.2                                                        
+.        RN4.3    IC5.3    IC4.4                                                 
+.        RN4.2    IC5.6    IC4.5                                                 
+.        IC4.18   PN2.11                                                         
+.        IC4.17   PN2.12                                                         
+.        IC4.16   PN2.13                                                         
+.        IC4.15   PN1.11                                                         
+.        IC4.14   PN1.12                                                         
+.        IC4.13   PN1.13                                                         
+.        IC4.12   PN2.10                                                         
+.        IC4.11   PN2.15                                                         
+.        RN4.15   LED15.2                                                        
+.        RN1.10   LED7.2                                                         
+.        RN4.10   LED8.2                                                         
+.        RN4.14   LED14.2                                                        
+.        RN4.16   LED17.2                                                        
+.        RN4.12   LED12.2                                                        
+.        RN1.12   LED4.2                                                         
+.        RN1.15   LED10.2                                                        
+.        RN1.2    CON4.1   IC4.1                                                 
+5VEX     LK1.1    RN2.1                                                          
+.        RN4.13   LED11.2                                                        
+.        RN2.4    IC1.16   PN1.2                                                 
+.        RN4.7    CON4.3   IC4.2                                                 
+.        RN4.5    CON4.5   IC4.3                                                 
+.        RN4.1    IC5.8    IC4.6                                                 
+.        RN1.13   LED5.2                                                         
+.        RN1.16   LED9.2                                                         
+.        RN1.14   LED3.2                                                         
+GND      LED13.1  LED3.1   LED9.1   LED6.1   LED5.1   LED11.1  RL4.1    D8.2     
+&        D3.2     D7.2     D6.2     D5.2     D1.2     RL1.2    RL3.1    RL5.16   
+&        RL6.2    RL8.16   PN2.18   PN2.22   PN2.19   PN2.20   PN2.21   PN2.23   
+&        PN2.24   PN2.25   PN1.18   PN1.25   PN1.24   PN1.23   PN1.22   PN1.21   
+&        PN1.20   PN1.19   C2.1     C4.1     RL4.9    CON3.8   CON2.3   CON2.6   
+&        CON2.9   C1.1     C3.1     C6.1     IC1.9    IC4.9    LED15.1  LED17.1  
+&        LED4.1   LED7.1   LED14.1  LED12.1  LED8.1   LED10.1  C7.2     LED16.1  
+&        C5.2     C9.1     C8.1     TP2.1    R1.1     PL1.2    IC5.7    RN3.1    
+.        RN1.3    CON1.6   IC1.1                                                 
+.        RN4.4    CON4.6   IC1.5                                                 
+.        CON3.10  RN4.8    IC1.2                                                 
+.        CON4.2   RN1.1    IC1.3                                                 
+.        CON4.4   RN4.6    IC1.4                                                 
+.        CON3.12  IC1.7                                                          
+.        CON3.11  RN1.4    IC1.6                                                 
+.        RN2.6    IC1.14   PN1.4                                                 
+.        IC1.18   PN1.10                                                         
+.        IC1.17   PN1.15                                                         
+.        RN2.7    IC1.13   PN1.5                                                 
+.        RN2.8    IC1.12   PN1.6                                                 
+.        LK1.2    PN1.26                                                         
+.        IC6.1    R1.2     R2.1                                                  
+.        LED16.2  R3.1                                                           
+.        C5.1     IC6.3    C8.2     PL1.1    TP1.1                               
+.ENDNETS

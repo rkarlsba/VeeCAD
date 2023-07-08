@@ -1,0 +1,6 @@
+.PARTS
+CON1  SL3.5-2          SL3.5-2  FN617-520    73,660   30,480    90.00
+IC1   ULN2803,ULN2803  DIL18                 53,340   62,230    270.00
+RL1   RELHRA,SPCO      HRA                   69,850   60,960    0.00
+SH1   ARDSHLD          ARDSHLD               35,560   39,370    0.00
+.ENDPARTS

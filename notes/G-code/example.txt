@@ -1,0 +1,215 @@
+******************* PARAMETER FILE
+TESTBREAKS.per} .per file
+TESTBREAKS.bks} .breaks file
+TESTBREAKS.dcd} D2nc code file
+******************* .Per File
+[Version]
+Product,2
+File,18
+{
+"Config" : {
+  "NetImportFormat" : "Protel"
+},
+"Board" : {
+  "Width" : 25,
+  "Height" : 30,
+  "Pattern" : "Strip"
+},
+"CelledOutlines" : [
+],
+"LeadedOutlines" : [
+],
+"RadialOutlines" : [
+],
+"CustomOutlines" : [
+],
+"SmdOutlines" : [
+],
+"Components" : [
+],
+"Links" : [
+],
+"Breaks" : [
+  { "X" : 1, "Y" : 1, "Shift" : "none", "Group" : 0 },
+  { "X" : 1, "Y" : 2, "Shift" : "none", "Group" : 0 },
+  { "X" : 1, "Y" : 3, "Shift" : "none", "Group" : 0 },
+  { "X" : 1, "Y" : 4, "Shift" : "none", "Group" : 0 },
+  { "X" : 1, "Y" : 5, "Shift" : "right", "Group" : 0 },
+  { "X" : 1, "Y" : 6, "Shift" : "right", "Group" : 0 },
+  { "X" : 1, "Y" : 7, "Shift" : "right", "Group" : 0 },
+  { "X" : 1, "Y" : 8, "Shift" : "right", "Group" : 0 },
+  { "X" : 5, "Y" : 21, "Shift" : "none", "Group" : 0 },
+  { "X" : 5, "Y" : 22, "Shift" : "right", "Group" : 0 },
+  { "X" : 5, "Y" : 23, "Shift" : "none", "Group" : 0 },
+  { "X" : 17, "Y" : 11, "Shift" : "right", "Group" : 0 },
+  { "X" : 18, "Y" : 12, "Shift" : "right", "Group" : 0 },
+  { "X" : 17, "Y" : 13, "Shift" : "right", "Group" : 0 },
+  { "X" : 19, "Y" : 21, "Shift" : "none", "Group" : 0 },
+  { "X" : 19, "Y" : 22, "Shift" : "right", "Group" : 0 },
+  { "X" : 19, "Y" : 23, "Shift" : "none", "Group" : 0 },
+  { "X" : 4, "Y" : 0, "Shift" : "none", "Group" : 0 }
+],
+"Wires" : [
+],
+"Text" : [
+],
+"Nets" : [
+],
+"NetColors" : [
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" }
+]
+}
+******************* .bks file
+     X,   Y
+
+   1  ,   1
+   1  ,   2
+   1  ,   3
+   1  ,   4
+   1.5,   5
+   1.5,   6
+   1.5,   7
+   1.5,   8
+   4  ,   0
+   5  ,  21
+   5.5,  22
+   5  ,  23
+  17.5,  11
+  17.5,  13
+  18.5,  12
+  19  ,  21
+  19.5,  22
+  19  ,  23
+******************* .D2NC file
+m2.54, 73.66
+e2.54, 71.12
+m2.54, 71.12
+e2.54, 68.58
+m2.54, 68.58
+e2.54, 66.4
+m2.54, 66.4
+e2.54, 63.50
+m3.81, 63.50
+e3.81, 60.96
+m3.81, 60.96
+e3.81, 58.42
+m3.81, 58.42
+e3.81, 55.88
+m3.81, 55.88
+e3.81, 53.34
+m10.16, 76.20
+e10.16, 73.66
+m12.70, 22.86
+e12.70, 20.32
+m13.97, 20.32
+e13.97, 17.78
+m12.70, 17.78
+e12.70, 15.24
+m44.45, 48.26
+e44.45, 45.72
+m44.45, 43.18
+e44.45, 40.64
+m46.99, 45.72
+e46.99, 43.18
+m48.26, 22.86
+e48.26, 20.32
+m49.53, 20.32
+e49.53, 17.78
+m48.26, 17.78
+e48.26, 15.24
+******************* .Gcode
+(D2nc generated code)
+
+G17  (set xy plane)
+G90  (absolute mode)
+G40  (cancel cutter radius comp)
+G49  (cancel tool len offset)
+G80  (cancel canned cycle)
+G50  (reset scale 1:1)
+G91.1 (IJ relative arcs)
+G21  (metric mode)
+
+(pcb point )
+M05  (stop spindle)
+M06 T1 (tool change)
+M03 S1000 (spindle on)
+
+G00 Z20.0000
+G00 X0.0 Y0.0
+G00 X2.5400 Y73.6600
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y71.1200 F12.7
+G01 Y68.5800
+G01 Y66.4000
+G01 Y63.5000
+G00 Z20.0000
+G00 X3.8100 Y63.5000
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y60.9600 F12.7
+G01 Y58.4200
+G01 Y55.8800
+G01 Y53.3400
+G00 Z20.0000
+G00 X10.1600 Y76.2000
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y73.6600 F12.7
+G00 Z20.0000
+G00 X12.7000 Y22.8600
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y20.3200 F12.7
+G00 Z20.0000
+G00 X13.9700 Y20.3200
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y17.7800 F12.7
+G00 Z20.0000
+G00 X12.7000 Y17.7800
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y15.2400 F12.7
+G00 Z20.0000
+G00 X44.4500 Y48.2600
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y45.7200 F12.7
+G00 Z20.0000
+G00 X44.4500 Y43.1800
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y40.6400 F12.7
+G00 Z20.0000
+G00 X46.9900 Y45.7200
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y43.1800 F12.7
+G00 Z20.0000
+G00 X48.2600 Y22.8600
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y20.3200 F12.7
+G00 Z20.0000
+G00 X49.5300 Y20.3200
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y17.7800 F12.7
+G00 Z20.0000
+G00 X48.2600 Y17.7800
+G00 Z2.0000
+G01 Z-.0300 F6.4
+G01 Y15.2400 F12.7
+G00 Z20.0000
+
+M05  (stop spindle)
+M09  (all coolant off)
+G00 X0.0 Y0.0
+
+M30  (end with rewind)

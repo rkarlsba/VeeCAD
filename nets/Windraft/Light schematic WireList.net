@@ -1,0 +1,32 @@
+WinDraft Wirelist format netlist (from LIGHT SCHEMATIC WIRELIST.SCH)
+
+This format gives point-to-point wiring instructions for every
+connected pin in the design. Place a wire from the "From" part/pin
+to the "To" part/pin for each connection in the list.
+
+Place an optional checkmark in the "Done" column to indicate
+completion of each connection as you go.
+
+Done      From part (pin)        To part (pin)          Netname
+----      ---------------        -------------          -------
+ [ ]      D1 pin 1 [1N4005]      J1 pin 2 [12V in]      N00002
+ [ ]      D1 pin 2 [1N4005]      C1 pin 1 [0.1 uF]      N00003
+ [ ]      C1 pin 1 [0.1 uF]      Q1 pin 2 [LM78L05]     N00003
+ [ ]      Q1 pin 2 [LM78L05]     D2 pin 2 [9.1V]        N00003
+ [ ]      C1 pin 2 [0.1 uF]      Q2 pin 2 [2N3904]      N00001
+ [ ]      Q2 pin 2 [2N3904]      J1 pin 1 [12V in]      N00001
+ [ ]      R1 pin 1 [470]         D2 pin 1 [9.1V]        N00007
+ [ ]      R1 pin 2 [470]         Q2 pin 1 [2N3904]      LVD
+ [ ]      D3 pin 1 [White]       S1 pin 1 [SPST]        N00000
+ [ ]      S1 pin 1 [SPST]        Q1 pin 3 [LM78L05]     N00000
+ [ ]      Q1 pin 3 [LM78L05]     R2 pin 1 [220]         N00000
+ [ ]      R2 pin 1 [220]         D5 pin 1 [White]       N00000
+ [ ]      D3 pin 2 [White]       D4 pin 1 [White]       N00008
+ [ ]      Q2 pin 3 [2N3904]      R4 pin 2 [33]          N00004
+ [ ]      R4 pin 2 [33]          R5 pin 2 [33]          N00004
+ [ ]      S1 pin 2 [SPST]        R3 pin 1 [220]         N00005
+ [ ]      Q1 pin 1 [LM78L05]     R2 pin 2 [220]         N00006
+ [ ]      R2 pin 2 [220]         R3 pin 2 [220]         N00006
+ [ ]      R4 pin 1 [33]          D4 pin 2 [White]       N00009
+ [ ]      R5 pin 1 [33]          D6 pin 2 [White]       N00010
+ [ ]      D5 pin 2 [White]       D6 pin 1 [White]       N00011

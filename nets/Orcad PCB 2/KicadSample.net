@@ -1,0 +1,16 @@
+( { EESchema Netlist Version 1.1 created  Fri 06 Jan 2023 12:08:40 }
+ ( /63B772FD Package_TO_SOT_THT:TO-39-3  Q1 2N2219
+  (    1 Net-(J1-Pad2) )
+  (    2 Net-(D1-Pad1) )
+  (    3 Net-(D1-Pad2) )
+ )
+ ( /63B77869 Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal  D1 1N4001
+  (    1 Net-(D1-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /63B780AC $noname  J1 Conn_01x02
+  (    1 Net-(D1-Pad2) )
+  (    2 Net-(J1-Pad2) )
+ )
+)
+*

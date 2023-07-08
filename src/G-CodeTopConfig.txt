@@ -1,0 +1,41 @@
+[Header]
+G17  (set xy plane)
+G90  (absolute mode)
+G40  (cancel cutter radius comp)
+G49  (cancel tool len offset)
+G80  (cancel canned cycle)
+G50  (reset scale 1:1)
+G21  (metric mode)
+
+(set reference pcb point - bottom left hole)
+M05  (pen up)
+M06 T1 (tool change)
+G00 X0.0 Y0.0
+
+[StartLine]
+G00 X%X Y%Y		(fast move to start of line)
+M03S0			(pen down)
+
+[LineTo]
+G01 X%X Y%Y F12.7	(move at 12.7mm/sec to end of line)
+
+[EndLine]
+M05			(raise pen)
+
+[Footer]
+M05  (pen up)
+M09  (all coolant off)
+G00 X0.0 Y0.0
+
+M30  (end with rewind)
+
+[Config]
+HoleGrid=2.54
+ToolZeroX=0.0
+ToolZeroY=0.0
+Rotate90=False
+ShowLinks=True
+ShowCustom=True
+ShowCelled=True
+ShowLeaded=True
+ShowRadial=True
