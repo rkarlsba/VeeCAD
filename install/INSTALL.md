@@ -9,8 +9,10 @@
 
 ### Helpfile
 - uncompress the file VeeCAD.sh6.xz
+```
     cd /path/to/veecad/help
     unxz -k VeeCAD.sh6.xz
+```
 
 ### Delphi
 - Project -> Options -> Delphi Compiler -> Conditional Defines set to blank
