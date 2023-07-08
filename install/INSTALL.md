@@ -8,7 +8,7 @@
 ## VeeCAD Full Open Source Version Install Checklist
 
 ### Helpfile
-- uncompress the file VeeCAD.sh6.xz
+- Uncompress the file VeeCAD.sh6.xz
 ```
 cd /path/to/VeeCAD/help
 unxz -k VeeCAD.sh6.xz
