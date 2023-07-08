@@ -10,8 +10,8 @@
 ### Helpfile
 - uncompress the file VeeCAD.sh6.xz
 ```
-    cd /path/to/veecad/help
-    unxz -k VeeCAD.sh6.xz
+cd /path/to/VeeCAD/help
+unxz -k VeeCAD.sh6.xz
 ```
 
 ### Delphi
