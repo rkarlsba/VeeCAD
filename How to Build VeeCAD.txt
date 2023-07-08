@@ -33,6 +33,13 @@ A bitmap editor for graphics shown on buttons within the program.
 
 InnoSetup for creating Windows installers.
 
+Moving to github
+================
+After pushing this project to https://github.com/rkarlsba/veecad, I found github
+doesn't like large files, so the file VeeCAD.sh6, exists as VeeCAD.sh6.xz. To
+uncompress it, simply run 'unxz -k VeeCAD.sh6.xz' and remove VeeCAD.sh6 when you
+don't need it anymore.
+
 Source Files
 ============
 \src - The Delphi source files.
